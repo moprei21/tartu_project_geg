@@ -1,0 +1,62 @@
+[
+    [
+        "S \" Universitätsabschlüsse sind von geringem Wert \" . ",
+        " A 6 8|||R:WO|||. \"|||REQUIRED|||-NONE-|||0 ",
+        "C \" Universitätsabschlüsse sind von geringem Wert . \" "
+    ],
+    [
+        "S Weil sie alles hatten und mochten mehr haben ? ",
+        " A 5 8|||R:WO|||mehr haben mochten|||REQUIRED|||-NONE-|||0 ",
+        "C Weil sie alles hatten und mehr haben mochten ? "
+    ],
+    [
+        "S Die Menschen arbeiten immer für die Welt und deswegen die Zeit ist sehr wichtig für die Menschen . ",
+        " A 9 12|||R:WO|||ist die Zeit|||REQUIRED|||-NONE-|||0 ",
+        "C Die Menschen arbeiten immer für die Welt und deswegen ist die Zeit sehr wichtig für die Menschen . "
+    ],
+    [
+        "S Aber in den meisten Fällen das ist nicht der Fall . ",
+        " A 5 7|||R:WO|||ist das|||REQUIRED|||-NONE-|||0 ",
+        "C Aber in den meisten Fällen ist das nicht der Fall . "
+    ],
+    [
+        "S Universitätsabschlüsse sind nicht praxisorientiert , sondern konzentrieren sie sich auf das Lernen . ",
+        " A 6 8|||R:WO|||sie konzentrieren|||REQUIRED|||-NONE-|||0 ",
+        "C Universitätsabschlüsse sind nicht praxisorientiert , sondern sie konzentrieren sich auf das Lernen . "
+    ],
+    [
+        "S Wahrscheinlich gibt es nur einen einzigen Grund warum Kriminalität lohnt sich . ",
+        " A 9 11|||R:WO|||sich lohnt|||REQUIRED|||-NONE-|||0 ",
+        "C Wahrscheinlich gibt es nur einen einzigen Grund warum Kriminalität sich lohnt . "
+    ],
+    [
+        "S Also , habe ich eine Arbeit in Neuburg gefunden und am 15.07.2012 ",
+        " A 2 4|||R:WO|||ich habe|||REQUIRED|||-NONE-|||0 ",
+        "C Also , ich habe eine Arbeit in Neuburg gefunden und am 15.07.2012 "
+    ],
+    [
+        "S Aber habe ich ein Problem . ",
+        " A 1 3|||R:WO|||ich habe|||REQUIRED|||-NONE-|||0 ",
+        "C Aber ich habe ein Problem . "
+    ],
+    [
+        "S Wenn es so wäre , könnte dann die Phantasie und Freiheit in anderen nützlicheren Bereichen Verwendung treffen . ",
+        " A 5 7|||R:WO|||dann könnte|||REQUIRED|||-NONE-|||0 ",
+        "C Wenn es so wäre , dann könnte die Phantasie und Freiheit in anderen nützlicheren Bereichen Verwendung treffen . "
+    ],
+    [
+        "S Für mich persönlich die Sprache steht auf der ersten Stelle . ",
+        " A 3 6|||R:WO|||steht die Sprache|||REQUIRED|||-NONE-|||0 ",
+        "C Für mich persönlich steht die Sprache auf der ersten Stelle . "
+    ],
+    [
+        "S Bei uns es geht auch gut . ",
+        " A 2 4|||R:WO|||geht es|||REQUIRED|||-NONE-|||0 ",
+        "C Bei uns geht es auch gut . "
+    ],
+    [
+        "S Bevor er ist gestorben . ",
+        " A 2 4|||R:WO|||gestorben ist|||REQUIRED|||-NONE-|||0 ",
+        "C Bevor er gestorben ist . "
+    ]
+]

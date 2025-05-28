@@ -1,0 +1,107 @@
+[
+    [
+        "S Sie sind überzeugt , dass die Theorie ist wichtiger . ",
+        " A 7 9|||R:WO|||wichtiger ist|||REQUIRED|||-NONE-|||0 ",
+        "C Sie sind überzeugt , dass die Theorie wichtiger ist . "
+    ],
+    [
+        "S Die Unis sollten auch besser den Studenten erklären , wofür sie etwas lernen . ",
+        " A 3 7|||R:WO|||den Studenten auch besser|||REQUIRED|||-NONE-|||0 ",
+        "C Die Unis sollten den Studenten auch besser erklären , wofür sie etwas lernen . "
+    ],
+    [
+        "S Wir müssen unbedingt einander helfen und schätzen alles , was uns gegeben wurde . ",
+        " A 6 8|||R:WO|||alles schätzen|||REQUIRED|||-NONE-|||0 ",
+        "C Wir müssen unbedingt einander helfen und alles schätzen , was uns gegeben wurde . "
+    ],
+    [
+        "S Früher konnte ich schon diese Frauenbewegungen verstehen . ",
+        " A 3 6|||R:WO|||diese Frauenbewegungen schon|||REQUIRED|||-NONE-|||0 ",
+        "C Früher konnte ich diese Frauenbewegungen schon verstehen . "
+    ],
+    [
+        "S Damit bekommt er mehr Erfahrung und ist er gut auf die wirkliche Welt vorbereitet . ",
+        " A 6 8|||R:WO|||er ist|||REQUIRED|||-NONE-|||0 ",
+        "C Damit bekommt er mehr Erfahrung und er ist gut auf die wirkliche Welt vorbereitet . "
+    ],
+    [
+        "S Dennoch ist die Situation heutzutage ganz anders geworden und hat der Feminismus eine eher beschmierte Bedeutung übernommen . ",
+        " A 9 12|||R:WO|||der Feminismus hat|||REQUIRED|||-NONE-|||0 ",
+        "C Dennoch ist die Situation heutzutage ganz anders geworden und der Feminismus hat eine eher beschmierte Bedeutung übernommen . "
+    ],
+    [
+        "S Es sei darauf hingewiesen , in welchen Formen ist das so . ",
+        " A 8 11|||R:WO|||das so ist|||REQUIRED|||-NONE-|||0 ",
+        "C Es sei darauf hingewiesen , in welchen Formen das so ist . "
+    ],
+    [
+        "S Wenn man nur Entspannung will , Kriminalität zahlt sich aus . ",
+        " A 6 8|||R:WO|||zahlt Kriminalität|||REQUIRED|||-NONE-|||0 ",
+        "C Wenn man nur Entspannung will , zahlt Kriminalität sich aus . "
+    ],
+    [
+        "S Deswegen Kriminalität zahlt sich nicht aus . ",
+        " A 1 3|||R:WO|||zahlt Kriminalität|||REQUIRED|||-NONE-|||0 ",
+        "C Deswegen zahlt Kriminalität sich nicht aus . "
+    ],
+    [
+        "S Vielleicht es ist aber übertrieben zu sagen , dass die Kriminalität nur Vorteile hat . ",
+        " A 1 3|||R:WO|||ist es|||REQUIRED|||-NONE-|||0 ",
+        "C Vielleicht ist es aber übertrieben zu sagen , dass die Kriminalität nur Vorteile hat . "
+    ],
+    [
+        "S Ich suche die Wohnung zum 15 April . . ",
+        " A 6 8|||R:WO|||. April|||REQUIRED|||-NONE-|||0 ",
+        "C Ich suche die Wohnung zum 15 . April . "
+    ],
+    [
+        "S Sehr geehrte Damen und Herren , mit großem Interesse habe ich die Erfahrung in einer Gastfamilie gesucht aber , von ihrem Angebot bin ich sehr enttäuscht . ",
+        " A 17 19|||R:WO|||, aber|||REQUIRED|||-NONE-|||0 ",
+        "C Sehr geehrte Damen und Herren , mit großem Interesse habe ich die Erfahrung in einer Gastfamilie gesucht , aber von ihrem Angebot bin ich sehr enttäuscht . "
+    ],
+    [
+        "S Weiterhin die Kultur ist ein Teil von Identität . ",
+        " A 1 4|||R:WO|||ist die Kultur|||REQUIRED|||-NONE-|||0 ",
+        "C Weiterhin ist die Kultur ein Teil von Identität . "
+    ],
+    [
+        "S Außerdem es ist ein Zeichen , dass ich dort akzeptiert bin . ",
+        " A 1 3|||R:WO|||ist es|||REQUIRED|||-NONE-|||0 ",
+        "C Außerdem ist es ein Zeichen , dass ich dort akzeptiert bin . "
+    ],
+    [
+        "S Ich bin ein ausgebildeter und erfahrener Kandidat für diese Stelle und was sehr wichtig ist - Sind meine Erwartungen ganz niedrig . ",
+        " A 16 19|||R:WO|||meine Erwartungen sind|||REQUIRED|||-NONE-|||0 ",
+        "C Ich bin ein ausgebildeter und erfahrener Kandidat für diese Stelle und was sehr wichtig ist - meine Erwartungen sind ganz niedrig . "
+    ],
+    [
+        "S Üblicherweise Stadt X ist sehr ruhig . ",
+        " A 1 4|||R:WO|||ist Stadt X|||REQUIRED|||-NONE-|||0 ",
+        "C Üblicherweise ist Stadt X sehr ruhig . "
+    ],
+    [
+        "S Dort können wir nicht wählen , müssen wir die fremden Gewohnheiten einhalten . ",
+        " A 6 8|||R:WO|||wir müssen|||REQUIRED|||-NONE-|||0 ",
+        "C Dort können wir nicht wählen , wir müssen die fremden Gewohnheiten einhalten . "
+    ],
+    [
+        "S Ich freue mich schon , dass wir bald uns sehen . ",
+        " A 7 9|||R:WO|||uns bald|||REQUIRED|||-NONE-|||0 ",
+        "C Ich freue mich schon , dass wir uns bald sehen . "
+    ],
+    [
+        "S Ich kann es verstehen , wie schön ist es , wenn du deinen Onkel und deine Tante im Ausland besuchen kannst . ",
+        " A 7 9|||R:WO|||es ist|||REQUIRED|||-NONE-|||0 ",
+        "C Ich kann es verstehen , wie schön es ist , wenn du deinen Onkel und deine Tante im Ausland besuchen kannst . "
+    ],
+    [
+        "S Aber gibt es anderes . ",
+        " A 1 3|||R:WO|||es gibt|||REQUIRED|||-NONE-|||0 ",
+        "C Aber es gibt anderes . "
+    ],
+    [
+        "S Leider ich habe keine Zeit . ",
+        " A 1 3|||R:WO|||habe ich|||REQUIRED|||-NONE-|||0 ",
+        "C Leider habe ich keine Zeit . "
+    ]
+]
