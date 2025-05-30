@@ -1,0 +1,302 @@
+[
+    {
+        "text_incorrect": "Mulle väga meeldis osaleda tervisekonverentsil.",
+        "text_correct": "Mulle väga meeldis tervisekonverentsil osaleda.",
+        "annotation": "A 3 5|||R:WO|||tervisekonverentsil osaleda|||REQUIRED|||-NONE-|||0",
+        "response": "Lause \"Mulle väga meeldis osaleda tervisekonverentsil\" sisaldab väikest grammatilist viga.\n\nÕige oleks: \"Mulle väga meeldis osaleda tervisekonverentsil**l**.\"\n\nSelgitus: Eesti keeles kasutatakse verbi \"osalema\" koos sisekohakäändega ehk -l-lõpulise käändega (kus?). Seega tuleb öelda \"osalema konverentsil\", mitte \"konverentsil\". Viga tekib sageli seetõttu, et mõnes teises keeles (nt inglise keeles \"at the conference\") kasutatakse teistsugust käändevastet või eessõna, ning õppija võib selle tõttu eksida."
+    },
+    {
+        "text_incorrect": "Kooli ajal ta oli lõbus ja naljakas tüdruk.",
+        "text_correct": "Kooli ajal oli ta lõbus ja naljakas tüdruk.",
+        "annotation": "A 2 4|||R:WO|||oli ta|||REQUIRED|||-NONE-|||0",
+        "response": "Input:  \nKooli ajal ta oli lõbus ja naljakas tüdruk.\n\nOutput:  \nÕige oleks: \"Kooli ajal oli ta lõbus ja naljakas tüdruk.\" Eesti keeles peab öeldis (verb) olema tavaliselt lause teisel kohal. Kui lause algab mõne muu lauseliikmega kui alusega (näiteks ajamäärusega \"Kooli ajal\"), siis verb tuleb kohe selle järele ja alles siis alus (\"ta\"). Viga on tekkinud tõenäoliselt seetõttu, et õppija on kasutanud inglise keele sõnajärge (\"During school she was...\"), kus verb tuleb pärast aluse. Eesti keeles on aga verb teisel kohal, isegi kui lause algab millegi muuga kui alusega."
+    },
+    {
+        "text_incorrect": "Vaatamata sellele, et teema on väga lai, Päästeameti esindaja esitatud seisukohad olid põhjendatud ning ei jäänud ilma statistiliste kinnitusteta.",
+        "text_correct": "Vaatamata sellele, et teema on väga lai, olid Päästeameti esindaja esitatud seisukohad põhjendatud ning ei jäänud ilma statistiliste kinnitusteta.",
+        "annotation": "A 9 14|||R:WO|||olid Päästeameti esindaja esitatud seisukohad|||REQUIRED|||-NONE-|||0",
+        "response": "Tekst:  \nVaatamata sellele, et teema on väga lai, Päästeameti esindaja esitatud seisukohad olid põhjendatud ning ei jäänud ilma statistiliste kinnitusteta.\n\nViga ja selgitus:  \nSelles lauses on probleem lause alguse sidumisega ülejäänud lausega. Sõnaühend \"Vaatamata sellele, et teema on väga lai,\" on tingimuslik või põhjendav lauseosa, mis peaks olema seotud pealausega. Eesti keeles on sellise konstruktsiooni puhul loomulikum kasutada kas \"kuigi\" või \"ehkki\" (st alistav sidesõna), mitte \"vaatamata sellele, et\", kui sellele järgneb täislauses öeldis.\n\n\"Vaatamata sellele, et...\" on keeruline konstruktsioon, mis kipub inglise keele mõjul eesti keeles levima (\"Despite the fact that...\"). Eesti keeles on loomulikum öelda:  \n\"Kuigi teema on väga lai, olid Päästeameti esindaja esitatud seisukohad põhjendatud ning ei jäänud ilma statistiliste kinnitusteta.\"\n\nViga on tekkinud tõenäoliselt inglise keele mõjul, kus kasutatakse sageli \"despite the fact that...\". Eesti keeles on aga \"vaatamata\" järel tavaliselt nimisõna"
+    },
+    {
+        "text_incorrect": "Veel ma loen uudiseid ja otsin infot internetist, seal on palju infot ja uudiseid.",
+        "text_correct": "Veel loen ma uudiseid ja otsin infot internetist, seal on palju infot ja uudiseid.",
+        "annotation": "A 1 3|||R:WO|||loen ma|||REQUIRED|||-NONE-|||0",
+        "response": "Sinu lauses:  \n\"Veel ma loen uudiseid ja otsin infot internetist, seal on palju infot ja uudiseid.\"\n\nGrammatikaviga on sõna \"veel\" kasutamises lause alguses. Eesti keeles kasutatakse sõna \"veel\" tavaliselt siis, kui räägitakse millestki lisaks juba mainitule, ja see paigutub tavaliselt verbist ette või taha, mitte lause algusesse. Lause algusesse sobiks paremini näiteks \"Lisaks\" või \"Samuti\".\n\nÕige oleks näiteks:  \n\"Ma loen veel uudiseid ja otsin infot internetist, seal on palju infot ja uudiseid.\"  \nvõi  \n\"Samuti loen ma uudiseid ja otsin infot internetist, seal on palju infot ja uudiseid.\"\n\nViga on tekkinud tõenäoliselt seetõttu, et eesti keeles kiputakse sõna \"veel\" kasutama inglise keele \"also\" või \"still\" eeskujul, kuid eesti keeles on sõnajärg teistsugune."
+    },
+    {
+        "text_incorrect": "Kokkuvõtteks saab öelda, et meedia roll ja võimalused kaasaegses maailmas tingimata on suured.",
+        "text_correct": "Kokkuvõtteks saab öelda, et meedia roll ja võimalused kaasaegses maailmas on tingimata suured.",
+        "annotation": "A 11 13|||R:WO|||on tingimata|||REQUIRED|||-NONE-|||0",
+        "response": "Tekst:  \nKokkuvõtteks saab öelda, et meedia roll ja võimalused kaasaegses maailmas tingimata on suured.\n\nVea selgitus:  \nSelles lauses on sõna \"tingimata\" paigutatud valesse kohta. Eesti keeles peaks lauses määrsõna \"tingimata\" (mis tähendab 'kindlasti', 'ilma kahtluseta') asuma kas öeldise ees või järel, kuid antud lauses muudab see lause tähendust segaseks. Pealegi, \"tingimata\" ei sobi siia lausesse, sest see tähendab, et midagi on vältimatu või möödapääsmatu, kuid siin tahetakse öelda, et meedia roll ja võimalused on suured, mitte et need tingimata on suured.\n\nÕige oleks kas:  \n- \"Kokkuvõtteks saab öelda, et meedia roll ja võimalused kaasaegses maailmas on suured.\"  \nvõi kui rõhutada kindlust:  \n- \"Kokkuvõtteks saab öelda, et meedia roll ja võimalused kaasaegses maailmas on kindlasti suured.\"\n\nViga on tekkinud tõenäoliselt seetõttu, et \"tingimata\" ja \"kindlasti\" võivad tunduda sarnased, kuid nende kasutus on erinev. \"Tingimata\" sobib pigem lauset"
+    },
+    {
+        "text_incorrect": "Eelmisel nädalal ma osalesin linnastumisteemalisel seminaril.",
+        "text_correct": "Eelmisel nädalal osalesin ma linnastumisteemalisel seminaril.",
+        "annotation": "A 2 4|||R:WO|||osalesin ma|||REQUIRED|||-NONE-|||0",
+        "response": "Lause:  \nEelmisel nädalal ma osalesin linnastumisteemalisel seminaril.\n\nViga:  \nSõnajärg on eesti keeles ebaloomulik. Eesti keeles on tüüpiline, et öeldis (verb) on lauses teisel kohal. Kui lause algab ajamäärusega (\"Eelmisel nädalal\"), siis peaks sellele järgnema öeldis (\"osalesin\") ja alles siis aluse (\"ma\").\n\nÕige sõnajärg:  \nEelmisel nädalal osalesin ma linnastumisteemalisel seminaril.\n\nSelgitus:  \nViga on tekkinud tõenäoliselt mõne teise keele (näiteks inglise keele) mõjul, kus lause sõnajärg on sageli \"aluse-öeldis-muud lauseliikmed\" (nt \"Last week I participated...\"). Eesti keeles aga järgib lause sõnajärg reeglit, et öeldis on teisel kohal, eriti kui lause algab mõne muu lauseliikmega kui alus."
+    },
+    {
+        "text_incorrect": "Ta oli väga vaikne ja kinnine poiss, tal üldse polnud sõpru.",
+        "text_correct": "Ta oli väga vaikne ja kinnine poiss, tal polnud üldse sõpru.",
+        "annotation": "A 9 11|||R:WO|||polnud üldse|||REQUIRED|||-NONE-|||0",
+        "response": "Tekst:  \nTa oli väga vaikne ja kinnine poiss, tal üldse polnud sõpru.\n\nViga ja selgitus:  \nLause \"tal üldse polnud sõpru\" on eesti keeles ebakorrektne, sest siin on tegemist sidesõna puudumisega, mis ühendaks kaks iseseisvat lauseosa. Eesti keeles ei saa kahte iseseisvat lauset lihtsalt komaga ühendada, vaid nende vahele peab panema sidesõna (nt \"ja\", \"ning\", \"aga\") või kasutama punktiga eraldatud lauseid.\n\nÕige oleks kirjutada näiteks:  \n\"Ta oli väga vaikne ja kinnine poiss ning tal üldse polnud sõpru.\"  \nVõi:  \n\"Ta oli väga vaikne ja kinnine poiss. Tal üldse polnud sõpru.\"\n\nVea tekkepõhjus:  \nSee viga tekib sageli seetõttu, et mõnes teises keeles (nt inglise keeles) võib sellist lauseehitust sagedamini kohata (\"He was a very quiet and reserved boy, he had no friends at all.\"). Eesti keeles aga nõuab grammatika, et iseseisvad laused oleksid kas sidesõnaga ühendatud või eraldatud punktiga."
+    },
+    {
+        "text_incorrect": "Tahaks Hispaaniasse minna veel kord.",
+        "text_correct": "Tahaks veel kord Hispaaniasse minna.",
+        "annotation": "A 1 5|||R:WO|||veel kord Hispaaniasse minna|||REQUIRED|||-NONE-|||0",
+        "response": "Lause \"Tahaks Hispaaniasse minna veel kord\" sisaldab sõnajärje viga.\n\nÕige ja loomulikum sõnajärg oleks: **\"Tahaks veel kord Hispaaniasse minna.\"**\n\n**Selgitus:**  \nEesti keeles on lauses kõige loomulikum, kui ajamäärus (\"veel kord\") paigutatakse verbi (\"tahaks\") ja sihtkoha (\"Hispaaniasse minna\") vahele. Kui \"veel kord\" jääb lause lõppu, kõlab see eesti keeles kohmakalt ja võõrapäraselt, sest eesti keeles on määrused (nagu \"veel kord\") tavaliselt verbile lähemal, mitte lause lõpus. See viga võib tekkida inglise keele mõjul, kus ajamäärus võib sageli olla lause lõpus (\"I want to go to Spain again\")."
+    },
+    {
+        "text_incorrect": "Nüüd ta on avameelne ja abivalmis, räägib väga palju.",
+        "text_correct": "Nüüd on ta avameelne ja abivalmis, räägib väga palju.",
+        "annotation": "A 1 3|||R:WO|||on ta|||REQUIRED|||-NONE-|||0",
+        "response": "Tekst:  \nNüüd ta on avameelne ja abivalmis, räägib väga palju.\n\nSelgitus:  \nLause \"Nüüd ta on avameelne ja abivalmis, räägib väga palju\" sisaldab sõnajärje viga. Eesti keeles peab öeldis (verb) olema lause alguses oleva ajamääruse (\"nüüd\") järel kohe teisel kohal. Õige oleks: \"Nüüd on ta avameelne ja abivalmis, räägib väga palju.\"  \nViga tekib sageli seetõttu, et eesti keele õppijad tõlgivad lauseid otse oma emakeelest, kus võib olla lubatud teistsugune sõnajärg (näiteks inglise keeles: \"Now he is open and helpful...\"). Eesti keeles on aga kindel reegel: kui lause algab muu kui alusega (nt ajamäärusega \"nüüd\"), siis verb tuleb kohe selle järele."
+    },
+    {
+        "text_incorrect": "Tänapäeval noored otsivad infot internetist.",
+        "text_correct": "Tänapäeval otsivad noored infot internetist.",
+        "annotation": "A 1 3|||R:WO|||otsivad noored|||REQUIRED|||-NONE-|||0",
+        "response": "Lause \"Tänapäeval noored otsivad infot internetist\" sisaldab sõnajärje viga.\n\nÕige oleks: \"Tänapäeval otsivad noored infot internetist.\"\n\nSelgitus: Eesti keeles peab öeldis (verb) olema tavaliselt lause teisel kohal. Kui lause algab mõne muu lauseliikmega kui alusega (näiteks ajamäärusega \"tänapäeval\"), siis verb tuleb kohe selle järele ja alles siis alus (\"noored\"). Viga tekib sageli seetõttu, et õppija järgib oma emakeele sõnajärge või tõlgib otse mõnest teisest keelest, kus sõnajärg võib olla erinev."
+    },
+    {
+        "text_incorrect": "Kaks aastat tagasi ma nägin reklaami, et meie asutus otsib uusi töötajaid tööle.",
+        "text_correct": "Kaks aastat tagasi nägin ma reklaami, et meie asutus otsib uusi töötajaid tööle.",
+        "annotation": "A 3 5|||R:WO|||nägin ma|||REQUIRED|||-NONE-|||0",
+        "response": "Lause:  \nKaks aastat tagasi ma nägin reklaami, et meie asutus otsib uusi töötajaid tööle.\n\nViga:  \nLause lõpus on sõna \"tööle\" ülearune. Sõna \"tööle\" on juba väljendatud sõnaga \"töötajaid\" ning verbiga \"otsib\". Õige oleks öelda lihtsalt \"otsib uusi töötajaid\". Kui öelda \"otsib uusi töötajaid tööle\", tekib tautoloogia ehk mõte kordub tarbetult.\n\nMiks see viga tekib:  \nSageli tekib selline viga, kui püütakse rõhutada, et töötajaid otsitakse tööle asumiseks, kuid eesti keeles on see juba sõnast \"töötaja\" ja verbist \"otsima\" selge. Mõnes teises keeles (nt vene või inglise keeles) võib olla loomulik öelda \"otsime töötajaid tööle\", kuid eesti keeles on see liigne.\n\nParandus:  \nKaks aastat tagasi ma nägin reklaami, et meie asutus otsib uusi töötajaid."
+    },
+    {
+        "text_incorrect": "Aga nüüd ta on ilus daam.",
+        "text_correct": "Aga nüüd on ta ilus daam.",
+        "annotation": "A 2 4|||R:WO|||on ta|||REQUIRED|||-NONE-|||0",
+        "response": "\"Aga nüüd ta on ilus daam\" lauses on sõnajärg eesti keelele ebatüüpiline. Loomulikum oleks öelda: \"Aga nüüd on ta ilus daam.\"\n\nSelgitus: Eesti keeles on tavaline, et öeldis (verb) on lauses teisel kohal. Kui lause algab mõne muu sõnaga kui alusega (näiteks \"aga nüüd\"), siis verb liigub kohe selle järele ja alles siis tuleb alus (\"ta\"). Seega peaks lause olema: \"Aga nüüd on ta ilus daam.\" Viga tekib sageli seetõttu, et mõnes teises keeles (näiteks inglise keeles: \"But now she is a beautiful lady\") on sõnajärg teistsugune ja õppija kannab selle üle eesti keelde."
+    },
+    {
+        "text_incorrect": "Minu kodumasin läks katki üleeile.",
+        "text_correct": "Minu kodumasin läks üleeile katki.",
+        "annotation": "A 3 5|||R:WO|||üleeile katki|||REQUIRED|||-NONE-|||0",
+        "response": "Input:  \nMinu kodumasin läks katki üleeile.\n\nOutput:  \nSelles lauses on sõna \"katki\" kasutatud õigesti, kuid sageli teevad keeleõppijad vea, öeldes näiteks \"Minu kodumasin katki läks üleeile\" või \"Minu kodumasin läks katkis üleeile\". Õige sõnajärg on \"läks katki\", sest eesti keeles käib sihitis (või seisundit näitav sõna) pärast verbi. Samuti tuleb kasutada sõna \"katki\" (mitte \"katkis\"), sest \"katki\" on määrsõna, mis näitab seisundi muutust. Sõna \"katkis\" oleks vale, sest see on omastavas käändes olev omadussõna, mida siin ei kasutata.  \n\nKui lauses oleks viga, näiteks \"Minu kodumasin läks katkis üleeile\", siis oleks viga selles, et \"katkis\" ei sobi siia, sest seisundi muutust väljendatakse määrsõnaga \"katki\". Viga tekib sageli seetõttu, et õppija segab omavahel omadussõna ja määrsõna vorme."
+    },
+    {
+        "text_incorrect": "Seminaril me proovisime võrrelda elu kolme punkti järgi.",
+        "text_correct": "Seminaril proovisime me võrrelda elu kolme punkti järgi.",
+        "annotation": "A 1 3|||R:WO|||proovisime me|||REQUIRED|||-NONE-|||0",
+        "response": "Input:  \nSeminaril me proovisime võrrelda elu kolme punkti järgi.\n\nOutput:  \nÕige ja loomulikum sõnajärg oleks: \"Seminaril proovisime me võrrelda elu kolme punkti järgi.\" või \"Seminaril proovisime võrrelda elu kolme punkti järgi.\" Eesti keeles on tavaline, et lause alguses olev määrus (nt \"Seminaril\") tõstab verbi kohe teisele kohale, millele järgneb subjekt (\"me\"). Sõnajärg \"Seminaril me proovisime...\" on mõjutatud vene või inglise keelest, kus subjekt võib kohe järgneda ajamäärusele. Eesti keeles on aga verb tavaliselt teisel kohal (V2-sõnajärg). Seega on viga sõnajärjes, mis on tekkinud tõenäoliselt teise keele mõjust."
+    },
+    {
+        "text_incorrect": "Sa tead, et ma väga armastan lugeda.",
+        "text_correct": "Sa tead, et ma armastan väga lugeda.",
+        "annotation": "A 5 7|||R:WO|||armastan väga|||REQUIRED|||-NONE-|||0",
+        "response": "Sinu lause \"Sa tead, et ma väga armastan lugeda.\" on grammatiliselt korrektne. Siin ei ole grammatikavigu.\n\nKui otsida võimalikke vigu, siis mõnikord võib keeleõppija jätta sõna \"väga\" valesse kohta, näiteks: \"Sa tead, et väga ma armastan lugeda.\" Selline sõnajärg ei ole eesti keeles loomulik, sest määrsõna \"väga\" peaks seisma vahetult selle sõna ees, mida ta täpsustab (\"väga armastan\"). \n\nKokkuvõte: Sinu esitatud lauses grammatikaviga ei ole."
+    },
+    {
+        "text_incorrect": "Ja see kvaliteetaeg peale kontserti, siis kui me lähme välja sööma kõik koos.",
+        "text_correct": "Ja see kvaliteetaeg peale kontserti, siis kui me lähme kõik koos välja sööma.",
+        "annotation": "A 10 14|||R:WO|||kõik koos välja sööma|||REQUIRED|||-NONE-|||0",
+        "response": "Tekst:  \nJa see kvaliteetaeg peale kontserti, siis kui me lähme välja sööma kõik koos.\n\nVigade selgitus:  \nSelles lauses on probleem sõnajärjega ja lauseehitusega. Lause on poolik ja koosneb justkui kahest osast, mis on omavahel ebakorrektselt seotud: \"Ja see kvaliteetaeg peale kontserti\" ning \"siis kui me lähme välja sööma kõik koos\". Selline ehitus jätab mulje, et lause põhiosa (öeldis) puudub või on lauseehitus liiga keeruline.\n\nPeamised vead:\n1. **Sõnajärg ja lauseehitus:**  \n   Lause algab nimisõnalise fraasiga (\"see kvaliteetaeg peale kontserti\"), kuid sellele ei järgne öeldist. See muudab lause poolikuks. Lause teine pool (\"siis kui me lähme välja sööma kõik koos\") on ajamääruslik täiend, mis peaks täpsustama, millal see kvaliteetaeg on, kuid kuna öeldis puudub, jääb lause mõte poolikuks.\n\n2. **Sõna \"peale\" kasutus:**  \n   Eesti keeles on korrektsem kasutada \"pärast kontserti\" asemel \"peale kontserti\" (kuigi kõnekeeles"
+    },
+    {
+        "text_incorrect": "Seminar oli väga põnev ja ma tahaksin selle kohta oma arvamust teiega jagada.",
+        "text_correct": "Seminar oli väga põnev ja ma tahaksin teiega selle kohta oma arvamust jagada.",
+        "annotation": "A 7 13|||R:WO|||teiega selle kohta oma arvamust jagada|||REQUIRED|||-NONE-|||0",
+        "response": "Input:\nSeminar oli väga põnev ja ma tahaksin selle kohta oma arvamust teiega jagada.\n\nOutput:\nLause \"Seminar oli väga põnev ja ma tahaksin selle kohta oma arvamust teiega jagada\" sisaldab väikest grammatilist viga: sõnajärg fraasis \"oma arvamust teiega jagada\" ei ole kõige loomulikum. Eesti keeles on tavapärasem öelda \"jagada teiega oma arvamust\". See tuleneb eesti keele sõnajärje reeglitest, kus sihitis (\"oma arvamust\") paigutatakse sageli pärast sihitist täpsustavat määrust (\"teiega\"). Seega oleks korrektsem lause: \"Seminar oli väga põnev ja ma tahaksin selle kohta teiega oma arvamust jagada.\" Viga võib tekkida, kui õppija tõlgib otse mõnest teisest keelest, kus sõnajärg on erinev (näiteks inglise keeles \"share my opinion with you\")."
+    },
+    {
+        "text_incorrect": "Kes jälgib, kuidas firma teeb oma tööd?",
+        "text_correct": "Kes jälgib, kuidas firma oma tööd teeb?",
+        "annotation": "A 5 8|||R:WO|||oma tööd teeb|||REQUIRED|||-NONE-|||0",
+        "response": "Sinu lause:  \nKes jälgib, kuidas firma teeb oma tööd?\n\nGrammatikaviga:  \nLause \"kuidas firma teeb oma tööd\" on küll arusaadav, kuid eesti keeles on loomulikum kasutada sõnajärge \"kuidas firma oma tööd teeb\". Eesti keeles paigutatakse sihitis (\"oma tööd\") sageli verbi (\"teeb\") ette, eriti juhul, kui tegemist on küsimuse või alalausega.\n\nVea põhjus:  \nViga on tekkinud tõenäoliselt seetõttu, et mõnes teises keeles (näiteks inglise keeles: \"how the company does its work\") on loomulik panna sihitis verbi järele. Eesti keeles on aga tavaline, et sihitis tuleb enne verbi, eriti kui tegemist on alalausega.\n\nParandus:  \nKes jälgib, kuidas firma oma tööd teeb?"
+    },
+    {
+        "text_incorrect": "Sõidab auto kiiresti.",
+        "text_correct": "Auto sõidab kiiresti.",
+        "annotation": "A 0 2|||R:WO|||Auto sõidab|||REQUIRED|||-NONE-|||0",
+        "response": "Lause \"Sõidab auto kiiresti.\" sisaldab sõnajärje viga.\n\nEesti keeles on tavaline sõnajärg (eriti lihtlausetes) subjekt + öeldis + sihitis/määrus. Selles lauses on öeldis (\"sõidab\") toodud lause algusesse ja subjekt (\"auto\") on öeldise järel. Selline sõnajärg on võimalik ainult siis, kui tahame rõhutada tegutsemist või kui subjekt on teadmata või ebaoluline (nt \"Sõidab kiiresti\" – keegi sõidab, aga pole teada, kes).\n\nKui tahame öelda, et just auto sõidab kiiresti, peaks lause olema:  \n**\"Auto sõidab kiiresti.\"**\n\nViga on tekkinud tõenäoliselt seetõttu, et õppija on kasutanud inglise keelele omast sõnajärge (\"Drives the car fast\") või on tahtnud rõhutada tegevust, kuid eesti keeles on lause põhivorm siiski subjektiga alguses."
+    },
+    {
+        "text_incorrect": "Aga pärast kontserti me käisime kohvikus.",
+        "text_correct": "Aga pärast kontserti käisime me kohvikus.",
+        "annotation": "A 3 5|||R:WO|||käisime me|||REQUIRED|||-NONE-|||0",
+        "response": "Input:  \nAga pärast kontserti me käisime kohvikus.\n\nOutput:  \nÕigem oleks: \"Aga pärast kontserti käisime me kohvikus.\" või \"Aga pärast kontserti käisime kohvikus.\" Eesti keeles on tavaline, et kui lause alguses on ajamäärus (\"pärast kontserti\"), siis pöördsõna (verb) tuleb sellele kohe järele, st verb on lauses teisel kohal. Sõnajärg \"me käisime\" sobib pigem siis, kui lause algab alusega (\"Me käisime pärast kontserti kohvikus.\"). Viga tekib sageli seetõttu, et õppija järgib oma emakeele sõnajärge või tõlgib otse mõnest teisest keelest, kus subjekt võib tulla enne verbi ka siis, kui lause algab määrusega."
+    },
+    {
+        "text_incorrect": "Jään ootama sinu vastust.",
+        "text_correct": "Jään sinu vastust ootama.",
+        "annotation": "A 1 4|||R:WO|||sinu vastust ootama|||REQUIRED|||-NONE-|||0",
+        "response": "Sinu lause \"Jään ootama sinu vastust\" on grammatiliselt korrektne. Selles lauses ei ole grammatikavigu.\n\nSelgitus:  \nTegusõna \"jään\" (esimese pöörde ainsus, olevik) ja \"ootama\" (ma-tegevusnimi) moodustavad koos konstruktsiooni \"jääma + ma-tegevusnimi\", mis väljendab tegevuse jätkumist või alustamist. \"Sinu vastust\" on osastavas käändes, mis sobib tegusõnaga \"ootama\". Lause sõnajärg on loomulik ja vastab eesti keele normile.\n\nVõimalik viga, mida keeleõppijad siin teevad:  \nSageli võib keeleõppija eksida, kasutades vale käändevormi (nt \"sinu vastus\" asemel \"sinu vastust\") või valides vale tegusõnavormi (nt \"jään ootan sinu vastust\" – siin oleks kaks tegusõna vales vormis koos). Samuti võib eksida sõnajärjega, kuid antud lauses on kõik korrektne."
+    },
+    {
+        "text_incorrect": "Eelmisel aastal meie kohalik omavalitsus sõlmis tänavate ja parkide hooldamiseks lepingu uue teenusepakkujaga.",
+        "text_correct": "Eelmisel aastal sõlmis meie kohalik omavalitsus tänavate ja parkide hooldamiseks lepingu uue teenusepakkujaga.",
+        "annotation": "A 2 6|||R:WO|||sõlmis meie kohalik omavalitsus|||REQUIRED|||-NONE-|||0",
+        "response": "Tekst:  \nEelmisel aastal meie kohalik omavalitsus sõlmis tänavate ja parkide hooldamiseks lepingu uue teenusepakkujaga.\n\nSelgitus:  \nSelles lauses on sõnajärje viga. Eesti keeles peab öeldis (verb) olema tavaliselt lause teisel kohal. Kui lause algab ajamäärusega (\"Eelmisel aastal\"), siis sellele peab järgnema öeldis (\"sõlmis\") ja alles siis alus (\"meie kohalik omavalitsus\"). Õige sõnajärg oleks:  \n\"Eelmisel aastal sõlmis meie kohalik omavalitsus tänavate ja parkide hooldamiseks lepingu uue teenusepakkujaga.\"\n\nViga on tekkinud tõenäoliselt seetõttu, et õppija on kasutanud oma emakeelele omast sõnajärge või tõlkinud lause otse mõnest teisest keelest, kus verb ei pea olema teisel kohal. Eesti keeles on aga lause põhikorraks:  \n[määrus] + [öeldis] + [alus] + [täiendavad lauseosad]."
+    },
+    {
+        "text_incorrect": "Domineeriv arvamus oli, et suurte uudisteportaalide jaoks on ainult oluline see, et neid loeks kõige rohkem inimesi, mitte edastatava teabe õigsus.",
+        "text_correct": "Domineeriv arvamus oli, et suurte uudisteportaalide jaoks on oluline ainult see, et neid loeks kõige rohkem inimesi, mitte edastatava teabe õigsus.",
+        "annotation": "A 9 11|||R:WO|||oluline ainult|||REQUIRED|||-NONE-|||0",
+        "response": "Sinu lauses:  \n\"Domineeriv arvamus oli, et suurte uudisteportaalide jaoks on ainult oluline see, et neid loeks kõige rohkem inimesi, mitte edastatava teabe õigsus.\"\n\nGrammatikaviga on fraasis \"on ainult oluline see\". Eesti keeles on loomulikum ja korrektsem öelda \"on oluline ainult see\", sest määrsõna \"ainult\" peaks seisma vahetult selle sõna ees, mida ta täpsustab (antud juhul \"see\"). Sõnajärje viga võib tekkida, kui püütakse järgida inglise keele lauseehitust (\"it is only important that...\"), kus määrsõna asend on vabam.\n\nParandatud lause:  \n\"Domineeriv arvamus oli, et suurte uudisteportaalide jaoks on oluline ainult see, et neid loeks kõige rohkem inimesi, mitte edastatava teabe õigsus.\"\n\nKokkuvõte:  \nViga tekkis määrsõna \"ainult\" valest asukohast lauses. Eesti keeles peab määrsõna asuma vahetult täpsustatava sõna ees, et lause oleks loomulik ja arusaadav."
+    },
+    {
+        "text_incorrect": "Minul tekkis probleem ülemusega, kes ei taha aru saada, et meil on vaja võtta kaks inimest juurde, kuna töökoormus on suurenenud.",
+        "text_correct": "Minul tekkis probleem ülemusega, kes ei taha aru saada, et meil on vaja kaks inimest juurde võtta, kuna töökoormus on suurenenud.",
+        "annotation": "A 15 19|||R:WO|||kaks inimest juurde võtta|||REQUIRED|||-NONE-|||0",
+        "response": "Tekst:  \nMinul tekkis probleem ülemusega, kes ei taha aru saada, et meil on vaja võtta kaks inimest juurde, kuna töökoormus on suurenenud.\n\nVigade selgitus:  \nLause alguses olev \"Minul tekkis probleem...\" ei ole kõige loomulikum ega grammatiliselt korrektne. Eesti keeles kasutatakse sageli nimetavat käänet (\"mina\") või jäetakse aluse asesõna üldse ära, kui see on kontekstist arusaadav. Kui soovitakse rõhutada, et just minul tekkis probleem, võib kasutada \"Minul tekkis probleem\", kuid neutraalses kirjakeeles on loomulikum \"Mul tekkis probleem...\".\n\nViga on tekkinud tõenäoliselt seetõttu, et õppija on segi ajanud nimetava käände (\"mina\") ja omastava käände (\"minul\" – tegelikult on see alalütlev kääne, mis vastab küsimusele \"kellel?\"). Eesti keeles kasutatakse verbi \"tekkima\" puhul alalütlevat käänet (\"kellel tekkis?\"), mitte nimetavat (\"kes tekkis?\"). Seega õige on \"Mul tekkis probleem...\".\n\nÕige variant:  \nMul tekkis probleem ülemusega, kes ei taha aru saada, et meil on vaja võtta kaks inimest juurde, kuna töökoormus on suurenenud."
+    },
+    {
+        "text_incorrect": "Tänapäeva ühiskonnas digipädevus on üks toimetuleku eeldustest.",
+        "text_correct": "Tänapäeva ühiskonnas on digipädevus üks toimetuleku eeldustest.",
+        "annotation": "A 2 4|||R:WO|||on digipädevus|||REQUIRED|||-NONE-|||0",
+        "response": "Tekst:  \nTänapäeva ühiskonnas digipädevus on üks toimetuleku eeldustest.\n\nVea selgitus:  \nLauses \"Tänapäeva ühiskonnas digipädevus on üks toimetuleku eeldustest\" on sõnajärg vale. Eesti keeles peab öeldis (verb) olema tavaliselt lause teisel kohal. Kui lause algab muu lauseliikmega kui alusega (antud juhul \"Tänapäeva ühiskonnas\" – see on määrus), siis peab sellele järgnema öeldis (on) ja alles siis alus (digipädevus). Õige sõnajärg oleks:  \n\"Tänapäeva ühiskonnas on digipädevus üks toimetuleku eeldustest.\"\n\nViga on tekkinud tõenäoliselt seetõttu, et kirjutaja on kasutanud inglise keelele omast sõnajärge (\"In today's society digital competence is...\"), kus verb ei liigu teisele kohale, kui lause algab määrusega. Eesti keeles aga on verb alati teisel kohal, kui lause algab mõne muu lauseliikmega kui alusega."
+    },
+    {
+        "text_incorrect": "Meie sellest midagi ei tea!",
+        "text_correct": "Meie ei tea sellest midagi!",
+        "annotation": "A 1 5|||R:WO|||ei tea sellest midagi|||REQUIRED|||-NONE-|||0",
+        "response": "Lause \"Meie sellest midagi ei tea!\" sisaldab grammatilist viga, mis puudutab aluse ja öeldise sõnajärge ning aluse vormi.\n\nÕige oleks: \"Meie ei tea sellest midagi!\" või lihtsalt \"Me ei tea sellest midagi!\"\n\nSelgitus: Eesti keeles on tavaline, et lauses on verb (öeldis) teisel kohal. Kui lause algab alusega (\"meie\"), siis eitussõna \"ei\" peab järgnema kohe alusele, mitte tulema pärast teisi lauseosi. Lause \"Meie sellest midagi ei tea!\" on mõjutatud vene või inglise keele sõnajärjest (\"Мы об этом ничего не знаем\" või \"We about this know nothing\"), kus lauseosad võivad olla teises järjekorras. Eesti keeles on loomulik sõnajärg: alus + eitussõna + verb + muud lauseosad.\n\nViga tekib sageli seetõttu, et õppija tõlgib lause otse oma emakeelest, kus sõnajärg võib olla teistsugune."
+    },
+    {
+        "text_incorrect": "Viimasel esmaspäeval mul oli suurepärane võimalus osaleda linnastumisteemalisel seminaril, kus esinesid selle teema spetsialistid.",
+        "text_correct": "Viimasel esmaspäeval oli mul suurepärane võimalus osaleda linnastumisteemalisel seminaril, kus esinesid selle teema spetsialistid.",
+        "annotation": "A 2 4|||R:WO|||oli mul|||REQUIRED|||-NONE-|||0",
+        "response": "Tekst:  \nViimasel esmaspäeval mul oli suurepärane võimalus osaleda linnastumisteemalisel seminaril, kus esinesid selle teema spetsialistid.\n\nViga ja selgitus:  \nLause alguses olev sõnajärg \"Viimasel esmaspäeval mul oli...\" ei ole eesti keeles loomulik. Eesti keeles peab öeldis (verb) olema lause alguses teisel kohal. Kui lause algab ajamäärusega (\"Viimasel esmaspäeval\"), siis sellele peab järgnema öeldis (\"oli\") ja alles siis lause alus (\"mul\"). Õige sõnajärg oleks:  \n**\"Viimasel esmaspäeval oli mul suurepärane võimalus...\"**\n\nVea põhjus:  \nSee viga tekib sageli seetõttu, et mõnes teises keeles (näiteks vene või inglise keeles) võib lause struktuur olla teistsugune ja lause alus võib tulla kohe pärast ajamäärust. Eesti keeles on aga lause põhikord:  \n1. Määrus (nt \"Viimasel esmaspäeval\")  \n2. Öeldis (verb, nt \"oli\")  \n3. Alus (nt \"mul\")  \n\nSeega tuleb jälgida, et verb oleks alati lause alguses teisel kohal, eriti kui lause algab mõne muu lauseli"
+    },
+    {
+        "text_incorrect": "Minu vanaemal kodus on palju raamatuid.",
+        "text_correct": "Minu vanaemal on kodus palju raamatuid.",
+        "annotation": "A 2 4|||R:WO|||on kodus|||REQUIRED|||-NONE-|||0",
+        "response": "Sinu lause: \"Minu vanaemal kodus on palju raamatuid.\"\n\nSelgitus: Selles lauses on kaks määrust (\"vanaemal\" ja \"kodus\") kõrvuti, mis võib tekitada segadust, sest eesti keeles on määruste järjekord oluline. Loomulikum oleks öelda: \"Minu vanaema kodus on palju raamatuid.\" või \"Minu vanaemal on kodus palju raamatuid.\" \n\nViga tekib sageli seetõttu, et õppija püüab otsetõlkes panna kõik lause osad järjest, mõtlemata, kuidas eesti keeles määrused omavahel suhestuvad. Kui tahad rõhutada, kelle kodus raamatud on, siis \"Minu vanaema kodus...\" Kui tahad rõhutada, et just kodus on palju raamatuid, siis \"Minu vanaemal on kodus palju raamatuid.\" \n\nSeega, lause \"Minu vanaemal kodus on palju raamatuid\" on grammatiliselt kohmakas, sest määrused pole õigesti järjestatud."
+    },
+    {
+        "text_incorrect": "Kas sa tuled minu juurde homme?",
+        "text_correct": "Kas sa tuled homme minu juurde?",
+        "annotation": "A 3 6|||R:WO|||homme minu juurde|||REQUIRED|||-NONE-|||0",
+        "response": "Sinu lause:  \nKas sa tuled minu juurde homme?\n\nSelles lauses ei ole grammatikaviga. Küsimus on korrektselt moodustatud: küsisõna (\"kas\"), aluse (\"sa\"), öeldise (\"tuled\"), sihtkoha (\"minu juurde\") ja ajamääruse (\"homme\") sõnajärg on õige. Kõik sõnad on õigesti vormistatud.\n\nVõimalik viga, mida keeleõppijad siin mõnikord teevad, on ajamääruse (\"homme\") paigutamine lause algusesse või valesse kohta, näiteks:  \n*Kas sa homme tuled minu juurde?*  \nSee on samuti korrektne, kuid kõige loomulikum on ajamäärus lause lõpus, nagu sinu lauses.\n\nKokkuvõte:  \nSinu lauses grammatikaviga ei ole."
+    },
+    {
+        "text_incorrect": "Teine põhjus oli see, et noored tahavad proovida õppida välismaal.",
+        "text_correct": "Teine põhjus oli see, et noored tahavad proovida välismaal õppida.",
+        "annotation": "A 9 11|||R:WO|||välismaal õppida|||REQUIRED|||-NONE-|||0",
+        "response": "Lause \"Teine põhjus oli see, et noored tahavad proovida õppida välismaal\" sisaldab ülearust verbide kuhjumist: \"tahavad proovida õppida\". Eesti keeles on loomulikum kasutada kas \"tahavad õppida\" või \"tahavad proovida välismaal õppimist\" (või \"tahavad proovida õppida välismaal\", kui rõhk on just proovimisel). Kui kasutada järjestikku kahte tegusõna \"proovida õppida\", tekib ebavajalik verbide kuhjumine, mis muudab lause kohmakaks ja ebaselgeks.\n\nViga on tekkinud tõenäoliselt inglise keele mõjul (\"want to try to study abroad\"), kus mitme infinitiivi järjestikune kasutamine on tavaline. Eesti keeles tuleks valida, kas rõhk on tahtmisel õppida või tahtmisel proovida õppida, ning vastavalt sellele lause üles ehitada. Näiteks:\n\n- \"Teine põhjus oli see, et noored tahavad õppida välismaal.\"\n- \"Teine põhjus oli see, et noored tahavad proovida välismaal õppimist.\"\n\nSeega tuleks lause lihtsustada, et vältida liigset verbide kuhjumist."
+    },
+    {
+        "text_incorrect": "Ma võtan kassi kindlasti.",
+        "text_correct": "Ma võtan kindlasti kassi.",
+        "annotation": "A 2 4|||R:WO|||kindlasti kassi|||REQUIRED|||-NONE-|||0",
+        "response": "Lause \"Ma võtan kassi kindlasti\" sisaldab sõnajärje viga.\n\nEesti keeles on lauses \"kindlasti\" (modaalne määrus) loomulikum panna verbist ette või lause algusesse, mitte lause lõppu. Õige oleks näiteks:  \n\"Ma võtan kindlasti kassi.\"  \nvõi  \n\"Kindlasti võtan ma kassi.\"\n\nViga on tekkinud tõenäoliselt seetõttu, et õppija on kasutanud inglise keele sõnajärge (\"I will take the cat for sure\"), kus määrus võib sageli olla lause lõpus. Eesti keeles aga on määrsõnad nagu \"kindlasti\" tavaliselt verbist eespool, eriti kui need rõhutavad kindlust või kindlat otsust."
+    },
+    {
+        "text_incorrect": "Kooli ajal ta oli väga rahulik ja positiivne poiss.",
+        "text_correct": "Kooli ajal oli ta väga rahulik ja positiivne poiss.",
+        "annotation": "A 2 4|||R:WO|||oli ta|||REQUIRED|||-NONE-|||0",
+        "response": "Tekstis \"Kooli ajal ta oli väga rahulik ja positiivne poiss\" on sõnajärg eesti keelele ebatüüpiline. Õigem oleks: \"Kooli ajal oli ta väga rahulik ja positiivne poiss.\"\n\nSelgitus: Eesti keeles peab öeldis (verb) olema tavaliselt lause teisel kohal. Kui lause algab mõne muu lauseliikmega kui alusega (näiteks ajamäärusega \"kooli ajal\"), siis verb tuleb kohe selle järele, alles siis alus (\"ta\"). Viga tekib sageli seetõttu, et mõnes teises keeles (nt vene või inglise keeles) võib sõnajärg olla teistsugune, kuid eesti keeles on verb teisel kohal väga oluline reegel."
+    },
+    {
+        "text_incorrect": "On tihti kuulda, et linnades ja ääremaadel on ebavõrdsed tingimused.",
+        "text_correct": "Tihti on kuulda, et linnades ja ääremaadel on ebavõrdsed tingimused.",
+        "annotation": "A 0 2|||R:WO|||Tihti on|||REQUIRED|||-NONE-|||0",
+        "response": "Sinu lauses \"On tihti kuulda, et linnades ja ääremaadel on ebavõrdsed tingimused\" on üks levinud viga: määrsõna \"tihti\" asukoht lauses.\n\nEesti keeles on määrsõnade (nt \"tihti\", \"alati\", \"harva\") loomulik koht öeldise (verbi) järel, eriti siis, kui lause algab verbiga (\"on kuulda\"). Õige ja loomulikum sõnajärg oleks: \"Tihti on kuulda, et linnades ja ääremaadel on ebavõrdsed tingimused.\"\n\nViga tekib sageli seetõttu, et õppijad tõlgivad otse oma emakeelest, kus määrsõna võib asuda verbi ees. Eesti keeles aga on tüüpiline, et määrsõna järgneb öeldisele või asub lause alguses, kui see on rõhutatud.\n\nSeega:\nVale: On tihti kuulda, et ...\nÕige: Tihti on kuulda, et ...  \nvõi: On kuulda, et ... (kui \"tihti\" pole oluline rõhutada)"
+    },
+    {
+        "text_incorrect": "Maailmas üha rohkem räägitakse globaliseerumisest, mis tähendab rahvusvahelist, kõikehõlmavat ühinemist.",
+        "text_correct": "Maailmas räägitakse üha rohkem globaliseerumisest, mis tähendab rahvusvahelist, kõikehõlmavat ühinemist.",
+        "annotation": "A 1 4|||R:WO|||räägitakse üha rohkem|||REQUIRED|||-NONE-|||0",
+        "response": "Tekst:  \nMaailmas üha rohkem räägitakse globaliseerumisest, mis tähendab rahvusvahelist, kõikehõlmavat ühinemist.\n\nVea selgitus:  \nLause alguses olev väljend \"Maailmas üha rohkem räägitakse globaliseerumisest\" on eesti keeles kohmakas ja grammatiliselt ebatäpne. Probleem on sõnajärjes ja lauseehituses. Eesti keeles peaks lause olema kas \"Üha rohkem räägitakse maailmas globaliseerumisest\" või \"Maailmas räägitakse üha rohkem globaliseerumisest\". Põhjus on selles, et määrsõnad (\"üha rohkem\") ja kohamäärused (\"maailmas\") peavad olema lauses loogilises järjekorras ning verb (\"räägitakse\") peaks olema lauses teisel kohal, sest eesti keeles on lause põhijärjekord: (määrus) + verb + subjekt/objekt.\n\nViga on tekkinud tõenäoliselt seetõttu, et kirjutaja on püüdnud järgida võõrkeelset (nt inglise keele) sõnajärge, kus lause algusesse võib panna kohamääruse ja seejärel määrsõna, kuid eesti keeles kõlab see ebaloomulikult."
+    },
+    {
+        "text_incorrect": "Kahjuks minu läks kodumasin katki.",
+        "text_correct": "Kahjuks läks minu kodumasin katki.",
+        "annotation": "A 1 3|||R:WO|||läks minu|||REQUIRED|||-NONE-|||0",
+        "response": "Lause \"Kahjuks minu läks kodumasin katki\" sisaldab grammatikaviga.\n\nÕige oleks: \"Kahjuks läks minu kodumasin katki.\"\n\nSelgitus: Eesti keeles peab öeldis (verb) olema lauses tavaliselt teisel kohal. Sõna \"minu\" (omastav asesõna) peab seisma nimisõna \"kodumasin\" ees, mitte verbi ees. Viga on tekkinud tõenäoliselt seetõttu, et mõnes teises keeles (näiteks vene või inglise keeles) võib omastav asesõna asuda verbi ees (\"Unfortunately my washing machine broke\"). Eesti keeles aga käib omastav asesõna alati nimisõna ees, millele ta kuulub, ja verb jääb lauses teisele kohale."
+    },
+    {
+        "text_incorrect": "Seal iga päev mängib muusika erinevas kohas.",
+        "text_correct": "Seal mängib muusika iga päev erinevas kohas.",
+        "annotation": "A 1 5|||R:WO|||mängib muusika iga päev|||REQUIRED|||-NONE-|||0",
+        "response": "Lause \"Seal iga päev mängib muusika erinevas kohas\" sisaldab sõnajärje viga.\n\nEesti keeles on tavaline, et lauses on verb teisel kohal (V2-sõnajärg). Kui lause algab määrsõnaga (\"seal\"), siis sellele järgneb tavaliselt verb (\"mängib\"), kuid lause ülejäänud osad peavad olema loogilises järjekorras. Selles lauses on aga segadust tekitav, et \"seal\" ja \"erinevas kohas\" mõlemad viitavad kohale, mis muudab lause ebaselgeks.\n\nÕigem oleks näiteks:\n\"Iga päev mängib muusika erinevas kohas.\"\nvõi\n\"Muusika mängib iga päev erinevas kohas.\"\n\nKui tahad rõhutada kohta, võib kasutada:\n\"Erinevas kohas mängib iga päev muusika.\"\n\nViga on tekkinud tõenäoliselt seetõttu, et püüti inglise keele sõnajärge (\"There every day music plays in a different place\") otse eesti keelde tõlkida. Eesti keeles ei ole \"seal\" sellises lauses vajalik, kui juba öeldakse \"erinevas kohas\"."
+    },
+    {
+        "text_incorrect": "Ma kardan, et siis info võib lekkida ja jõuda minu ülemuseni.",
+        "text_correct": "Ma kardan, et siis võib info lekkida ja jõuda minu ülemuseni.",
+        "annotation": "A 5 7|||R:WO|||võib info|||REQUIRED|||-NONE-|||0",
+        "response": "Sinu lauses:  \n\"Ma kardan, et siis info võib lekkida ja jõuda minu ülemuseni.\"\n\nGrammatikaviga on sõnajärjes ja sidesõna \"siis\" kasutamises. Eesti keeles on tavapärasem öelda:  \n\"Ma kardan, et info võib siis lekkida ja jõuda minu ülemuseni.\"  \nvõi  \n\"Ma kardan, et info võib lekkida ja jõuda minu ülemuseni.\"\n\nSelgitus:  \nSõna \"siis\" on siin lauses ebavajalik või vales kohas. Kui \"siis\" on lauses, peaks see asuma verbist eespool: \"info võib siis lekkida\". Kuid sageli on \"siis\" selles kontekstis üleliigne, sest lause mõte on selge ka ilma selleta. Võib-olla on viga tekkinud inglise keele mõjul (\"then the information might leak\"), kus \"then\" on tavapärane, kuid eesti keeles seda alati ei kasutata.\n\nKokkuvõte:  \n- \"Siis\" on kas üleliigne või vales kohas.\n- Õige sõnajärg: \"info võib siis lekkida\" või ilma \"siis\"-ta."
+    },
+    {
+        "text_incorrect": "Mulle see atmosfäär kollektiivis väga meeldib ja ma tulen tööle iga päev hea meelega, eriti kui on vaja teha palju töid.",
+        "text_correct": "Mulle see atmosfäär kollektiivis väga meeldib ja ma tulen iga päev hea meelega tööle, eriti kui on vaja teha palju töid.",
+        "annotation": "A 9 14|||R:WO|||iga päev hea meelega tööle|||REQUIRED|||-NONE-|||0",
+        "response": "Tekst:  \nMulle see atmosfäär kollektiivis väga meeldib ja ma tulen tööle iga päev hea meelega, eriti kui on vaja teha palju töid.\n\nVigade selgitus:  \nLause \"eriti kui on vaja teha palju töid\" sisaldab grammatilist ebatäpsust. Sõna \"töid\" mitmuses on siin ebavajalik ja kõlab eesti keeles kohmakalt. Tavaliselt kasutatakse sellises kontekstis sõna \"tööd\" ainsuses, sest \"tööd tegema\" tähendab üldiselt töötamist, mitte konkreetsete tööde loetelu tegemist. Õige oleks kirjutada:  \nMulle see atmosfäär kollektiivis väga meeldib ja ma tulen tööle iga päev hea meelega, eriti kui on vaja teha palju tööd.\n\nViga on tekkinud tõenäoliselt seetõttu, et eesti keele õppijad võivad segi ajada sõna \"töö\" ainsuse ja mitmuse kasutust. Mõnes teises keeles (nt inglise keeles \"a lot of jobs\" või \"many tasks\") kasutatakse mitmust, kuid eesti keeles on tavapärasem kasutada ainsust, kui räägitakse üldiselt suurest töömahust."
+    },
+    {
+        "text_incorrect": "Seal on kontsert Lady Gaga.",
+        "text_correct": "Seal on Lady Gaga kontsert.",
+        "annotation": "A 2 5|||R:WO|||Lady Gaga kontsert|||REQUIRED|||-NONE-|||0",
+        "response": "Lause \"Seal on kontsert Lady Gaga\" sisaldab grammatikaviga, mis puudutab eesti keele sõnajärge ja käändekasutust.\n\nÕige oleks öelda: \"Seal on Lady Gaga kontsert\" või \"Seal toimub Lady Gaga kontsert\".\n\nSelgitus: Eesti keeles käib täpsustav nimisõna (antud juhul \"Lady Gaga\") tavaliselt põhisõna (\"kontsert\") ette ja omastavas käändes (\"Lady Gaga kontsert\"). Inglise keeles öeldakse sageli \"concert of Lady Gaga\" või \"Lady Gaga concert\", kuid eesti keeles ei kasutata sellist sõnajärge nagu \"kontsert Lady Gaga\". Viga tekib sageli inglise keele mõjude tõttu, kus omadussõnaline täpsustus järgneb põhisõnale, kuid eesti keeles on sõnajärg vastupidine. Lisaks võib kasutada ka verbi \"toimub\", et lause oleks loomulikum: \"Seal toimub Lady Gaga kontsert.\""
+    },
+    {
+        "text_incorrect": "Joobes autojuhid põhjustavad rohkem kui kolm neljandikku kõikidest liiklusõnnetustest aastas ning minu arvates see tegu on vastutustundetu nii iseenda kui ka teiste inimeste suhtes, kellele see võib kahju tuua.",
+        "text_correct": "Joobes autojuhid põhjustavad rohkem kui kolm neljandikku kõikidest liiklusõnnetustest aastas ning minu arvates on see tegu vastutustundetu nii iseenda kui ka teiste inimeste suhtes, kellele see võib kahju tuua.",
+        "annotation": "A 13 16|||R:WO|||on see tegu|||REQUIRED|||-NONE-|||0",
+        "response": "Tekst:  \nJoobes autojuhid põhjustavad rohkem kui kolm neljandikku kõikidest liiklusõnnetustest aastas ning minu arvates see tegu on vastutustundetu nii iseenda kui ka teiste inimeste suhtes, kellele see võib kahju tuua.\n\nVigade selgitus:  \nLause \"minu arvates see tegu on vastutustundetu...\" on eesti keeles kohmakas ja grammatiliselt ebaõige. Õige oleks: \"minu arvates on see tegu vastutustundetu...\". Eesti keeles peab öeldis (verb) olema lause alguses võimalikult vara, tavaliselt teisel kohal. Kui lause algab väljendiga \"minu arvates\", siis sellele järgneb kohe öeldis (\"on\"), mitte aluse (\"see tegu\"). Viga tekib sageli seetõttu, et inglise keeles on sõnajärg \"in my opinion, this act is irresponsible...\", kuid eesti keeles on sõnajärg teistsugune.\n\nParandus:  \nJoobes autojuhid põhjustavad rohkem kui kolm neljandikku kõikidest liiklusõnnetustest aastas ning minu arvates on see tegu vastutustundetu nii iseenda kui ka teiste inimeste suhtes, kellele see võib kahju tuua."
+    },
+    {
+        "text_incorrect": "See on pealinn Islandil.",
+        "text_correct": "See on Islandi pealinn.",
+        "annotation": "A 2 4|||R:WO:NOM:FORM|||Islandi pealinn|||REQUIRED|||-NONE-|||0",
+        "response": "Lause \"See on pealinn Islandil\" sisaldab grammatilist viga, mis on seotud käändega.\n\nÕige oleks: \"See on Islandi pealinn.\"\n\nSelgitus: Eesti keeles kasutatakse kohanimede puhul sageli omastavat käänet, kui räägitakse millegi kuuluvusest või asukohast. Sõna \"Islandil\" on alalütlevas käändes (vastab küsimusele \"kus?\"), kuid siin on vaja omastavat käänet \"Islandi\" (vastab küsimusele \"kelle? mille?\"). Seega peaks lause olema \"See on Islandi pealinn\", mitte \"See on pealinn Islandil\".\n\nVea tekkepõhjus: Viga võib tekkida seetõttu, et mõnes teises keeles (näiteks inglise keeles: \"the capital in Iceland\") kasutatakse asukoha väljendamiseks prepositsiooni \"in\", mis eesti keeles sageli vastab alalütlevale käändele. Kuid eesti keeles on tavapärasem kasutada omastavat käänet, kui räägitakse riigi pealinnast."
+    },
+    {
+        "text_incorrect": "Sellepärast mul on ettepanek.",
+        "text_correct": "Sellepärast on mul ettepanek.",
+        "annotation": "A 1 3|||R:WO|||on mul|||REQUIRED|||-NONE-|||0",
+        "response": "\"Sellepärast mul on ettepanek\" on grammatiliselt eesti keeles veidi kohmakas. Loomulikum oleks öelda: \"Sellepärast on mul ettepanek.\"\n\nViga tekib sõnajärje tõttu. Eesti keeles peab öeldis (verb) olema tavaliselt lause teisel kohal. Kui lause algab muu lauseliikmega kui alusega (näiteks \"sellepärast\"), siis verb (\"on\") peab tulema kohe selle järel, alles siis muud lause osad (\"mul\", \"ettepanek\"). Sõnajärje viga võib tekkida, kui õppija tõlgib otse mõnest teisest keelest, kus sõnajärg on teistsugune (näiteks vene või inglise keelest)."
+    },
+    {
+        "text_incorrect": "Teiselt poolt tehnoloogia kiire areng annab inimestele palju võimalusi.",
+        "text_correct": "Teiselt poolt annab tehnoloogia kiire areng inimestele palju võimalusi.",
+        "annotation": "A 2 6|||R:WO|||annab tehnoloogia kiire areng|||REQUIRED|||-NONE-|||0",
+        "response": "Sinu lauses \"Teiselt poolt tehnoloogia kiire areng annab inimestele palju võimalusi\" on sõnajärg vale.\n\nÕige oleks: \"Teiselt poolt annab tehnoloogia kiire areng inimestele palju võimalusi.\"\n\nSelgitus: Eesti keeles peab öeldis (verb) olema lauses teisel kohal. Kui lause algab muu lauseliikmega kui alusega (näiteks \"teiselt poolt\" – see on määrus), siis tuleb verb kohe selle järel. Sinu lauses on verb (\"annab\") alles kolmandal kohal, mis on inglise keele mõjuline sõnajärg. See viga tekib sageli neil, kes mõtlevad inglise keeles (\"On the other hand, the rapid development of technology gives people many opportunities\") ja tõlgivad otse eesti keelde."
+    },
+    {
+        "text_incorrect": "Selle peale ta ei ole vist mõelnud.",
+        "text_correct": "Selle peale ei ole ta vist mõelnud.",
+        "annotation": "A 2 5|||R:WO|||ei ole ta|||REQUIRED|||-NONE-|||0",
+        "response": "\"Selle peale ta ei ole vist mõelnud.\"\n\nSelles lauses on sõnajärg eesti keelele ebatüüpiline. Loomulikum oleks öelda: \"Ta ei ole vist selle peale mõelnud.\" Eesti keeles on tavaline, et lause algab alusega (\"ta\"), millele järgneb öeldis (\"ei ole mõelnud\") ning muud lause osad (näiteks \"selle peale\" ja \"vist\") paigutatakse tavaliselt öeldise järele või vahele, sõltuvalt rõhuasetusest.\n\nViga on tekkinud tõenäoliselt mõne teise keele (näiteks inglise \"About that, he probably hasn't thought\") mõjul, kus lause algusesse võib panna rõhutatud lauseosa. Eesti keeles aga on lause põhijärjekord alus–öeldis–sihitis/muud lause liikmed, eriti neutraalses väitelauses. Kui soovitakse rõhutada \"selle peale\", võib seda siiski lause algusesse tõsta, kuid siis peaks lause olema näiteks: \"Selle peale vist ei ole ta mõelnud.\" Ka siis jääb öeldis (\"ei ole mõelnud\") aluse (\"ta\") järele.\n\nSeega:  \nÕige ja loomulik sõnajärg on: **\"Ta ei ole vist selle peale mõelnud.\""
+    },
+    {
+        "text_incorrect": "Saan ka öelda, et nad edukad on väga nii töökohal kui ka isiklikus elus.",
+        "text_correct": "Saan ka öelda, et nad nad on väga edukad nii töökohal kui ka isiklikus elus.",
+        "annotation": "A 6 9|||R:WO|||nad on väga edukad|||REQUIRED|||-NONE-|||0",
+        "response": "Lause:  \nSaan ka öelda, et nad edukad on väga nii töökohal kui ka isiklikus elus.\n\nViga ja selgitus:  \nLause \"et nad edukad on väga nii töökohal kui ka isiklikus elus\" sõnajärg on eesti keeles ebaloomulik. Eesti keeles on tavapärane, et öeldis (verb) asub lauses teisel kohal, eriti kui tegemist on et-lausega (sidesõnaga algav kõrvallause). Õige sõnajärg oleks: \"et nad on väga edukad nii töökohal kui ka isiklikus elus.\"\n\nViga on tekkinud tõenäoliselt inglise keele mõjul, kus öeldis võib asuda nimisõna järel (nt \"that they very successful are\"). Eesti keeles aga järgib öeldis teist kohta lauses, eriti et-lause puhul.\n\nParandus:  \nSaan ka öelda, et nad on väga edukad nii töökohal kui ka isiklikus elus."
+    },
+    {
+        "text_incorrect": "Oleks tore, kui keegi tahaks neid lugeda ja võtta endale.",
+        "text_correct": "Oleks tore, kui keegi tahaks neid lugeda ja endale võtta.",
+        "annotation": "A 9 11|||R:WO|||endale võtta|||REQUIRED|||-NONE-|||0",
+        "response": "Input:\nOleks tore, kui keegi tahaks neid lugeda ja võtta endale.\n\nOutput:\nSelles lauses on väike ebakõla sidesõna \"ja\" kasutamises. Kui öelda \"keegi tahaks neid lugeda ja võtta endale\", siis mõlemad tegevused (\"lugeda\" ja \"võtta endale\") peaksid viitama samale objektile (\"neid\"). Kuid eesti keeles kõlab loomulikumalt, kui öelda: \"Oleks tore, kui keegi tahaks neid lugeda ja endale võtta.\" See tähendab, et mõlemad tegusõnad (\"lugeda\" ja \"võtta\") on seotud sama objektiga (\"neid\") ning \"endale\" käib teise tegusõna juurde.\n\nViga on tekkinud tõenäoliselt seetõttu, et sõnajärg \"võtta endale\" on mõjutatud mõnest teisest keelest või kõnekeelest, kus selline sõnajärg on lubatud. Eesti keeles on loomulikum, kui sihitis (\"neid\") tuleb mõlema tegusõna ette ning \"endale\" jääb teise tegusõna järele."
+    },
+    {
+        "text_incorrect": "Viimasel ajal minu tööviljakus on langenud.",
+        "text_correct": "Viimasel ajal on minu tööviljakus langenud.",
+        "annotation": "A 2 5|||R:WO|||on minu tööviljakus|||REQUIRED|||-NONE-|||0",
+        "response": "Lause \"Viimasel ajal minu tööviljakus on langenud\" sisaldab sõnajärje viga.\n\nEesti keeles on tüüpiline, et lause alguses olev määrus (nt \"viimasel ajal\") toob kaasa pööratud sõnajärje: pärast määrust tuleb verb, seejärel subjekt ja muud lause osad. Õige oleks: \"Viimasel ajal on minu tööviljakus langenud.\"\n\nViga on tekkinud tõenäoliselt seetõttu, et õppija on kasutanud inglise keelele omast sõnajärge (\"Recently my productivity has decreased\"), kus subjekt järgneb kohe määrusele. Eesti keeles aga peab verb olema teisel kohal, kui lause algab mõne muu lauseosaga kui subjekt."
+    },
+    {
+        "text_incorrect": "Mäletan, et kooli ajal ta oli väga sõbralik ja abivalmis.",
+        "text_correct": "Mäletan, et kooli ajal oli ta väga sõbralik ja abivalmis.",
+        "annotation": "A 5 7|||R:WO|||oli ta|||REQUIRED|||-NONE-|||0",
+        "response": "Sinu lause:  \nMäletan, et kooli ajal ta oli väga sõbralik ja abivalmis.\n\nViga:  \nLause sõnajärg on eesti keeles ebaloomulik. Alalause (et-lause) sees peaks öeldis (oli) tulema kohe aluse (ta) järele, mitte lõppu. Õige oleks:  \nMäletan, et ta oli kooli ajal väga sõbralik ja abivalmis.\n\nSelgitus:  \nEesti keeles on alalause (et-lause) sees tavaline sõnajärg: alus + öeldis + muud lauseosad. Sõnajärje viga tekib sageli seetõttu, et mõnes teises keeles (nt vene või inglise keeles) võib ajamäärus (kooli ajal) tulla enne öeldist, kuid eesti keeles on loomulikum panna ajamäärus öeldise järele. Seega:  \nvale: et kooli ajal ta oli  \nõige: et ta oli kooli ajal"
+    },
+    {
+        "text_incorrect": "Meedia roll on tõesti suur tänapäeval.",
+        "text_correct": "Meedia roll on tänapäeval tõesti suur.",
+        "annotation": "A 3 6|||R:WO|||tänapäeval tõesti suur|||REQUIRED|||-NONE-|||0",
+        "response": "Lause \"Meedia roll on tõesti suur tänapäeval\" sisaldab sõnajärje viga.\n\nÕige ja loomulikum sõnajärg oleks: \"Tänapäeval on meedia roll tõesti suur.\"\n\nSelgitus: Eesti keeles on tüüpiline, et ajamäärus (nt \"tänapäeval\") tuuakse lause algusesse, eriti kui soovitakse rõhutada aega, millal midagi kehtib. Kui ajamäärus on lause lõpus, kõlab lause kohmakalt ja vähem loomulikult. Viga tekib sageli seetõttu, et õppija järgib oma emakeele sõnajärge või tõlgib otse mõnest teisest keelest, kus ajamäärus võib olla lause lõpus. Eesti keeles on aga tavaline, et ajamäärus on lause alguses, millele järgneb verb ja siis alus ning muud lause osad."
+    },
+    {
+        "text_incorrect": "Mul on probleem kodus.",
+        "text_correct": "Mul on kodus probleem.",
+        "annotation": "A 2 4|||R:WO|||kodus probleem|||REQUIRED|||-NONE-|||0",
+        "response": "Input:  \nMul on probleem kodus.\n\nOutput:  \nLause \"Mul on probleem kodus\" on grammatiliselt korrektne, kuid sõnajärg võib kõlada veidi ebaloomulikult, sõltuvalt sellest, mida soovitakse rõhutada. Eesti keeles on tavalisem öelda \"Mul on kodus probleem\", sest kohamäärus (\"kodus\") paigutatakse tavaliselt öeldise (\"on\") ja sihitise või nimisõna (\"probleem\") vahele või lause lõppu, kui soovitakse rõhutada kohta. Kui rõhk on probleemil, siis \"Mul on kodus probleem\" on loomulikum. Kui rõhk on sellel, et probleem on just kodus, võib kasutada ka algset varianti, kuid see on vähem tavaline.\n\nViga võib tekkida, kui õppija tõlgib otse mõnest teisest keelest, kus kohamäärus pannakse lause lõppu (nt inglise keeles \"I have a problem at home\"). Eesti keeles on aga sõnajärg paindlikum, kuid eelistatakse varianti, kus kohamäärus on nimisõna ees: \"Mul on kodus probleem.\""
+    }
+]
