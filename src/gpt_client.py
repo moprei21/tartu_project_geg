@@ -3,6 +3,8 @@ import openai
 import os
 import argparse
 
+GERMAN_SYSTEM_PROMPT = "Du bist ein hilfreicher Assistent, der sich auf die Korrektion von Grammatik spezialisiert hat. " 
+GERMAN_PROMPT = "Hier ist ein Text mit Fehlern: #erroneous_text.  Bitte korrigiere die Grammatik des Textes"
 
 class GPTConversationalClient:
     def __init__(self, model_name="gpt-4.1", temperature=2.0):
@@ -44,17 +46,38 @@ class GPTConversationalClient:
                 raise ValueError(f"Unexpected finish reason: {finish_reason}")
         except Exception as e:
             raise RuntimeError(f"API query failed: {e}")
+            
 
 def main():
-    text = "Sie sind überzeugt , dass die Theorie ist wichtiger . "
+    text_incorrect = "Sie sind überzeugt , dass die Theorie ist wichtiger . "
+    text_correct = "Sie sind überzeugt, dass die Theorie wichtiger ist."
+    annotation = " A 7 9|||R:WO|||wichtiger ist|||REQUIRED|||-NONE-|||0 "
     # init client
-    client = GPTConversationalClient(model_name="gpt-4.1-nano", temperature=1.0)
-    system_prompt = "Du bist ein hilfreicher Assistent, der sich auf die Korrektion von Grammatik spezialisiert hat. " 
-    prompt = f"Hier ist ein Text mit Fehlern: \"{text}\". Bitte korrigiere die Grammatik und Rechtschreibung des Textes und gib mir eine Erklärung dafür."
+    setting = 0
+    client = GPTConversationalClient(model_name="gpt-4.1", temperature=0)
+
+    system_prompt = "Du bist ein hilfreicher Assistent, der sich auf die Korrektur von Grammatik spezialisiert hat. Du bist speziell gut in der Eklärung vom grammatikalischen Fehlern." 
+    if setting == 0:
+        prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect}\n 
+        Gib mir eine Erklärung der/des grammatikalischen Fehler(s)."""
+    elif setting == 1:
+        prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect}\n
+        Hier ist der korrigierte Text: \n {text_correct}\n 
+        Bitte korrigiere die Grammatik des Textes und erkläre die Abweichung(en) zwischen dem originalen und korrigierten Text."""
+    elif setting ==2:
+        prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect}\n
+        Hier ist der korrigierte Text: \n {text_correct}\n 
+        und dazu die Fehlerannotation im M2 Stil: \n {annotation}
+        Bitte korrigiere die Grammatik des Textes und erkläre die Abweichung(en) zwischen dem originalen und korrigierten Text. Nutze dafür auch die Annotation"""
+
+
+    
+    
     conversation = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": prompt },
     ]
+    print(prompt)
 
     client.set_conversation(conversation)
 
