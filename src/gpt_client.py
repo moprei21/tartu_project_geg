@@ -72,6 +72,7 @@ def main():
             text_incorrect = detokenization.detokenize_deu(entry[0])
             text_correct = detokenization.detokenize_deu(entry[2])
             annotation = entry[1]
+
     # init client
 
 
@@ -88,6 +89,18 @@ def main():
         Hier ist der korrigierte Text: \n {text_correct[2:]}\n 
         und dazu die Fehlerannotation im M2 Stil: \n {annotation}
         Bitte erkläre, warum die Korrektur(en) nötig ist/sind. Nutze dafür auch die Annotation"""
+        elif setting == 3:
+            if language == 'ger':
+                with open('few_shot_prompts_de.txt', 'r', encoding='utf-8') as f:
+                    examples = f.read()
+                    prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n 
+            Gib mir eine Erklärung der/des grammatikalischen Fehler(s).
+            Hier sind einige Beispiele, wie du das machen kannst: \n {examples}"""
+            else:
+                with open('few_shot_prompts_est.txt', 'r', encoding='utf-8') as f:
+                    examples = f.read()
+                # TODO Estonian examples
+
 
     
     
