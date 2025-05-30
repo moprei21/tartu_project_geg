@@ -1,0 +1,6 @@
+###
+Input:
+Nüüd Anton on viisakas inimene.
+
+Output:
+"Nüüd on Anton viisakas inimene" kõlab eesti keeles loomulikumalt. Kuigi "Anton on viisakas inimene" on õige viis väljendada väitlauset, siis kui lause algusesse tõstetakse teemaks mingi muu lauseliige, kui seal neutraaljuhul on, vahetavad endine teema (Anton) ja öeldis (on) harilikult omavahel kohad, nii et verb jääb ikka teisele kohale.

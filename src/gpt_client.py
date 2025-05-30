@@ -111,9 +111,9 @@ def main():
                     examples = f.read()
                     prompt = f"Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n Gib mir eine Erklärung der/des grammatikalischen Fehler(s) \n Hier sind einige Beispiele, wie du das machen kannst: \n {examples}"
             else:
-                with open('few_shot_prompts_est.txt', 'r', encoding='utf-8') as f:
+                with open('few_shot_prompts_et.txt', 'r', encoding='utf-8') as f:
                     examples = f.read()
-                # TODO Estonian examples
+                    prompt = f"Siin on vähemalt ühe veaga tekst:\n{text_incorrect[2:]}\nEsita grammatikavigade selgitus.\nSiin on mõned näited, kuidas seda teha:\n{examples}"
 
 
     
