@@ -1,0 +1,302 @@
+[
+    {
+        "text_incorrect": "Wir können deshalb nicht leugnen, dass manchmal Kriminalität sich nicht auszahlt. ",
+        "text_correct": "Wir können deshalb nicht leugnen, dass Kriminalität sich manchmal nicht auszahlt. ",
+        "annotation": " A 7 10|||R:WO|||Kriminalität sich manchmal|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation A 7 10|||R:WO|||Kriminalität sich manchmal|||REQUIRED|||-NONE-|||0 bedeutet, dass im Originaltext die Wortstellung (WO = Wortordnung) falsch war.\n\nIm Deutschen steht das Adverb (hier: „manchmal“) normalerweise vor dem Verb im Nebensatz. Im Originalsatz stand „manchmal“ aber nach „Kriminalität sich“, was unnatürlich klingt. Die korrekte Reihenfolge ist: „dass Kriminalität sich manchmal nicht auszahlt.“\n\nDeshalb wurde „manchmal“ vor „nicht auszahlt“ verschoben, um die richtige Wortstellung im Nebensatz herzustellen."
+    },
+    {
+        "text_incorrect": "Ich habe gehört, dass ein Schluss dort war. ",
+        "text_correct": "Ich habe gehört, dass dort ein Schluss war. ",
+        "annotation": " A 5 8|||R:WO|||dort ein Schluss|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 5 8|||R:WO|||dort ein Schluss|||REQUIRED|||-NONE-|||0  \nbedeutet, dass die Wortstellung (WO) im Satz falsch war. Im Nebensatz (\"dass ... war\") steht das Subjekt (\"ein Schluss\") normalerweise nach dem konjugierten Verb (\"war\"). Das Adverbiale (\"dort\") steht typischerweise vor dem Subjekt. Die richtige Reihenfolge ist also: \"dass dort ein Schluss war\" und nicht \"dass ein Schluss dort war\".  \nDeshalb wurde die Wortstellung geändert."
+    },
+    {
+        "text_incorrect": "Man könnte zum Beispiel mit vielen Ideen des Feminismus einverstanden sein aber auch finden es nicht gut wenn Frauen illegale Dinge machen und ins Gefängnis gehen. ",
+        "text_correct": "Man könnte zum Beispiel mit vielen Ideen des Feminismus einverstanden sein aber es auch nicht gut finden wenn Frauen illegale Dinge machen und ins Gefängnis gehen. ",
+        "annotation": " A 12 17|||R:WO|||es auch nicht gut finden|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Hier ist die Erklärung zur Korrektur und zur Annotation:\n\n**Fehlerannotation:**  \nA 12 17|||R:WO|||es auch nicht gut finden|||REQUIRED|||-NONE-|||0\n\n**Erklärung:**  \nIm Originalsatz steht:  \n„…aber auch finden es nicht gut, wenn Frauen illegale Dinge machen…“\n\nDas ist grammatikalisch falsch, weil das Verb „finden“ und das Objekt „es“ in der deutschen Satzstruktur nicht korrekt angeordnet sind. Im Deutschen steht das Objekt („es“) normalerweise direkt nach dem Modalverb („könnte“) und vor dem Vollverb („finden“), wenn es sich um einen erweiterten Infinitiv mit „zu“ handelt. In diesem Fall ist die richtige Reihenfolge:  \n„…aber es auch nicht gut finden…“\n\n**Kurz gesagt:**  \nDas Objekt „es“ muss vor „auch nicht gut finden“ stehen, nicht danach.  \nDeshalb ist die Korrektur „es auch nicht gut finden“ nötig."
+    },
+    {
+        "text_incorrect": "Es wird aber gefragt, ob diese Leistung wirklich lohnt sich. ",
+        "text_correct": "Es wird aber gefragt, ob diese Leistung sich wirklich lohnt. ",
+        "annotation": " A 8 11|||R:WO|||sich wirklich lohnt|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 8 11|||R:WO|||sich wirklich lohnt|||REQUIRED|||-NONE-|||0  \nbedeutet, dass ein Wortstellungsfehler (R:WO = Reihenfolge: Wortstellung) vorliegt.\n\nIm Deutschen steht das Reflexivpronomen „sich“ bei zusammengesetzten Verben wie „sich lohnen“ normalerweise direkt vor dem Verb, also: „sich lohnt“.  \nIm fehlerhaften Satz steht „lohnt sich“ am Ende, was im Nebensatz mit „ob“ nicht korrekt ist. Die richtige Reihenfolge ist: „ob sich diese Leistung wirklich lohnt“.\n\nDeshalb wurde die Wortstellung geändert:  \nFalsch: ob diese Leistung wirklich lohnt sich  \nRichtig: ob diese Leistung sich wirklich lohnt\n\nDie Korrektur ist nötig, weil im Nebensatz das Reflexivpronomen „sich“ vor dem Verb stehen muss."
+    },
+    {
+        "text_incorrect": "Ich personlich einfach liebe Tiere, wir haben immer noch unseren Hund und meine Mutter möchte noch einen haben! ",
+        "text_correct": "Ich personlich liebe Tiere einfach, wir haben immer noch unseren Hund und meine Mutter möchte noch einen haben! ",
+        "annotation": " A 2 5|||R:WO|||liebe Tiere einfach|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Hier ist die Erklärung zur Korrektur und zur Annotation:\n\n**Fehlerannotation:**  \nA 2 5|||R:WO|||liebe Tiere einfach|||REQUIRED|||-NONE-|||0\n\n**Erklärung:**  \nIn deinem ursprünglichen Satz stand:  \n\"Ich personlich einfach liebe Tiere, ...\"\n\nHier ist die Wortstellung (\"einfach liebe Tiere\") nicht korrekt. Im Deutschen steht das Verb im Hauptsatz immer an zweiter Stelle. Das Adverb \"einfach\" sollte nach dem Verb stehen, wenn es sich auf das Verb bezieht. Die richtige Reihenfolge ist also:  \n\"Ich persönlich liebe Tiere einfach, ...\"\n\n**Zusammengefasst:**  \n- \"liebe\" (Verb) steht an zweiter Stelle.\n- \"einfach\" (Adverb) steht nach dem Verb.\n\n**Deshalb ist die Korrektur nötig:**  \nDie Wortstellung im Deutschen ist sehr wichtig, besonders im Hauptsatz. Das Verb muss an zweiter Stelle stehen, und Adverbien wie \"einfach\" kommen meistens nach dem Verb, wenn sie das Verb näher bestimmen."
+    },
+    {
+        "text_incorrect": "Ich möchte gern dich nach deiner Rückkehr mal besuchen. ",
+        "text_correct": "Ich möchte dich gern nach deiner Rückkehr mal besuchen. ",
+        "annotation": " A 2 4|||R:WO|||dich gern|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gern! Hier ist die Erklärung:\n\nDie Annotation  \nA 2 4|||R:WO|||dich gern|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Originaltext die Wortstellung (\"WO\" = Wortordnung) von \"gern\" und \"dich\" falsch war. Im Deutschen steht das Akkusativobjekt (\"dich\") normalerweise direkt nach dem konjugierten Verb (\"möchte\"), und das Modaladverb (\"gern\") folgt darauf. Deshalb ist \"Ich möchte dich gern ...\" korrekt, nicht \"Ich möchte gern dich ...\". Die Korrektur ist also nötig, um die richtige Wortstellung im deutschen Satz zu gewährleisten."
+    },
+    {
+        "text_incorrect": "Könntest du bitte mich anrufen? ",
+        "text_correct": "Könntest du mich bitte anrufen? ",
+        "annotation": " A 2 4|||R:WO|||mich bitte|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Hier ist die Erklärung:\n\nDie Annotation  \nA 2 4|||R:WO|||mich bitte|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Satz die Wortstellung (R:WO = Reihenfolge/Wortstellung) von \"mich\" und \"bitte\" falsch war. Im Deutschen steht das höfliche \"bitte\" normalerweise nach dem Objekt (\"mich\"). Deshalb ist \"Könntest du mich bitte anrufen?\" korrekt, nicht \"Könntest du bitte mich anrufen?\". Die Korrektur war also nötig, um die übliche Wortstellung im Deutschen einzuhalten."
+    },
+    {
+        "text_incorrect": "Er hat auch viele andere Punkte des früheren und heutigen Alltagslebens einer Frau berührt, als die oben erwähnten - eine komplette Darlegung all dieser Punkte war aber hier leider nicht möglich. ",
+        "text_correct": "Er hat auch viele andere Punkte des früheren und heutigen Alltagslebens einer Frau berührt, als die oben erwähnten - eine komplette Darlegung all dieser Punkte war hier aber leider nicht möglich. ",
+        "annotation": " A 27 29|||R:WO|||hier aber|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 27 29|||R:WO|||hier aber|||REQUIRED|||-NONE-|||0  \nbedeutet, dass an der Stelle im Satz die Wortstellung (R:WO = Reihenfolge/Wortstellung) korrigiert werden musste.\n\nIm Originalsatz stand:  \n„...war aber hier leider nicht möglich.“\n\nIm Deutschen steht das Verb in einem Hauptsatz normalerweise an zweiter Stelle. Nach einer Aufzählung oder einem Nebensatz kann die Reihenfolge der Satzglieder variieren, aber bestimmte Adverbien (wie „aber“ und „hier“) haben eine bevorzugte Stellung.\n\nRichtig ist:  \n„...war hier aber leider nicht möglich.“\n\nHier steht „hier“ direkt nach dem Verb „war“, dann folgt „aber“. Das klingt natürlicher und entspricht der üblichen deutschen Wortstellung. Die falsche Reihenfolge („war aber hier leider nicht möglich“) klingt unidiomatisch und ist grammatikalisch weniger korrekt.\n\nZusammengefasst:  \nDie Korrektur war nötig, weil im Deutschen die Reihenfolge der Satzglieder wichtig ist. „Hier aber“ ist die richtige Reihenfolge, nicht „aber hier“."
+    },
+    {
+        "text_incorrect": "Liebe Silke, ich würde gern dich mal besuchen. ",
+        "text_correct": "Liebe Silke, ich würde dich gern mal besuchen. ",
+        "annotation": " A 5 7|||R:WO|||dich gern|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gern! Die Annotation  \nA 5 7|||R:WO|||dich gern|||REQUIRED|||-NONE-|||0  \nbedeutet, dass die Wortstellung (R:WO = Reihenfolge/Wortstellung) von \"gern\" und \"dich\" falsch war.\n\nIm Deutschen steht das Verb \"würde\" an zweiter Stelle, dann folgt das Subjekt (\"ich\"), und danach kommt das Objekt (\"dich\") und dann das Modalwort (\"gern\"). Die richtige Reihenfolge ist also: \"ich würde dich gern mal besuchen.\"  \nIm fehlerhaften Satz (\"ich würde gern dich mal besuchen\") steht \"gern\" vor \"dich\", was unüblich und stilistisch nicht korrekt ist.  \nDeshalb wurde die Reihenfolge geändert."
+    },
+    {
+        "text_incorrect": "Also obwohl sie viel Geld verdienen, verlieren sie ihre Leben. ",
+        "text_correct": "Obwohl sie also viel Geld verdienen, verlieren sie ihre Leben. ",
+        "annotation": " A 0 3|||R:WO|||Obwohl sie also|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Hier ist die Erklärung:\n\nIm Originalsatz steht:  \nAlso obwohl sie viel Geld verdienen, verlieren sie ihre Leben.\n\nDie Annotation  \nA 0 3|||R:WO|||Obwohl sie also|||REQUIRED|||-NONE-|||0  \nbedeutet, dass die Wortstellung (WO) am Satzanfang geändert werden muss: „Also obwohl“ → „Obwohl sie also“.\n\n**Erklärung:**  \nIm Deutschen steht das Wort „also“ normalerweise nicht am Satzanfang, wenn es sich auf den gesamten Nebensatz bezieht. In Nebensätzen wie „obwohl sie viel Geld verdienen“ kann „also“ nach dem Subjekt („sie“) stehen, um die Bedeutung richtig zu vermitteln. Die korrekte Reihenfolge ist also:  \nObwohl sie also viel Geld verdienen, verlieren sie ihr Leben.\n\nZusätzlich:  \nEs sollte „ihr Leben“ (Singular) und nicht „ihre Leben“ (Plural) heißen, weil man im Deutschen normalerweise von „das Leben“ im Singular spricht, wenn es um das Leben einer Person geht.\n\n**Zusammenfassung:**  \nDie Korrektur ist nötig, weil im Deutschen die Wortstellung im Nebensatz anders ist und „also“ nicht am Satzanfang stehen sollte. Außerdem ist „ihr Leben“ die richtige Form."
+    },
+    {
+        "text_incorrect": "Melde dich bitte bei mir bald. ",
+        "text_correct": "Melde dich bitte bald bei mir. ",
+        "annotation": " A 3 6|||R:WO|||bald bei mir|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 3 6|||R:WO|||bald bei mir|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Originaltext die Wortstellung (R:WO = Reihenfolge: Wortstellung) falsch war. Im Deutschen steht das Adverb „bald“ normalerweise vor der Orts- oder Personenergänzung („bei mir“). Deshalb ist „Melde dich bitte bald bei mir“ korrekt, nicht „Melde dich bitte bei mir bald“. Die Korrektur war also nötig, um die richtige Wortstellung im Satz herzustellen."
+    },
+    {
+        "text_incorrect": "Englisch, Geschichte und Mathe zum Beispiel, sind Kurse wo man nur Information lernt und es wenig Praxis gibt. ",
+        "text_correct": "Englisch, Geschichte und Mathe zum Beispiel sind Kurse, wo man nur Information lernt und es wenig Praxis gibt. ",
+        "annotation": " A 7 10|||R:WO|||sind Kurse ,|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 7 10|||R:WO|||sind Kurse ,|||REQUIRED|||-NONE-|||0  \nbedeutet, dass die Wortstellung (WO) korrigiert wurde: Das Komma wurde an die richtige Stelle gesetzt.\n\n**Erklärung:**  \nIm Deutschen steht das Komma nicht zwischen Subjekt und Prädikat. Im Originalsatz steht das Komma nach „Mathe zum Beispiel“, also vor „sind Kurse“. Das ist falsch, weil „Englisch, Geschichte und Mathe zum Beispiel“ das Subjekt ist und „sind Kurse“ das Prädikat. Zwischen Subjekt und Prädikat darf kein Komma stehen.  \nRichtig ist, das Komma nach „Kurse“ zu setzen, weil danach ein Nebensatz mit „wo“ beginnt. Nebensätze werden im Deutschen mit einem Komma abgetrennt.\n\n**Zusammengefasst:**  \n- Falsch: …Mathe zum Beispiel, sind Kurse wo…\n- Richtig: …Mathe zum Beispiel sind Kurse, wo…\n\nDas Komma steht also vor dem Nebensatz, nicht zwischen Subjekt und Prädikat."
+    },
+    {
+        "text_incorrect": "Auf der anderen Seite kann Kriminalität manchmal sich auszahlen. ",
+        "text_correct": "Auf der anderen Seite kann Kriminalität sich manchmal auszahlen. ",
+        "annotation": " A 6 8|||R:WO|||sich manchmal|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 6 8|||R:WO|||sich manchmal|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Originaltext die Wortstellung (WO = Wortordnung) falsch war. Im Deutschen steht das Reflexivpronomen „sich“ normalerweise direkt nach dem Modalverb „kann“ und vor dem Verb „auszahlen“. Das Adverb „manchmal“ steht typischerweise zwischen dem Subjekt und dem Verb oder nach dem Modalverb, aber nicht zwischen „manchmal“ und „sich“. Die korrekte Reihenfolge ist also:  \n„kann sich manchmal auszahlen“  \nstatt  \n„kann manchmal sich auszahlen“.  \n\nDeshalb war die Korrektur nötig."
+    },
+    {
+        "text_incorrect": "Kannst du bitte mir helfen? ",
+        "text_correct": "Kannst du mir bitte helfen? ",
+        "annotation": " A 2 4|||R:WO|||mir bitte|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Hier ist die Erklärung:\n\nDie Annotation  \nA 2 4|||R:WO|||mir bitte|||REQUIRED|||-NONE-|||0  \nbedeutet, dass die Wortstellung (R:WO) im Satz falsch war. Im Deutschen steht das Pronomen (\"mir\") normalerweise direkt nach dem Verb (\"kannst du\"), und das Modalwort (\"bitte\") kommt danach.  \nFalsch: Kannst du bitte mir helfen?  \nRichtig: Kannst du mir bitte helfen?  \n\nDeshalb wurde die Reihenfolge von \"mir\" und \"bitte\" getauscht."
+    },
+    {
+        "text_incorrect": "Aber glücklicherweise habe ich jetzt mehr Zeit, ein bisschen mich zu unterhalten. ",
+        "text_correct": "Aber glücklicherweise habe ich jetzt mehr Zeit, mich ein bisschen zu unterhalten. ",
+        "annotation": " A 8 11|||R:WO|||mich ein bisschen|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 8 11|||R:WO|||mich ein bisschen|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Originaltext die Wortstellung (\"WO\" = Wortstellung) falsch war.\n\nIm Deutschen steht das Reflexivpronomen (\"mich\") normalerweise direkt nach dem konjugierten Verb, also:  \n\"mehr Zeit, mich ein bisschen zu unterhalten.\"\n\nIm fehlerhaften Satz stand es aber nach \"ein bisschen\":  \n\"mehr Zeit, ein bisschen mich zu unterhalten.\"  \nDas klingt unnatürlich und ist grammatikalisch nicht korrekt.\n\nDeshalb wurde die Wortstellung geändert:  \n\"mich ein bisschen\" statt \"ein bisschen mich\".  \nSo ist der Satz grammatikalisch richtig."
+    },
+    {
+        "text_incorrect": "Aber müssen die Immigranten unbedingt sich an einer fremden Kultur orientieren? ",
+        "text_correct": "Aber müssen die Immigranten sich unbedingt an einer fremden Kultur orientieren? ",
+        "annotation": " A 4 6|||R:WO|||sich unbedingt|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! In deinem Satz stand ursprünglich:  \nAber müssen die Immigranten unbedingt sich an einer fremden Kultur orientieren?\n\nDie Annotation  \nA 4 6|||R:WO|||sich unbedingt|||REQUIRED|||-NONE-|||0  \nbedeutet, dass die Wortstellung (WO = Wortordnung) von „unbedingt“ und „sich“ falsch war.\n\nIm Deutschen steht das Reflexivpronomen „sich“ normalerweise direkt nach dem konjugierten Verb, also:  \nmüssen sich ... orientieren\n\nDas Adverb „unbedingt“ steht typischerweise nach dem Reflexivpronomen:  \nmüssen sich unbedingt ... orientieren\n\nDeshalb ist die richtige Reihenfolge:  \nAber müssen die Immigranten sich unbedingt an einer fremden Kultur orientieren?\n\nDie Korrektur war also nötig, weil im Deutschen die Wortstellung von Reflexivpronomen und Adverbien bestimmten Regeln folgt."
+    },
+    {
+        "text_incorrect": "Sie ist gesund? ",
+        "text_correct": "Ist sie gesund? ",
+        "annotation": " A 0 2|||R:WO|||Ist sie|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! In deinem Beispiel wurde der Satz „Sie ist gesund?“ zu „Ist sie gesund?“ korrigiert. Die M2-Fehlerannotation lautet:\n\nA 0 2|||R:WO|||Ist sie|||REQUIRED|||-NONE-|||0\n\nErklärung:\n\n- R:WO steht für „Wortstellung“ (Word Order).\n- Im Deutschen wird bei Entscheidungsfragen (Ja/Nein-Fragen) das Verb an den Satzanfang gestellt. Das nennt man „Verbzweitstellung“ bzw. „Verb-Erststellung“ bei Fragen.\n- „Sie ist gesund?“ ist die Wortstellung eines Aussagesatzes, der nur durch die Intonation zur Frage wird. Das ist im gesprochenen Deutsch manchmal möglich, aber im Standarddeutsch (besonders schriftlich) ist die korrekte Form: „Ist sie gesund?“\n- Deshalb wurde die Wortstellung geändert: Das Verb „ist“ steht jetzt am Satzanfang.\n\nZusammengefasst: Die Korrektur ist nötig, weil im Deutschen bei Entscheidungsfragen das Verb am Satzanfang stehen muss."
+    },
+    {
+        "text_incorrect": "Meine Silvesternacht war sehr gut auch. ",
+        "text_correct": "Meine Silvesternacht war auch sehr gut. ",
+        "annotation": " A 3 6|||R:WO|||auch sehr gut|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 3 6|||R:WO|||auch sehr gut|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Text ein Wortstellungsfehler (R:WO = Reihenfolge: Wortstellung) vorliegt. Im Deutschen steht das Wort \"auch\" normalerweise vor dem Adjektiv, das es verstärkt. Deshalb heißt es richtig: \"auch sehr gut\" und nicht \"sehr gut auch\". Die Korrektur ist nötig, damit der Satz natürlich und grammatikalisch korrekt klingt."
+    },
+    {
+        "text_incorrect": "Es ist wahr, dass die meisten Universitätsabschlüsse sind nicht praxisorientiert. ",
+        "text_correct": "Es ist wahr, dass die meisten Universitätsabschlüsse nicht praxisorientiert sind. ",
+        "annotation": " A 8 11|||R:WO|||nicht praxisorientiert sind|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 8 11|||R:WO|||nicht praxisorientiert sind|||REQUIRED|||-NONE-|||0  \nbedeutet, dass ein Wortstellungsfehler (R:WO = Reihenfolge: Wortstellung) vorliegt. Im Deutschen steht das konjugierte Verb im Nebensatz (nach „dass“) am Ende. Im Originalsatz steht „sind“ aber zu früh:  \n„dass die meisten Universitätsabschlüsse sind nicht praxisorientiert.“  \nKorrekt ist:  \n„dass die meisten Universitätsabschlüsse nicht praxisorientiert sind.“  \nDeshalb wurde die Wortstellung geändert."
+    },
+    {
+        "text_incorrect": "Solche Probleme können, nach meiner Meinung, von sogenannten \"Fachidioten\" nicht gelöst werden. ",
+        "text_correct": "Solche Probleme können, meiner Meinung nach, von sogenannten \"Fachidioten\" nicht gelöst werden. ",
+        "annotation": " A 4 7|||R:WO|||meiner Meinung nach|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 4 7|||R:WO|||meiner Meinung nach|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Text ein Fehler in der Wortstellung (R:WO = Reihenfolge/Wortstellung) vorliegt.\n\nIm Originaltext steht:  \n„nach meiner Meinung“\n\nIm Deutschen ist die übliche und idiomatische Formulierung jedoch:  \n„meiner Meinung nach“\n\nDeshalb wurde die Reihenfolge der Wörter geändert. Die Korrektur ist nötig, weil „meiner Meinung nach“ eine feste Redewendung ist. Die Variante „nach meiner Meinung“ klingt unnatürlich und wird im Deutschen selten verwendet."
+    },
+    {
+        "text_incorrect": "Ich nehme nicht meinen Hund nach Indien mit. ",
+        "text_correct": "Ich nehme meinen Hund nicht nach Indien mit. ",
+        "annotation": " A 2 5|||R:WO|||meinen Hund nicht|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 2 5|||R:WO|||meinen Hund nicht|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Originaltext die Wortstellung (WO) falsch war.\n\nIm Deutschen steht das Objekt (\"meinen Hund\") normalerweise direkt nach dem Verb (\"nehme\"), und das Negationswort \"nicht\" kommt danach, wenn es sich auf das Verb oder den Satz bezieht.  \nDeshalb ist \"Ich nehme meinen Hund nicht nach Indien mit.\" korrekt, während \"Ich nehme nicht meinen Hund nach Indien mit.\" falsch ist, weil \"nicht\" hier an der falschen Stelle steht."
+    },
+    {
+        "text_incorrect": "Warum soll man das ihnen verbieten? ",
+        "text_correct": "Warum soll man ihnen das verbieten? ",
+        "annotation": " A 3 5|||R:WO|||ihnen das|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 3 5|||R:WO|||ihnen das|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Originaltext die Wortstellung (\"WO\" = Wortordnung) falsch war. Im Deutschen steht bei einem Satz mit zwei Objekten (Dativ und Akkusativ) normalerweise das Dativobjekt (\"ihnen\") vor dem Akkusativobjekt (\"das\"). Deshalb ist \"ihnen das\" korrekt, nicht \"das ihnen\". Die Korrektur ist also nötig, um die richtige deutsche Satzstruktur einzuhalten."
+    },
+    {
+        "text_incorrect": "diese sind nur einige Teile der Vorbereitung die, die Universität geben sollte. ",
+        "text_correct": "diese sind nur einige Teile der Vorbereitung, die die Universität geben sollte. ",
+        "annotation": " A 7 9|||R:WO|||, die|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 7 9|||R:WO|||, die|||REQUIRED|||-NONE-|||0  \nbedeutet:\n\n- A 7 9: Der Fehler befindet sich zwischen Wort 7 und 9 im Originaltext.\n- R:WO: Es handelt sich um einen Fehler in der Wortstellung (WO = Word Order).\n- , die: Die Korrektur ist, dass ein Komma vor \"die\" eingefügt werden muss.\n\n**Erklärung:**  \nIm Deutschen steht vor einem Relativsatz (hier eingeleitet durch \"die\") immer ein Komma. Im Originaltext fehlt dieses Komma:  \n\"Vorbereitung die, die Universität...\"  \nKorrekt ist:  \n\"Vorbereitung, die die Universität...\"\n\nDas Komma trennt den Relativsatz (\"die die Universität geben sollte\") vom Hauptsatz ab. Das ist eine wichtige Regel der deutschen Zeichensetzung."
+    },
+    {
+        "text_incorrect": "Man kann also sich fragen: ",
+        "text_correct": "Man kann sich also fragen: ",
+        "annotation": " A 2 4|||R:WO|||sich also|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 2 4|||R:WO|||sich also|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Originaltext die Wortstellung (R:WO = Reihenfolge: Wortstellung) falsch war. Im Deutschen steht das Reflexivpronomen „sich“ normalerweise direkt nach dem konjugierten Verb, also: „Man kann sich also fragen“. Im fehlerhaften Satz „Man kann also sich fragen“ steht „also“ zwischen Verb und Reflexivpronomen, was ungrammatisch ist. Die Korrektur verschiebt „sich“ direkt hinter „kann“ und vor „also“, was der korrekten deutschen Wortstellung entspricht."
+    },
+    {
+        "text_incorrect": "Wir möchten ein paar Tage bleiben bei uns. ",
+        "text_correct": "Wir möchten ein paar Tage bei uns bleiben. ",
+        "annotation": " A 5 8|||R:WO|||bei uns bleiben|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 5 8|||R:WO|||bei uns bleiben|||REQUIRED|||-NONE-|||0  \nbedeutet, dass die Wortstellung (WO) im Satz falsch war. Im Deutschen steht das Verb in einem Infinitivsatz (wie „möchten ... bleiben“) am Ende. Das heißt, die richtige Reihenfolge ist: „ein paar Tage bei uns bleiben“ und nicht „ein paar Tage bleiben bei uns“. Die Korrektur ist also nötig, weil im Deutschen die Satzstellung eine wichtige Rolle spielt und das Verb am Ende stehen muss."
+    },
+    {
+        "text_incorrect": "Ich bin verheiratet und habe Ich drei Kinder. ",
+        "text_correct": "Ich bin verheiratet und ich habe drei Kinder. ",
+        "annotation": " A 4 6|||R:WO|||ich habe|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Fehlerannotation  \nA 4 6|||R:WO|||ich habe|||REQUIRED|||-NONE-|||0  \nbedeutet Folgendes:\n\n- A 4 6: Der Fehler befindet sich an den Wörtern 4 bis 6 im Originaltext („habe Ich“).\n- R:WO: Es handelt sich um einen Wortstellungsfehler (WO = Wortstellung).\n- ich habe: So sollte es korrekt lauten.\n\nErklärung:  \nIm Deutschen steht das konjugierte Verb normalerweise an zweiter Stelle im Hauptsatz. Im Originaltext steht „habe Ich“ (Verb vor Subjekt), was im Deutschen falsch ist. Richtig ist: „ich habe“ (Subjekt vor Verb), weil nach der Konjunktion „und“ wieder die normale Wortstellung gilt.  \nDeshalb muss es heißen: „Ich bin verheiratet und ich habe drei Kinder.“"
+    },
+    {
+        "text_incorrect": "Am Samstag hast du Zeit? ",
+        "text_correct": "Hast du am Samstag Zeit? ",
+        "annotation": " A 0 4|||R:WO|||Hast du am Samstag|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 0 4|||R:WO|||Hast du am Samstag|||REQUIRED|||-NONE-|||0  \nbedeutet, dass ein Wortstellungsfehler (R:WO = Reihenfolge: Wortstellung) vorliegt.\n\nIm Deutschen ist die Standardwortstellung für Ja/Nein-Fragen: Verb – Subjekt – Zeitangabe.  \nIm fehlerhaften Satz „Am Samstag hast du Zeit?“ steht die Zeitangabe („Am Samstag“) am Satzanfang, das Verb („hast“) folgt erst danach.  \nKorrekt ist: „Hast du am Samstag Zeit?“  \nHier steht das Verb („Hast“) am Satzanfang, gefolgt vom Subjekt („du“) und dann der Zeitangabe („am Samstag“).\n\nDeshalb ist die Korrektur nötig: In Entscheidungsfragen steht das konjugierte Verb immer an erster Stelle."
+    },
+    {
+        "text_incorrect": "Ich hoffe, dass ich nächste Woche es kennenlernen kann. ",
+        "text_correct": "Ich hoffe, dass ich es nächste Woche kennenlernen kann. ",
+        "annotation": " A 5 8|||R:WO|||es nächste Woche|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 5 8|||R:WO|||es nächste Woche|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Originaltext die Wortstellung (\"WO\" = Wortordnung) falsch war. Im Deutschen steht das Akkusativobjekt (\"es\") normalerweise direkt nach dem konjugierten Verb (\"ich hoffe, dass ich es...\") und vor den anderen Satzgliedern wie Zeitangaben (\"nächste Woche\"). Die richtige Reihenfolge ist also: \"ich es nächste Woche kennenlernen kann\".  \nDeshalb wurde \"nächste Woche es\" zu \"es nächste Woche\" korrigiert."
+    },
+    {
+        "text_incorrect": "Leider sind sie (Werkzeuge) nicht genug vielmals. ",
+        "text_correct": "Leider sind sie (Werkzeuge) vielmals nicht genug. ",
+        "annotation": " A 6 9|||R:WO|||vielmals nicht genug|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Hier ist die Erklärung:\n\nIm Originalsatz:  \nLeider sind sie (Werkzeuge) nicht genug vielmals.\n\nFehlerannotation:  \nA 6 9|||R:WO|||vielmals nicht genug|||REQUIRED|||-NONE-|||0\n\nErklärung:  \nDie Annotation R:WO steht für \"Wortstellung\" (Wortreihenfolge). Im Deutschen ist die Reihenfolge von Adverbien und anderen Satzteilen wichtig. \"Nicht genug vielmals\" ist keine korrekte oder übliche Reihenfolge. Das Adverb \"vielmals\" (was allerdings im Deutschen selten in diesem Zusammenhang verwendet wird) sollte vor \"nicht genug\" stehen, wenn man ausdrücken möchte, dass etwas \"oft nicht genug\" vorhanden ist.  \nKorrekt wäre also: \"vielmals nicht genug\".\n\nZusätzlich:  \nIm Deutschen würde man eher sagen: \"Leider sind sie (Werkzeuge) oft nicht genug vorhanden.\" Das Wort \"vielmals\" wird normalerweise für \"vielen Dank\" oder \"viele Male\" verwendet, aber nicht in diesem Zusammenhang. Das Adverb \"oft\" passt hier besser.\n\nZusammengefasst:  \nDie Korrektur ist nötig, weil die Wortstellung im Deutschen anders ist. Die richtige Reihenfolge ist \"vielmals nicht genug\" (besser: \"oft nicht genug\")."
+    },
+    {
+        "text_incorrect": "In einer Wohngemeinschaft sollst du um 10 Uhr einschafen, aber kannst du viele lustige Sachen machen. ",
+        "text_correct": "In einer Wohngemeinschaft sollst du um 10 Uhr einschafen, aber du kannst viele lustige Sachen machen. ",
+        "annotation": " A 11 13|||R:WO|||du kannst|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Hier ist die Erklärung:\n\nFehlerannotation:  \nA 11 13|||R:WO|||du kannst|||REQUIRED|||-NONE-|||0\n\nErklärung:  \nIm Originalsatz steht: „aber kannst du viele lustige Sachen machen.“  \nIm Deutschen muss nach „aber“ das Subjekt („du“) direkt folgen: „aber du kannst ...“.  \nDie Wortstellung war also falsch (R:WO = Reihenfolge/Wortstellung).  \nDeshalb ist die Korrektur nötig: Das Subjekt „du“ muss vor das Verb „kannst“ gesetzt werden."
+    },
+    {
+        "text_incorrect": "Ich habe schon dich lange nicht gesehen. ",
+        "text_correct": "Ich habe dich schon lange nicht gesehen. ",
+        "annotation": " A 2 4|||R:WO|||dich schon|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 2 4|||R:WO|||dich schon|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Originaltext die Wortstellung (\"WO\" = Wortordnung) falsch war. Im Deutschen steht das Objektpronomen (\"dich\") normalerweise direkt nach dem konjugierten Verb (\"habe\"), und das Adverb (\"schon\") folgt danach. Die richtige Reihenfolge ist also: \"Ich habe dich schon lange nicht gesehen.\"  \nIm fehlerhaften Satz (\"Ich habe schon dich lange nicht gesehen\") wurde \"schon\" vor \"dich\" gestellt, was ungrammatisch klingt.  \nDeshalb ist die Korrektur nötig, um die korrekte deutsche Wortstellung einzuhalten."
+    },
+    {
+        "text_incorrect": "Wenn dir passt Ostern? ",
+        "text_correct": "Wenn dir Ostern passt? ",
+        "annotation": " A 2 4|||R:WO|||Ostern passt|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation\n\nA 2 4|||R:WO|||Ostern passt|||REQUIRED|||-NONE-|||0\n\nbedeutet, dass im Originaltext die Wortstellung (R:WO = Reihenfolge: Wortstellung) falsch ist. Im Deutschen steht das Verb in Hauptsätzen normalerweise an zweiter Stelle. Im Satz \"Wenn dir passt Ostern?\" steht das Verb \"passt\" aber an der falschen Stelle. Die korrekte Reihenfolge ist: \"Wenn dir Ostern passt?\" – also Subjekt (\"dir\"), dann das Subjekt/Objekt (\"Ostern\"), dann das Verb (\"passt\"). \n\nDeshalb ist die Korrektur nötig: Die Wortstellung muss angepasst werden, damit der Satz grammatikalisch korrekt ist."
+    },
+    {
+        "text_incorrect": "Wenn man Sprache dort studiert hat, wird man oft Lehrer oder Lehrerin eines Gymnasiums. ",
+        "text_correct": "Wenn man dort Sprache studiert hat, wird man oft Lehrer oder Lehrerin eines Gymnasiums. ",
+        "annotation": " A 2 4|||R:WO|||dort Sprache|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation\n\nA 2 4|||R:WO|||dort Sprache|||REQUIRED|||-NONE-|||0\n\nbedeutet, dass im Originaltext die Wortstellung (WO) falsch war. Im Satz „Wenn man Sprache dort studiert hat, ...“ steht „dort“ an der falschen Stelle. Im Deutschen steht das Lokaladverb („dort“) normalerweise vor dem Verb, wenn es sich auf den Ort des Studiums bezieht. Die richtige Reihenfolge ist also: „Wenn man dort Sprache studiert hat, ...“. \n\nDeshalb wurde „dort“ vor „Sprache“ verschoben, um die korrekte Wortstellung herzustellen."
+    },
+    {
+        "text_incorrect": "Dann es kann auch sein, dass es keine gute Antwort gibt. ",
+        "text_correct": "Dann kann es auch sein, dass es keine gute Antwort gibt. ",
+        "annotation": " A 1 3|||R:WO|||kann es|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 1 3|||R:WO|||kann es|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Originaltext die Wortstellung (WO) falsch war. Im Deutschen steht das konjugierte Verb in einem Hauptsatz immer an zweiter Stelle. Im fehlerhaften Satz „Dann es kann auch sein, ...“ steht „es“ an zweiter Stelle und das Verb „kann“ an dritter Stelle – das ist nicht korrekt.  \nRichtig ist: „Dann kann es auch sein, ...“, weil nach dem Satzanfang „Dann“ das Verb „kann“ stehen muss.  \nDeshalb wurde die Wortstellung geändert."
+    },
+    {
+        "text_incorrect": "Natürlich du kannst uns besuchen. ",
+        "text_correct": "Natürlich kannst du uns besuchen. ",
+        "annotation": " A 1 3|||R:WO|||kannst du|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation\n\nA 1 3|||R:WO|||kannst du|||REQUIRED|||-NONE-|||0\n\nbedeutet, dass im Originaltext die Wortstellung falsch ist. Im Deutschen steht das konjugierte Verb in Hauptsätzen normalerweise an zweiter Stelle. Im Satz \"Natürlich du kannst uns besuchen.\" steht \"du\" an zweiter Stelle, das Verb \"kannst\" aber an dritter Stelle – das ist nicht korrekt. Die richtige Wortstellung ist: \"Natürlich kannst du uns besuchen.\" Das Subjekt (\"du\") steht nach dem Verb."
+    },
+    {
+        "text_incorrect": "Im Laufe der Zeit aber viele Dinge haben sich geändert. ",
+        "text_correct": "Im Laufe der Zeit aber haben sich viele Dinge geändert. ",
+        "annotation": " A 5 9|||R:WO|||haben sich viele Dinge|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 5 9|||R:WO|||haben sich viele Dinge|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Bereich der Wörter 5 bis 9 ein Wortstellungsfehler (R:WO = Reihenfolge: Wortstellung) vorliegt.\n\nIm Deutschen steht das konjugierte Verb in einem Hauptsatz normalerweise an zweiter Stelle (Verbzweitstellung). Im Originalsatz:  \nIm Laufe der Zeit aber viele Dinge haben sich geändert.  \nsteht das Verb \"haben\" zu weit hinten. Richtig ist:  \nIm Laufe der Zeit aber haben sich viele Dinge geändert.  \nHier steht das Verb \"haben\" direkt nach dem Satzanfang (\"Im Laufe der Zeit aber\"), also an zweiter Stelle, wie es die deutsche Grammatik verlangt."
+    },
+    {
+        "text_incorrect": "Mir geht es gut aber, ich habe ein Problem. ",
+        "text_correct": "Mir geht es gut, aber ich habe ein Problem. ",
+        "annotation": " A 4 6|||R:WO|||, aber|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 4 6|||R:WO|||, aber|||REQUIRED|||-NONE-|||0  \nbedeutet:\n\n- A 4 6: Der Fehler befindet sich an den Wortpositionen 4 bis 6 (also zwischen \"gut\" und \"aber\").\n- R:WO: Es handelt sich um einen Fehler in der Wortstellung oder Zeichensetzung (WO = Word Order/Word Order/Zeichensetzung).\n- , aber: Die Korrektur ist, ein Komma vor \"aber\" zu setzen.\n\nErklärung:  \nIm Deutschen steht vor den meisten Konjunktionen, die einen Hauptsatz einleiten (wie \"aber\", \"denn\", \"sondern\"), ein Komma. In deinem Satz fehlt das Komma vor \"aber\".  \nRichtig ist: Mir geht es gut, aber ich habe ein Problem.  \nDas Komma trennt die beiden Hauptsätze voneinander."
+    },
+    {
+        "text_incorrect": "Je die Arbeitslosigkeit größer wird, desto höher wird die Zahl der Kriminalität. ",
+        "text_correct": "Je größer die Arbeitslosigkeit wird, desto höher wird die Zahl der Kriminalität. ",
+        "annotation": " A 1 4|||R:WO|||größer die Arbeitslosigkeit|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 1 4|||R:WO|||größer die Arbeitslosigkeit|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Originalsatz die Wortstellung (R:WO = Reihenfolge/Wortstellung) falsch war.\n\nIm Deutschen benutzt man bei Vergleichen mit \"je ... desto ...\" die Struktur:  \n\"Je + Komparativ + Subjekt + Verb, desto + Komparativ + ...\"\n\nIm fehlerhaften Satz stand:  \n\"Je die Arbeitslosigkeit größer wird, ...\"  \nHier ist die Reihenfolge falsch. Richtig ist:  \n\"Je größer die Arbeitslosigkeit wird, ...\"\n\nDas Adjektiv im Komparativ (\"größer\") muss direkt nach \"je\" stehen, gefolgt vom Subjekt (\"die Arbeitslosigkeit\") und dem Verb (\"wird\").  \nDeshalb war die Korrektur nötig."
+    },
+    {
+        "text_incorrect": "Viele Studenten wohnen zum ersten Mal nicht bei den Eltern, also sie werden unabhängig. ",
+        "text_correct": "Viele Studenten wohnen zum ersten Mal nicht bei den Eltern, also werden sie unabhängig. ",
+        "annotation": " A 12 14|||R:WO|||werden sie|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 12 14|||R:WO|||werden sie|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Originaltext die Wortstellung (WO) falsch war. Im Deutschen steht das konjugierte Verb in einem Hauptsatz nach bestimmten Konjunktionen (wie „also“) an zweiter Stelle. Im Originaltext stand „sie werden“ direkt nach „also“, was im Deutschen nicht korrekt ist. Richtig ist: „also werden sie unabhängig“.  \nDeshalb wurde die Wortstellung geändert."
+    },
+    {
+        "text_incorrect": "Ich halte das für gerecht, weil jede Sprache ist wichtig. ",
+        "text_correct": "Ich halte das für gerecht, weil jede Sprache wichtig ist. ",
+        "annotation": " A 9 11|||R:WO|||wichtig ist|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 9 11|||R:WO|||wichtig ist|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Originaltext ein Wortstellungsfehler (R:WO = Reihenfolge: Wortstellung) vorliegt. Im Deutschen steht das konjugierte Verb im Nebensatz am Ende. Im Satz „weil jede Sprache ist wichtig“ steht das Verb „ist“ aber an zweiter Stelle, was im Deutschen falsch ist. Richtig ist: „weil jede Sprache wichtig ist.“  \nDeshalb wurde die Wortstellung korrigiert."
+    },
+    {
+        "text_incorrect": "Ich habe schon lange von dir nichts gehört. ",
+        "text_correct": "Ich habe schon lange nichts von dir gehört. ",
+        "annotation": " A 4 7|||R:WO|||nichts von dir|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 4 7|||R:WO|||nichts von dir|||REQUIRED|||-NONE-|||0  \nbedeutet, dass die Wortstellung (WO) im Satz falsch war. Im Deutschen steht bei dieser Konstruktion „nichts von dir“ direkt nach „schon lange“. Die richtige Reihenfolge ist also: „Ich habe schon lange nichts von dir gehört.“  \nIm fehlerhaften Satz („Ich habe schon lange von dir nichts gehört.“) ist die Reihenfolge untypisch und klingt unnatürlich.  \nDeshalb wurde die Wortstellung korrigiert."
+    },
+    {
+        "text_incorrect": "ist es überall und scheint sich auszuzahlen. ",
+        "text_correct": "es ist überall und scheint sich auszuzahlen. ",
+        "annotation": " A 0 2|||R:WO|||es ist|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 0 2|||R:WO|||es ist|||REQUIRED|||-NONE-|||0  \nbedeutet, dass am Anfang des Satzes (\"0 2\" bezieht sich auf die ersten beiden Token) ein Wortstellungsfehler (WO = Wortstellung) vorliegt. Im Originaltext fehlt das Subjekt \"es\" am Satzanfang. Im Deutschen braucht ein vollständiger Satz in der Regel ein Subjekt und ein finites Verb. Die korrekte Wortstellung ist: \"Es ist überall ...\". Das \"es\" wurde also ergänzt, um den Satz grammatikalisch korrekt zu machen."
+    },
+    {
+        "text_incorrect": "Deshalb lernt man schneller und ist man auch motivierter, weil man seinen Fortschritt sehen kann. ",
+        "text_correct": "Deshalb lernt man schneller und man ist auch motivierter, weil man seinen Fortschritt sehen kann. ",
+        "annotation": " A 5 7|||R:WO|||man ist|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation A 5 7|||R:WO|||man ist|||REQUIRED|||-NONE-|||0 bedeutet, dass im Originaltext ein Wortstellungsfehler (WO = Wortstellung) vorliegt. Im Deutschen kann man nicht einfach zwei Verben („lernt“ und „ist“) mit „und“ verbinden und dann das Subjekt („man“) nur einmal nennen. Nach „und“ muss das Subjekt wiederholt werden, weil sonst die Satzstruktur nicht korrekt ist.\n\nFalsch: ...lernt man schneller und ist man auch motivierter...\nRichtig: ...lernt man schneller und man ist auch motivierter...\n\nDie Korrektur ist also nötig, weil im Deutschen bei zusammengesetzten Sätzen mit unterschiedlichen Verben das Subjekt wiederholt werden muss, um die richtige Wortstellung zu haben."
+    },
+    {
+        "text_incorrect": "Sehr geehrte Damen und Herren, ich suche eine Wohnung Große. ",
+        "text_correct": "Sehr geehrte Damen und Herren, ich suche eine große Wohnung. ",
+        "annotation": " A 9 11|||R:WO|||große Wohnung|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 9 11|||R:WO|||große Wohnung|||REQUIRED|||-NONE-|||0  \nbedeutet, dass im Originaltext an den Positionen 9 bis 11 („Wohnung Große“) ein Wortstellungsfehler (R:WO) vorliegt. Im Deutschen steht das Adjektiv („große“) vor dem Nomen („Wohnung“). Im Originaltext wurde die Reihenfolge vertauscht („Wohnung Große“ statt „große Wohnung“). Die Korrektur ist nötig, weil im Deutschen die richtige Wortstellung für Adjektiv + Nomen eingehalten werden muss."
+    },
+    {
+        "text_incorrect": "Mein Name ist Müller, ich bin verheiratet und habe ich selber drei Kinder. ",
+        "text_correct": "Mein Name ist Müller, ich bin verheiratet und ich habe selber drei Kinder. ",
+        "annotation": " A 9 11|||R:WO|||ich habe|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 9 11|||R:WO|||ich habe|||REQUIRED|||-NONE-|||0  \nbedeutet, dass an den Wörtern 9 bis 11 („habe ich“) ein Wortstellungsfehler (R:WO = Reihenfolge: Wortstellung) vorliegt. Im Deutschen steht das Verb normalerweise an zweiter Stelle im Hauptsatz. In deinem Satz steht aber „habe ich selber drei Kinder“, was wie eine Frage klingt („habe ich selber drei Kinder?“). Richtig ist: „ich habe selber drei Kinder“. Deshalb wurde die Reihenfolge korrigiert."
+    },
+    {
+        "text_incorrect": "Muss ich allein essen oder wir essen gemeinsam? ",
+        "text_correct": "Muss ich allein essen oder essen wir gemeinsam? ",
+        "annotation": " A 5 7|||R:WO|||essen wir|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 5 7|||R:WO|||essen wir|||REQUIRED|||-NONE-|||0  \nbedeutet, dass an der Stelle 5 bis 7 im Satz ein Wortstellungsfehler (R:WO = Reihenfolge: Wortstellung) vorliegt. Im Originalsatz steht:  \nMuss ich allein essen oder wir essen gemeinsam?\n\nHier ist der zweite Teil (\"wir essen gemeinsam\") kein vollständiger Nebensatz, sondern eine Fortsetzung der Frage. Im Deutschen muss bei einer Entscheidungsfrage das Verb an erster Stelle stehen. Deshalb ist die richtige Wortstellung:  \n... oder essen wir gemeinsam?\n\nDie Korrektur ist nötig, weil im Deutschen bei Entscheidungsfragen das Verb vor dem Subjekt stehen muss (Verb-Subjekt-Reihenfolge)."
+    },
+    {
+        "text_incorrect": "Deshalb ich muss eine Wohnung suchen. ",
+        "text_correct": "Deshalb muss ich eine Wohnung suchen. ",
+        "annotation": " A 1 3|||R:WO|||muss ich|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 1 3|||R:WO|||muss ich|||REQUIRED|||-NONE-|||0  \nbedeutet, dass die Wortstellung (WO) im Satz falsch war. Im Deutschen steht nach Konjunktionen wie „deshalb“ das Verb an zweiter Stelle, also vor dem Subjekt. Deshalb heißt es richtig: „Deshalb muss ich eine Wohnung suchen.“  \nIm fehlerhaften Satz „Deshalb ich muss eine Wohnung suchen.“ steht das Subjekt „ich“ direkt nach „deshalb“, was im Deutschen nicht korrekt ist. Das Verb „muss“ muss an die zweite Position rücken."
+    },
+    {
+        "text_incorrect": "Sie nur spielen mit dem Geld und mit Finanzen. ",
+        "text_correct": "Sie spielen nur mit dem Geld und mit Finanzen. ",
+        "annotation": " A 1 3|||R:WO|||spielen nur|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation A 1 3|||R:WO|||spielen nur|||REQUIRED|||-NONE-|||0 bedeutet, dass im Originalsatz die Wortstellung (WO) falsch war. Im Deutschen steht das Verb im Hauptsatz normalerweise an zweiter Stelle. Im fehlerhaften Satz „Sie nur spielen mit dem Geld...“ steht „nur“ vor dem Verb, was nicht korrekt ist. Richtig ist: „Sie spielen nur mit dem Geld...“, also Subjekt („Sie“), dann Verb („spielen“), dann das Adverb („nur“). Die Korrektur ist also nötig, um die richtige Wortstellung im deutschen Hauptsatz herzustellen."
+    },
+    {
+        "text_incorrect": "Ich habe so viel gearbeitet, müsste ich auch früh aufstehen. ",
+        "text_correct": "Ich habe so viel gearbeitet, ich müsste auch früh aufstehen. ",
+        "annotation": " A 6 8|||R:WO|||ich müsste|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Hier ist die Erklärung:\n\nIm Originalsatz:  \nIch habe so viel gearbeitet, müsste ich auch früh aufstehen.\n\nFehlerannotation:  \nA 6 8|||R:WO|||ich müsste|||REQUIRED|||-NONE-|||0\n\nErklärung:  \nIm Deutschen kann man zwei Hauptsätze mit „und“ oder durch ein Komma verbinden, wenn sie gleichrangig sind. Im Originalsatz fehlt aber das Subjekt „ich“ im zweiten Satzteil, und die Wortstellung ist wie in einem Fragesatz („müsste ich“ statt „ich müsste“). Das ist im Deutschen nicht korrekt, wenn es sich um eine Aussage handelt.  \nDie Annotation zeigt, dass an Position 6 bis 8 („müsste ich“) die Wortstellung geändert werden muss zu „ich müsste“.  \nKorrekt ist also:  \nIch habe so viel gearbeitet, ich müsste auch früh aufstehen.\n\nZusammengefasst:  \nDie Korrektur ist nötig, weil im zweiten Satzteil die Wortstellung wie in einer Frage ist. In einem Aussagesatz muss das Subjekt („ich“) vor dem Verb („müsste“) stehen."
+    },
+    {
+        "text_incorrect": "Persönlich finde ich es oft sehr peinlich, eine Frau zu sein nur, weil wir meiner Meinung nach zu gut zurechtkommen. ",
+        "text_correct": "Persönlich finde ich es oft sehr peinlich, eine Frau zu sein, nur weil wir meiner Meinung nach zu gut zurechtkommen. ",
+        "annotation": " A 12 14|||R:WO|||, nur|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Die Annotation  \nA 12 14|||R:WO|||, nur|||REQUIRED|||-NONE-|||0  \nbedeutet, dass an der Stelle nach „zu sein“ ein Komma eingefügt werden muss, also vor „nur“. Das Kürzel „R:WO“ steht für „Wortstellung/Word Order“, aber in diesem Fall geht es um die Zeichensetzung.\n\n**Erklärung:**  \nIm Deutschen steht ein Komma vor „nur weil“, wenn ein Nebensatz folgt. In deinem Satz ist „nur weil wir meiner Meinung nach zu gut zurechtkommen“ ein Nebensatz, der mit „weil“ eingeleitet wird. Deshalb muss vor „nur weil“ ein Komma stehen.\n\n**Falsch:**  \n… eine Frau zu sein nur, weil wir …\n\n**Richtig:**  \n… eine Frau zu sein, nur weil wir …\n\nDas Komma trennt den Hauptsatz („eine Frau zu sein“) vom Nebensatz („nur weil wir …“)."
+    }
+]

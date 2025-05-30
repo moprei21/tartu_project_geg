@@ -1,0 +1,302 @@
+[
+    {
+        "text_incorrect": "Wir können deshalb nicht leugnen, dass manchmal Kriminalität sich nicht auszahlt. ",
+        "text_correct": "Wir können deshalb nicht leugnen, dass Kriminalität sich manchmal nicht auszahlt. ",
+        "annotation": " A 7 10|||R:WO|||Kriminalität sich manchmal|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz steht „dass manchmal Kriminalität sich nicht auszahlt“. Das Wort „manchmal“ steht hier zwischen „dass“ und „Kriminalität“. Im Deutschen steht das Subjekt („Kriminalität“) normalerweise direkt nach „dass“. Das Adverb („manchmal“) steht am besten nach dem Subjekt. Deshalb ist die richtige Wortstellung: „dass Kriminalität sich manchmal nicht auszahlt“. \n\nDie Korrektur ist nötig, weil die Wortstellung im Nebensatz im Deutschen festgelegt ist: Subjekt – (Reflexivpronomen) – Adverb – Prädikat."
+    },
+    {
+        "text_incorrect": "Ich habe gehört, dass ein Schluss dort war. ",
+        "text_correct": "Ich habe gehört, dass dort ein Schluss war. ",
+        "annotation": " A 5 8|||R:WO|||dort ein Schluss|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im deutschen Nebensatz („dass ...“) steht das Subjekt („ein Schluss“) normalerweise nach dem Satzanfang, aber vor dem finiten Verb („war“). Die übliche Wortstellung ist: Konjunktion – andere Satzteile – Subjekt – Verb.\n\nIm ursprünglichen Satz:  \n„Ich habe gehört, dass ein Schluss dort war.“  \nsteht „dort“ nach dem Subjekt. Das ist zwar grammatisch möglich, klingt aber ungewöhnlich und weniger natürlich.\n\nDie Korrektur:  \n„Ich habe gehört, dass dort ein Schluss war.“  \nstellt das Adverb „dort“ an den Anfang des Nebensatzes. Das betont den Ort und klingt idiomatischer.\n\nZusammengefasst:  \nDie Korrektur ist nötig, weil die Wortstellung mit „dass dort ein Schluss war“ natürlicher und üblicher im Deutschen ist, besonders wenn der Ort betont werden soll."
+    },
+    {
+        "text_incorrect": "Man könnte zum Beispiel mit vielen Ideen des Feminismus einverstanden sein aber auch finden es nicht gut wenn Frauen illegale Dinge machen und ins Gefängnis gehen. ",
+        "text_correct": "Man könnte zum Beispiel mit vielen Ideen des Feminismus einverstanden sein aber es auch nicht gut finden wenn Frauen illegale Dinge machen und ins Gefängnis gehen. ",
+        "annotation": " A 12 17|||R:WO|||es auch nicht gut finden|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gern! Der Fehler im Originalsatz liegt im Satzbau nach „aber auch finden“. Im Deutschen muss das Verb „finden“ direkt nach „aber“ stehen, und das „es“ (als Objekt) muss vor dem Verb stehen: „aber es auch nicht gut finden“. \n\nIm Originalsatz steht:  \n„…aber auch finden es nicht gut…“  \nDas ist falsch, weil im Deutschen die Wortstellung Subjekt – Objekt – Verb ist, besonders nach Konjunktionen wie „aber“. Das Objekt „es“ darf nicht nach dem Verb stehen.\n\nDie richtige Reihenfolge ist:  \n„…aber es auch nicht gut finden…“\n\nZusammengefasst:  \nIm Deutschen steht das Objekt („es“) vor dem Verb („finden“), nicht danach."
+    },
+    {
+        "text_incorrect": "Es wird aber gefragt, ob diese Leistung wirklich lohnt sich. ",
+        "text_correct": "Es wird aber gefragt, ob diese Leistung sich wirklich lohnt. ",
+        "annotation": " A 8 11|||R:WO|||sich wirklich lohnt|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz:  \n„Es wird aber gefragt, ob diese Leistung wirklich lohnt sich.“\n\nFehler: Die Wortstellung des Reflexivpronomens „sich“ ist falsch.\n\nErklärung:  \nIm Nebensatz (eingeleitet durch „ob“) steht das konjugierte Verb am Ende. Reflexivpronomen wie „sich“ stehen im Nebensatz direkt vor dem Verb.  \nRichtig ist also: „… ob diese Leistung sich wirklich lohnt.“\n\nZusätzlich:  \nDas Verb „lohnen“ wird im Deutschen reflexiv gebraucht: „sich lohnen“.  \nDie richtige Reihenfolge im Nebensatz ist: Subjekt – Reflexivpronomen – Adverb – Verb.  \nDeshalb: „… ob diese Leistung sich wirklich lohnt.“"
+    },
+    {
+        "text_incorrect": "Ich personlich einfach liebe Tiere, wir haben immer noch unseren Hund und meine Mutter möchte noch einen haben! ",
+        "text_correct": "Ich personlich liebe Tiere einfach, wir haben immer noch unseren Hund und meine Mutter möchte noch einen haben! ",
+        "annotation": " A 2 5|||R:WO|||liebe Tiere einfach|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Der Fehler lag in der Wortstellung:  \nIm Deutschen steht das Adverb „einfach“ normalerweise nach dem Verb, nicht davor.  \nRichtig ist also: „Ich persönlich liebe Tiere einfach.“  \nFalsch wäre: „Ich persönlich einfach liebe Tiere.“  \nDie Korrektur war nötig, um die richtige Satzstellung im Deutschen zu verwenden."
+    },
+    {
+        "text_incorrect": "Ich möchte gern dich nach deiner Rückkehr mal besuchen. ",
+        "text_correct": "Ich möchte dich gern nach deiner Rückkehr mal besuchen. ",
+        "annotation": " A 2 4|||R:WO|||dich gern|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Deutschen steht das Pronomen („dich“) normalerweise direkt nach dem konjugierten Verb („möchte“). Die Stellung „gern dich“ ist ungrammatisch. Richtig ist: „Ich möchte dich gern …“. Das Adverb „gern“ steht meist nach dem Objekt („dich“)."
+    },
+    {
+        "text_incorrect": "Könntest du bitte mich anrufen? ",
+        "text_correct": "Könntest du mich bitte anrufen? ",
+        "annotation": " A 2 4|||R:WO|||mich bitte|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Deutschen steht das Verb (anrufen) normalerweise direkt nach dem Subjekt (du) und das Objekt (mich) folgt danach. Das Wort „bitte“ kann flexibel im Satz stehen, aber es klingt natürlicher, wenn „bitte“ vor dem Verb oder vor dem Objekt steht. In deinem Satz sollte „bitte“ vor „anrufen“ stehen, nicht zwischen „bitte“ und „mich“. Deshalb ist „Könntest du mich bitte anrufen?“ korrekt."
+    },
+    {
+        "text_incorrect": "Er hat auch viele andere Punkte des früheren und heutigen Alltagslebens einer Frau berührt, als die oben erwähnten - eine komplette Darlegung all dieser Punkte war aber hier leider nicht möglich. ",
+        "text_correct": "Er hat auch viele andere Punkte des früheren und heutigen Alltagslebens einer Frau berührt, als die oben erwähnten - eine komplette Darlegung all dieser Punkte war hier aber leider nicht möglich. ",
+        "annotation": " A 27 29|||R:WO|||hier aber|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! In deinem Text wurde die Wortstellung im zweiten Satzteil korrigiert:\n\n**Fehlerhafte Version:**  \n„…war aber hier leider nicht möglich.“\n\n**Korrigierte Version:**  \n„…war hier aber leider nicht möglich.“\n\n**Erklärung:**  \nIm Deutschen steht das Verb in einem Hauptsatz immer an zweiter Stelle (Verbzweitstellung). In Nebensätzen steht das Verb am Ende. In deinem Satz handelt es sich um einen Hauptsatz nach dem Gedankenstrich. Die Satzteile „hier“ und „aber“ sind sogenannte Satzadverbien. Sie können flexibel im Satz stehen, aber die übliche und stilistisch bessere Reihenfolge ist:  \n**Subjekt – Adverbiale – Modalpartikel – Verb – Rest**  \nIn diesem Fall klingt „war hier aber leider nicht möglich“ natürlicher und entspricht dem deutschen Sprachgebrauch. Die ursprüngliche Version „war aber hier leider nicht möglich“ ist zwar nicht komplett falsch, wirkt aber stilistisch weniger elegant und kann holprig klingen.\n\n**Zusammengefasst:**  \nDie Korrektur verbessert die Wortstellung und macht den Satz flüssiger und idiomatischer."
+    },
+    {
+        "text_incorrect": "Liebe Silke, ich würde gern dich mal besuchen. ",
+        "text_correct": "Liebe Silke, ich würde dich gern mal besuchen. ",
+        "annotation": " A 5 7|||R:WO|||dich gern|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Deutschen steht das Pronomen („dich“) normalerweise direkt nach dem konjugierten Verb („würde“). Die Stellung „würde dich gern mal besuchen“ ist korrekt. Die falsche Wortstellung „würde gern dich mal besuchen“ klingt unnatürlich und entspricht nicht der üblichen deutschen Satzstruktur. \n\nMerke: In Hauptsätzen steht das Objekt (hier: „dich“) meist direkt nach dem Verb."
+    },
+    {
+        "text_incorrect": "Also obwohl sie viel Geld verdienen, verlieren sie ihre Leben. ",
+        "text_correct": "Obwohl sie also viel Geld verdienen, verlieren sie ihre Leben. ",
+        "annotation": " A 0 3|||R:WO|||Obwohl sie also|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz steht das Wort „also“ am Satzanfang:  \n„Also obwohl sie viel Geld verdienen, verlieren sie ihre Leben.“\n\nDas ist im Deutschen nicht korrekt, weil „also“ als Konjunktion (im Sinne von „deshalb“) nicht am Satzanfang mit „obwohl“ kombiniert werden kann. Außerdem ist „also“ hier kein passender Satzanfang für einen Nebensatz mit „obwohl“. Im Deutschen steht das Wort „also“ (im Sinne von „übrigens“ oder „sozusagen“) normalerweise nicht vor einer Konjunktion wie „obwohl“.\n\nIn der Korrektur wurde „also“ hinter „obwohl sie“ gestellt:  \n„Obwohl sie also viel Geld verdienen, verlieren sie ihre Leben.“\n\nDas ist richtig, denn „also“ kann im Nebensatz nach der Konjunktion stehen und betont dann, dass es sich um eine Zusammenfassung oder Folgerung handelt.\n\nZusammengefasst:  \nDie Korrektur ist nötig, weil „also“ im Deutschen nicht am Anfang eines Nebensatzes mit „obwohl“ stehen sollte. Es gehört nach die Konjunktion „obwohl“ und vor das Verb."
+    },
+    {
+        "text_incorrect": "Melde dich bitte bei mir bald. ",
+        "text_correct": "Melde dich bitte bald bei mir. ",
+        "annotation": " A 3 6|||R:WO|||bald bei mir|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Deutschen steht das Adverb „bald“ normalerweise näher beim Verb oder vor der Präpositionalgruppe („bei mir“). Die übliche Wortstellung ist: Verb – Adverb – Präpositionalgruppe. Deshalb sagt man: „Melde dich bitte bald bei mir.“  \nDie ursprüngliche Version „Melde dich bitte bei mir bald“ klingt unnatürlich, weil das Adverb „bald“ am Satzende steht und dadurch der Satz weniger flüssig wirkt."
+    },
+    {
+        "text_incorrect": "Englisch, Geschichte und Mathe zum Beispiel, sind Kurse wo man nur Information lernt und es wenig Praxis gibt. ",
+        "text_correct": "Englisch, Geschichte und Mathe zum Beispiel sind Kurse, wo man nur Information lernt und es wenig Praxis gibt. ",
+        "annotation": " A 7 10|||R:WO|||sind Kurse ,|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! In deinem ursprünglichen Satz steht das Komma nach „Mathe zum Beispiel“. Das ist nicht korrekt, weil der Einschub „zum Beispiel“ sich auf die Fächer bezieht und kein eigenständiger Nebensatz ist. Das Komma muss stattdessen nach „Kurse“ stehen, weil dort der Nebensatz mit „wo“ beginnt.\n\nRichtig ist also:\nEnglisch, Geschichte und Mathe zum Beispiel sind Kurse, wo man nur Information lernt und es wenig Praxis gibt.\n\n**Erklärung:**  \n- Kein Komma nach „zum Beispiel“, weil es kein Nebensatz ist.\n- Komma vor „wo“, weil hier ein Nebensatz eingeleitet wird.\n\nZusatz: Stilistisch wäre „in denen“ statt „wo“ besser, aber grammatikalisch ist das Komma die wichtigste Korrektur."
+    },
+    {
+        "text_incorrect": "Auf der anderen Seite kann Kriminalität manchmal sich auszahlen. ",
+        "text_correct": "Auf der anderen Seite kann Kriminalität sich manchmal auszahlen. ",
+        "annotation": " A 6 8|||R:WO|||sich manchmal|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im deutschen Satz „kann Kriminalität manchmal sich auszahlen“ steht das Reflexivpronomen „sich“ an der falschen Stelle. Im Hauptsatz mit Modalverb (hier: „kann“) steht das Reflexivpronomen normalerweise direkt vor dem Verb im Infinitiv („auszahlen“). Die korrekte Wortstellung ist also: „kann Kriminalität sich manchmal auszahlen.“\n\n**Erklärung:**  \nIm Deutschen steht das Reflexivpronomen bei zusammengesetzten Verbformen (Modalverb + Infinitiv) meist direkt vor dem Infinitiv, nicht zwischen Modalverb und Adverb. Das Adverb („manchmal“) steht typischerweise vor dem Reflexivpronomen.\n\n**Falsch:** kann Kriminalität manchmal sich auszahlen  \n**Richtig:** kann Kriminalität sich manchmal auszahlen\n\n**Merke:**  \nModalverb + Subjekt + Reflexivpronomen + Adverb + Infinitiv  \n(kann) + (Kriminalität) + (sich) + (manchmal) + (auszahlen)"
+    },
+    {
+        "text_incorrect": "Kannst du bitte mir helfen? ",
+        "text_correct": "Kannst du mir bitte helfen? ",
+        "annotation": " A 2 4|||R:WO|||mir bitte|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Deutschen steht das Verb „helfen“ oft mit dem Dativpronomen („mir“). Die Wortstellung ist wichtig: Das Pronomen („mir“) steht normalerweise direkt nach dem Verb („kannst du“), und dann folgt das „bitte“. Deshalb heißt es richtig: „Kannst du mir bitte helfen?“  \nDie falsche Wortstellung „Kannst du bitte mir helfen?“ klingt unnatürlich, weil „bitte“ im Hauptsatz meist nach dem Pronomen steht."
+    },
+    {
+        "text_incorrect": "Aber glücklicherweise habe ich jetzt mehr Zeit, ein bisschen mich zu unterhalten. ",
+        "text_correct": "Aber glücklicherweise habe ich jetzt mehr Zeit, mich ein bisschen zu unterhalten. ",
+        "annotation": " A 8 11|||R:WO|||mich ein bisschen|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im deutschen Satz steht das Reflexivpronomen „mich“ direkt vor dem zu-Infinitiv: „mich zu unterhalten“. Wenn ein Infinitiv mit „zu“ und ein Reflexivpronomen zusammen verwendet werden, steht das Reflexivpronomen immer direkt vor „zu + Infinitiv“. Das Adverb „ein bisschen“ steht normalerweise zwischen „zu“ und dem Verb: „zu unterhalten“ → „zu unterhalten“. Aber im Deutschen ist die übliche Reihenfolge: Reflexivpronomen – Adverb – „zu“ – Verb.\n\nKorrekt ist also: „mich ein bisschen zu unterhalten“.\n\nIm fehlerhaften Satz („ein bisschen mich zu unterhalten“) steht das Adverb „ein bisschen“ vor dem Reflexivpronomen, was im Deutschen ungrammatisch ist. Das Reflexivpronomen darf nicht vom Infinitiv getrennt werden."
+    },
+    {
+        "text_incorrect": "Aber müssen die Immigranten unbedingt sich an einer fremden Kultur orientieren? ",
+        "text_correct": "Aber müssen die Immigranten sich unbedingt an einer fremden Kultur orientieren? ",
+        "annotation": " A 4 6|||R:WO|||sich unbedingt|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz steht:  \n„Aber müssen die Immigranten unbedingt sich an einer fremden Kultur orientieren?“\n\nKorrektur:  \n„Aber müssen die Immigranten sich unbedingt an einer fremden Kultur orientieren?“\n\n**Erklärung:**  \nIm Deutschen steht das Reflexivpronomen („sich“) bei Verben mit Modalverb (wie „müssen“) normalerweise direkt nach dem konjugierten Verb („müssen“), also: „müssen sich ... orientieren“. Das Adverb („unbedingt“) steht dann nach dem Reflexivpronomen.  \nDie Wortstellung „unbedingt sich“ ist ungrammatisch. Richtig ist: „sich unbedingt“.  \n\n**Merke:**  \nBei Modalverben:  \nSubjekt + Modalverb + Reflexivpronomen + Adverb + Rest des Satzes  \nBeispiel: „Sie will sich unbedingt verbessern.“"
+    },
+    {
+        "text_incorrect": "Sie ist gesund? ",
+        "text_correct": "Ist sie gesund? ",
+        "annotation": " A 0 2|||R:WO|||Ist sie|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Deutschen steht in Fragesätzen das Verb normalerweise an erster Stelle, gefolgt vom Subjekt. In deinem ursprünglichen Satz „Sie ist gesund?“ steht das Subjekt („Sie“) am Anfang, was die normale Wortstellung für einen Aussagesatz ist. Um eine Frage zu bilden, muss das Verb („ist“) an den Satzanfang: „Ist sie gesund?“"
+    },
+    {
+        "text_incorrect": "Meine Silvesternacht war sehr gut auch. ",
+        "text_correct": "Meine Silvesternacht war auch sehr gut. ",
+        "annotation": " A 3 6|||R:WO|||auch sehr gut|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Deutschen steht das Wort „auch“ normalerweise vor dem Adjektiv, das es bezieht, also vor „sehr gut“. Die richtige Wortstellung ist also: „war auch sehr gut“.  \nDie falsche Stellung „war sehr gut auch“ klingt unnatürlich und entspricht nicht der deutschen Satzstruktur."
+    },
+    {
+        "text_incorrect": "Es ist wahr, dass die meisten Universitätsabschlüsse sind nicht praxisorientiert. ",
+        "text_correct": "Es ist wahr, dass die meisten Universitätsabschlüsse nicht praxisorientiert sind. ",
+        "annotation": " A 8 11|||R:WO|||nicht praxisorientiert sind|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im deutschen Nebensatz („dass die meisten Universitätsabschlüsse nicht praxisorientiert sind“) steht das konjugierte Verb („sind“) am Ende des Satzes. In deinem ursprünglichen Satz stand das Verb jedoch an der falschen Stelle („dass die meisten Universitätsabschlüsse sind nicht praxisorientiert“). Das ist ein häufiger Fehler, weil im Deutschen die Wortstellung im Nebensatz anders ist als im Hauptsatz. \n\nRichtig ist: Subjekt + andere Satzteile + Verb am Ende.  \nDeshalb: „… dass die meisten Universitätsabschlüsse nicht praxisorientiert sind.“"
+    },
+    {
+        "text_incorrect": "Solche Probleme können, nach meiner Meinung, von sogenannten \"Fachidioten\" nicht gelöst werden. ",
+        "text_correct": "Solche Probleme können, meiner Meinung nach, von sogenannten \"Fachidioten\" nicht gelöst werden. ",
+        "annotation": " A 4 7|||R:WO|||meiner Meinung nach|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Originalsatz steht: „nach meiner Meinung“. Das ist zwar verständlich, aber im Deutschen sagt man idiomatisch „meiner Meinung nach“. Die feste Wendung ist also: „meiner Meinung nach“ und nicht „nach meiner Meinung“. Deshalb wurde die Wortstellung geändert. \n\nGrammatikalisch ist „meiner Meinung nach“ ein Dativ-Ausdruck, der am Satzanfang, in der Mitte oder am Ende stehen kann, aber die Reihenfolge der Wörter ist festgelegt."
+    },
+    {
+        "text_incorrect": "Ich nehme nicht meinen Hund nach Indien mit. ",
+        "text_correct": "Ich nehme meinen Hund nicht nach Indien mit. ",
+        "annotation": " A 2 5|||R:WO|||meinen Hund nicht|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Deutschen steht das Wort „nicht“ in der Regel vor dem Satzteil, den es verneint, aber bei Verben mit trennbaren Präfixen oder festen Ausdrücken wie „mitnehmen“ steht „nicht“ meistens vor der Orts- oder Zeitangabe und vor dem Verbzusatz am Satzende. In deinem Satz gehört „nicht“ vor „nach Indien mit“. Die richtige Reihenfolge ist also: „Ich nehme meinen Hund nicht nach Indien mit.“  \n  \nFalsch: Ich nehme nicht meinen Hund nach Indien mit.  \nRichtig: Ich nehme meinen Hund nicht nach Indien mit.  \n\nDenn „nicht“ bezieht sich hier auf die ganze Handlung („nach Indien mitnehmen“) und nicht nur auf „meinen Hund“. Wenn du „nicht meinen Hund“ sagst, klingt es so, als würdest du vielleicht ein anderes Tier mitnehmen, aber nicht den Hund."
+    },
+    {
+        "text_incorrect": "Warum soll man das ihnen verbieten? ",
+        "text_correct": "Warum soll man ihnen das verbieten? ",
+        "annotation": " A 3 5|||R:WO|||ihnen das|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz „Warum soll man das ihnen verbieten?“ ist die Wortstellung nicht korrekt. Im Deutschen steht das indirekte Objekt (hier: „ihnen“) normalerweise vor dem direkten Objekt (hier: „das“), wenn beide Pronomen sind. Die richtige Reihenfolge ist also: „ihnen das“. Deshalb lautet der korrekte Satz: „Warum soll man ihnen das verbieten?“"
+    },
+    {
+        "text_incorrect": "diese sind nur einige Teile der Vorbereitung die, die Universität geben sollte. ",
+        "text_correct": "diese sind nur einige Teile der Vorbereitung, die die Universität geben sollte. ",
+        "annotation": " A 7 9|||R:WO|||, die|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Der Fehler im Originalsatz ist das fehlende Komma vor dem Relativsatz.\n\nErklärung:  \nIm Deutschen steht vor einem Relativsatz (hier: „die die Universität geben sollte“) immer ein Komma. Der Relativsatz beschreibt näher, welche „Teile der Vorbereitung“ gemeint sind.  \nDeshalb ist das Komma nach „Vorbereitung“ nötig.\n\nKorrekt:  \ndiese sind nur einige Teile der Vorbereitung, die die Universität geben sollte."
+    },
+    {
+        "text_incorrect": "Man kann also sich fragen: ",
+        "text_correct": "Man kann sich also fragen: ",
+        "annotation": " A 2 4|||R:WO|||sich also|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Deutschen steht das Reflexivpronomen „sich“ normalerweise direkt nach dem konjugierten Verb („kann“). Das Wort „also“ ist ein sogenanntes Modalwort und steht meist nach dem Subjekt oder nach dem Verb, aber nicht zwischen dem Verb und dem Reflexivpronomen.  \nDeshalb ist „Man kann sich also fragen“ korrekt, nicht „Man kann also sich fragen“."
+    },
+    {
+        "text_incorrect": "Wir möchten ein paar Tage bleiben bei uns. ",
+        "text_correct": "Wir möchten ein paar Tage bei uns bleiben. ",
+        "annotation": " A 5 8|||R:WO|||bei uns bleiben|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz „Wir möchten ein paar Tage bleiben bei uns.“ steht die Ortsangabe „bei uns“ am Satzende, aber nach dem Verb „bleiben“. Im Deutschen steht die Ortsangabe normalerweise direkt nach dem Verb, besonders bei kurzen Sätzen. Die korrekte Wortstellung ist also: „Wir möchten ein paar Tage bei uns bleiben.“\n\n**Erklärung:**  \nIm Deutschen folgt die Satzstruktur oft dem Muster: Subjekt – Verb – Objekt/Ergänzungen. Orts- und Zeitangaben stehen meist nach dem Verb und vor weiteren Ergänzungen. Die Stellung „bleiben bei uns“ klingt unnatürlich und ist grammatikalisch nicht korrekt. Richtig ist: „bei uns bleiben“."
+    },
+    {
+        "text_incorrect": "Ich bin verheiratet und habe Ich drei Kinder. ",
+        "text_correct": "Ich bin verheiratet und ich habe drei Kinder. ",
+        "annotation": " A 4 6|||R:WO|||ich habe|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz steht „habe Ich drei Kinder“. Das ist falsch, weil das Subjekt „ich“ hier nicht am Satzanfang steht und deshalb kleingeschrieben werden muss. Außerdem braucht man kein zusätzliches „Ich“ nach „habe“, weil das Subjekt schon durch die Verbform „habe“ klar ist. Richtig ist: „und ich habe drei Kinder.“ Das „ich“ wird kleingeschrieben und steht an zweiter Stelle, weil es ein neuer Hauptsatz ist."
+    },
+    {
+        "text_incorrect": "Am Samstag hast du Zeit? ",
+        "text_correct": "Hast du am Samstag Zeit? ",
+        "annotation": " A 0 4|||R:WO|||Hast du am Samstag|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Deutschen steht in Entscheidungsfragen (Ja/Nein-Fragen) das Verb an erster Stelle. Im ursprünglichen Satz „Am Samstag hast du Zeit?“ steht das Subjekt („du“) vor dem Verb („hast“), was der Wortstellung eines Aussagesatzes entspricht. Um eine korrekte Frage zu bilden, muss das Verb („hast“) an den Satzanfang: „Hast du am Samstag Zeit?“"
+    },
+    {
+        "text_incorrect": "Ich hoffe, dass ich nächste Woche es kennenlernen kann. ",
+        "text_correct": "Ich hoffe, dass ich es nächste Woche kennenlernen kann. ",
+        "annotation": " A 5 8|||R:WO|||es nächste Woche|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im deutschen Satz steht das Pronomen „es“ im Infinitivsatz („kennenlernen“) normalerweise direkt vor dem Verb. Die richtige Wortstellung ist also: „… dass ich es nächste Woche kennenlernen kann.“  \nIm fehlerhaften Satz („… dass ich nächste Woche es kennenlernen kann.“) steht „es“ an der falschen Stelle. Das klingt unnatürlich und entspricht nicht der deutschen Satzstruktur.  \nMerke: In Nebensätzen steht das Objekt (hier: „es“) meistens vor den Zeitangaben („nächste Woche“) und vor dem Verb."
+    },
+    {
+        "text_incorrect": "Leider sind sie (Werkzeuge) nicht genug vielmals. ",
+        "text_correct": "Leider sind sie (Werkzeuge) vielmals nicht genug. ",
+        "annotation": " A 6 9|||R:WO|||vielmals nicht genug|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! In deinem ursprünglichen Satz „Leider sind sie (Werkzeuge) nicht genug vielmals.“ gibt es zwei Probleme:\n\n1. **Wortstellung und Bedeutung:**  \n   Im Deutschen sagt man nicht „nicht genug vielmals“. Das klingt unnatürlich und ist grammatikalisch falsch. „Vielmals“ bedeutet „oft“ oder „mehrmals“, wird aber meist in anderen Zusammenhängen verwendet (z.B. „Vielen Dank vielmals“).\n\n2. **Richtige Formulierung:**  \n   Wenn du ausdrücken möchtest, dass es nicht genug Werkzeuge gibt, solltest du sagen:  \n   „Leider sind sie (Werkzeuge) nicht genug.“  \n   oder  \n   „Leider gibt es nicht genug (Werkzeuge).“\n\n   Wenn du ausdrücken möchtest, dass die Werkzeuge nicht oft genug vorhanden sind, könntest du sagen:  \n   „Leider sind sie nicht oft genug da.“  \n   oder  \n   „Leider stehen sie nicht oft genug zur Verfügung.“\n\n**Fazit:**  \nDie Korrektur „Leider sind sie (Werkzeuge) vielmals nicht genug.“ ist auch nicht ganz korrekt. Besser wäre:  \n- „Leider sind sie nicht oft genug da.“  \n- „Leider gibt es nicht genug Werkzeuge.“  \n\n**Erklärung:**  \nIm Deutschen steht „genug“ normalerweise vor dem Nomen („genug Werkzeuge“) oder nach dem Verb („sind nicht genug da“). Das Wort „vielmals“ passt hier"
+    },
+    {
+        "text_incorrect": "In einer Wohngemeinschaft sollst du um 10 Uhr einschafen, aber kannst du viele lustige Sachen machen. ",
+        "text_correct": "In einer Wohngemeinschaft sollst du um 10 Uhr einschafen, aber du kannst viele lustige Sachen machen. ",
+        "annotation": " A 11 13|||R:WO|||du kannst|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Originalsatz steht: „…aber kannst du viele lustige Sachen machen.“  \nHier fehlt das Subjekt „du“ am Anfang des Nebensatzes. Im Deutschen steht das Subjekt normalerweise vor dem Verb, wenn der Satz mit „aber“ beginnt. Die richtige Wortstellung ist also: „…aber du kannst viele lustige Sachen machen.“\n\nZusammengefasst:  \n**Fehler:** Das Subjekt „du“ fehlt im zweiten Satzteil.  \n**Erklärung:** Nach „aber“ folgt ein Hauptsatz mit der normalen Wortstellung: Subjekt („du“) vor dem Verb („kannst“).  \n**Korrektur:** „…aber du kannst viele lustige Sachen machen.“"
+    },
+    {
+        "text_incorrect": "Ich habe schon dich lange nicht gesehen. ",
+        "text_correct": "Ich habe dich schon lange nicht gesehen. ",
+        "annotation": " A 2 4|||R:WO|||dich schon|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im deutschen Satz steht das Objektpronomen („dich“) normalerweise direkt nach dem konjugierten Verb („habe“). Das Wort „schon“ steht meist nach dem Objekt. Deshalb ist die richtige Reihenfolge: „Ich habe dich schon lange nicht gesehen.“  \nIm fehlerhaften Satz („Ich habe schon dich lange nicht gesehen“) ist die Wortstellung falsch."
+    },
+    {
+        "text_incorrect": "Wenn dir passt Ostern? ",
+        "text_correct": "Wenn dir Ostern passt? ",
+        "annotation": " A 2 4|||R:WO|||Ostern passt|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz „Wenn dir passt Ostern?“ ist die Wortstellung falsch. Im Deutschen steht das Verb in Nebensätzen (wie bei „wenn“) am Ende. Außerdem muss das Verb „passen“ mit dem Subjekt „Ostern“ und dem Dativobjekt „dir“ richtig konjugiert werden: „Ostern passt dir“.\n\nDer korrekte Satz lautet: „Wenn dir Ostern passt?“ oder besser: „Passt dir Ostern?“ (als direkte Frage).\n\n**Erklärung:**  \n- Nach „wenn“ steht das konjugierte Verb am Ende: „wenn ... passt“.\n- Das Subjekt („Ostern“) steht vor dem Verb.\n- „dir“ ist das Dativobjekt.\n\nDeshalb: „Wenn dir Ostern passt?“"
+    },
+    {
+        "text_incorrect": "Wenn man Sprache dort studiert hat, wird man oft Lehrer oder Lehrerin eines Gymnasiums. ",
+        "text_correct": "Wenn man dort Sprache studiert hat, wird man oft Lehrer oder Lehrerin eines Gymnasiums. ",
+        "annotation": " A 2 4|||R:WO|||dort Sprache|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz steht: „Wenn man Sprache dort studiert hat, …“.  \nIm korrigierten Satz steht: „Wenn man dort Sprache studiert hat, …“.\n\n**Erklärung:**  \nIm Deutschen steht das Adverb (hier: „dort“) normalerweise vor dem Objekt („Sprache“), wenn beides im Satz vorkommt. Die übliche Wortstellung ist: Subjekt – Adverb – Objekt – Verb.  \nDeshalb ist „Wenn man dort Sprache studiert hat, …“ korrekt.  \nDie ursprüngliche Reihenfolge klingt unnatürlich und entspricht nicht der typischen deutschen Satzstruktur."
+    },
+    {
+        "text_incorrect": "Dann es kann auch sein, dass es keine gute Antwort gibt. ",
+        "text_correct": "Dann kann es auch sein, dass es keine gute Antwort gibt. ",
+        "annotation": " A 1 3|||R:WO|||kann es|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im fehlerhaften Satz steht: „Dann es kann auch sein, dass …“.  \nDas Problem ist die Wortstellung. Im Deutschen steht das konjugierte Verb in einem Hauptsatz normalerweise an zweiter Stelle. Das heißt: Nach dem Wort „Dann“ (Position 1) muss das Verb „kann“ (Position 2) kommen. Das Subjekt „es“ steht danach (Position 3).  \nDeshalb ist die richtige Reihenfolge: „Dann kann es auch sein, dass …“"
+    },
+    {
+        "text_incorrect": "Natürlich du kannst uns besuchen. ",
+        "text_correct": "Natürlich kannst du uns besuchen. ",
+        "annotation": " A 1 3|||R:WO|||kannst du|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Deutschen steht das Verb in Hauptsätzen normalerweise an zweiter Stelle (Verbzweitstellung). In deinem Satz steht das Subjekt „du“ direkt nach „natürlich“, aber das konjugierte Verb „kannst“ fehlt an zweiter Stelle. Die richtige Reihenfolge ist: „Natürlich kannst du uns besuchen.“  \nDeshalb muss das Verb „kannst“ vor das Subjekt „du“ gestellt werden."
+    },
+    {
+        "text_incorrect": "Im Laufe der Zeit aber viele Dinge haben sich geändert. ",
+        "text_correct": "Im Laufe der Zeit aber haben sich viele Dinge geändert. ",
+        "annotation": " A 5 9|||R:WO|||haben sich viele Dinge|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Deutschen steht das Verb in einem Hauptsatz normalerweise an zweiter Stelle (Verbzweitstellung). Das bedeutet, nach dem ersten Satzteil (hier: „Im Laufe der Zeit aber“) muss das konjugierte Verb („haben“) kommen. Im fehlerhaften Satz steht das Verb zu spät. Die richtige Reihenfolge ist: „Im Laufe der Zeit aber haben sich viele Dinge geändert.“"
+    },
+    {
+        "text_incorrect": "Mir geht es gut aber, ich habe ein Problem. ",
+        "text_correct": "Mir geht es gut, aber ich habe ein Problem. ",
+        "annotation": " A 4 6|||R:WO|||, aber|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Originalsatz fehlt das Komma vor „aber“ und das Komma steht an der falschen Stelle („aber, ich“). Im Deutschen steht vor Konjunktionen wie „aber“ ein Komma, wenn sie zwei Hauptsätze verbinden. Das Komma muss also vor „aber“ stehen, nicht danach. \n\nRichtig ist:  \nMir geht es gut, aber ich habe ein Problem."
+    },
+    {
+        "text_incorrect": "Je die Arbeitslosigkeit größer wird, desto höher wird die Zahl der Kriminalität. ",
+        "text_correct": "Je größer die Arbeitslosigkeit wird, desto höher wird die Zahl der Kriminalität. ",
+        "annotation": " A 1 4|||R:WO|||größer die Arbeitslosigkeit|||REQUIRED|||-NONE-|||0 ",
+        "response": "Gerne! Hier ist die Erklärung:\n\nIm Deutschen verwendet man die Konstruktion „je … desto …“, um zwei zusammenhängende Steigerungen auszudrücken. Dabei steht nach „je“ und „desto“ jeweils ein Komparativ (die Steigerungsform eines Adjektivs oder Adverbs).\n\nFehler im Originalsatz:\n- „Je die Arbeitslosigkeit größer wird, …“ ist falsch, weil das Adjektiv „größer“ direkt nach „je“ stehen muss: „Je größer die Arbeitslosigkeit wird, …“\n\nRichtig ist also:\n- „Je größer die Arbeitslosigkeit wird, desto höher wird die Zahl der Kriminalität.“\n\nZusammengefasst: Nach „je“ und „desto“ steht immer zuerst der Komparativ, dann das Subjekt und das Verb."
+    },
+    {
+        "text_incorrect": "Viele Studenten wohnen zum ersten Mal nicht bei den Eltern, also sie werden unabhängig. ",
+        "text_correct": "Viele Studenten wohnen zum ersten Mal nicht bei den Eltern, also werden sie unabhängig. ",
+        "annotation": " A 12 14|||R:WO|||werden sie|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Originalsatz steht: „also sie werden unabhängig.“  \nDas ist grammatikalisch nicht korrekt, weil nach „also“ die Wortstellung wie im Hauptsatz ist, das heißt: Das Verb steht an zweiter Stelle.  \nRichtig ist: „also werden sie unabhängig.“  \nErklärung: Nach Konjunktionen wie „also“ kommt das Verb an die zweite Position im Satz.  \nFalsch: also sie werden  \nRichtig: also werden sie"
+    },
+    {
+        "text_incorrect": "Ich halte das für gerecht, weil jede Sprache ist wichtig. ",
+        "text_correct": "Ich halte das für gerecht, weil jede Sprache wichtig ist. ",
+        "annotation": " A 9 11|||R:WO|||wichtig ist|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz steht: „weil jede Sprache ist wichtig.“  \nDas ist ein Fehler, weil im Deutschen nach „weil“ das Verb am Ende des Nebensatzes stehen muss.  \nRichtig ist: „weil jede Sprache wichtig ist.“  \nDie Korrektur ist nötig, um die richtige Wortstellung im Nebensatz zu haben."
+    },
+    {
+        "text_incorrect": "Ich habe schon lange von dir nichts gehört. ",
+        "text_correct": "Ich habe schon lange nichts von dir gehört. ",
+        "annotation": " A 4 7|||R:WO|||nichts von dir|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz „Ich habe schon lange von dir nichts gehört“ ist die Wortstellung nicht korrekt. Im Deutschen steht das Negationswort „nichts“ normalerweise direkt vor dem Verb oder am Ende des Satzes, wenn es sich auf das Verb bezieht. Die richtige Reihenfolge ist also: „Ich habe schon lange nichts von dir gehört.“\n\nDie Korrektur ist nötig, weil die Stellung von „nichts“ im Satz die Bedeutung beeinflusst und im Deutschen bestimmte Regeln für die Wortstellung gelten. In diesem Fall bezieht sich „nichts“ auf das, was man von jemandem gehört hat, und steht deshalb vor „von dir gehört“."
+    },
+    {
+        "text_incorrect": "ist es überall und scheint sich auszuzahlen. ",
+        "text_correct": "es ist überall und scheint sich auszuzahlen. ",
+        "annotation": " A 0 2|||R:WO|||es ist|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Text fehlt das Subjekt am Satzanfang („ist es überall...“). Im Deutschen beginnt ein Aussagesatz normalerweise mit dem Subjekt, also „Es ist überall...“. Das „es“ ist hier das Subjekt und darf nicht fehlen, damit der Satz grammatikalisch korrekt ist."
+    },
+    {
+        "text_incorrect": "Deshalb lernt man schneller und ist man auch motivierter, weil man seinen Fortschritt sehen kann. ",
+        "text_correct": "Deshalb lernt man schneller und man ist auch motivierter, weil man seinen Fortschritt sehen kann. ",
+        "annotation": " A 5 7|||R:WO|||man ist|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz steht: „Deshalb lernt man schneller und ist man auch motivierter, weil man seinen Fortschritt sehen kann.“\n\nFehlererklärung:  \nIm Deutschen verbindet man zwei gleichwertige Satzteile (hier: „lernt man schneller“ und „ist man auch motivierter“) mit „und“. Dabei muss das Subjekt („man“) im zweiten Teil wiederholt werden, wenn es nicht direkt nach dem ersten Verb steht. Außerdem darf im zweiten Teil die Wortstellung nicht wie im Fragesatz sein (also nicht: „ist man“), sondern wie im Aussagesatz: „man ist“.\n\nKorrekt ist also:  \n„Deshalb lernt man schneller und man ist auch motivierter, weil man seinen Fortschritt sehen kann.“\n\nZusammengefasst:  \nIm zweiten Satzteil muss das Subjekt „man“ vor dem Verb stehen („man ist“ statt „ist man“), weil es sich um einen Aussagesatz handelt und nicht um eine Frage."
+    },
+    {
+        "text_incorrect": "Sehr geehrte Damen und Herren, ich suche eine Wohnung Große. ",
+        "text_correct": "Sehr geehrte Damen und Herren, ich suche eine große Wohnung. ",
+        "annotation": " A 9 11|||R:WO|||große Wohnung|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz steht „Wohnung Große“. Das ist falsch, weil im Deutschen das Adjektiv (hier: „groß“) vor dem Nomen (hier: „Wohnung“) stehen und an das Nomen angepasst werden muss. „Große“ ist die richtige Form, aber sie muss vor „Wohnung“ stehen: „eine große Wohnung“. Außerdem ist „Große“ als Nomen großgeschrieben, als Adjektiv aber kleingeschrieben. \n\nKorrekt ist also: „eine große Wohnung“."
+    },
+    {
+        "text_incorrect": "Mein Name ist Müller, ich bin verheiratet und habe ich selber drei Kinder. ",
+        "text_correct": "Mein Name ist Müller, ich bin verheiratet und ich habe selber drei Kinder. ",
+        "annotation": " A 9 11|||R:WO|||ich habe|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz steht: „…und habe ich selber drei Kinder.“  \nDas ist grammatikalisch falsch, weil im Deutschen nach „und“ bei Aufzählungen das Subjekt („ich“) normalerweise weggelassen wird, wenn es schon vorher genannt wurde. Außerdem steht das Verb „habe“ an der richtigen Stelle, aber das zusätzliche „ich“ ist überflüssig.\n\nRichtig ist: „…und ich habe selber drei Kinder.“  \nHier wird das Subjekt „ich“ wiederholt, was stilistisch möglich ist, oder man lässt es weg: „…und habe selber drei Kinder.“  \nBeide Varianten sind korrekt, aber im ursprünglichen Satz war die Wortstellung falsch („habe ich“ statt „ich habe“ oder nur „habe“).\n\nZusammengefasst:  \nIm Deutschen steht das Verb in Aussagesätzen an zweiter Stelle. „Habe ich“ wäre eine Frage („Habe ich selber drei Kinder?“). In einem Aussagesatz muss es „ich habe“ heißen."
+    },
+    {
+        "text_incorrect": "Muss ich allein essen oder wir essen gemeinsam? ",
+        "text_correct": "Muss ich allein essen oder essen wir gemeinsam? ",
+        "annotation": " A 5 7|||R:WO|||essen wir|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz: „Muss ich allein essen oder wir essen gemeinsam?“ fehlt im zweiten Teil des Satzes das Verb an der richtigen Stelle. Im Deutschen müssen bei Entscheidungsfragen beide Alternativen grammatisch gleich aufgebaut sein.\n\nDer erste Teil ist eine Frage („Muss ich allein essen?“), deshalb muss auch der zweite Teil als Frage formuliert werden. Im Deutschen steht bei Fragen das Verb am Anfang: „essen wir gemeinsam?“\n\nDeshalb ist die richtige Formulierung:  \n„Muss ich allein essen oder essen wir gemeinsam?“\n\nSo sind beide Teile des Satzes korrekt als Fragen formuliert."
+    },
+    {
+        "text_incorrect": "Deshalb ich muss eine Wohnung suchen. ",
+        "text_correct": "Deshalb muss ich eine Wohnung suchen. ",
+        "annotation": " A 1 3|||R:WO|||muss ich|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Deutschen steht das Verb in einem Hauptsatz normalerweise an zweiter Stelle (Verbzweitstellung). Das Wort „deshalb“ ist ein sogenanntes Konnektor-Adverb und steht am Satzanfang. Danach muss das Verb („muss“) direkt folgen, und das Subjekt („ich“) kommt danach. Deshalb ist die richtige Reihenfolge: „Deshalb muss ich …“ und nicht „Deshalb ich muss …“."
+    },
+    {
+        "text_incorrect": "Sie nur spielen mit dem Geld und mit Finanzen. ",
+        "text_correct": "Sie spielen nur mit dem Geld und mit Finanzen. ",
+        "annotation": " A 1 3|||R:WO|||spielen nur|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz „Sie nur spielen mit dem Geld und mit Finanzen.“ steht das Wort „nur“ an der falschen Stelle. Im Deutschen steht das Verb in einem Aussagesatz immer an zweiter Position. Das Wort „nur“ ist ein Modalpartikel und sollte normalerweise direkt vor dem Verb oder vor dem Satzteil stehen, den man betonen möchte. Die richtige Wortstellung ist: „Sie spielen nur mit dem Geld und mit Finanzen.“ \n\nZusammengefasst:  \nDas Verb „spielen“ muss an zweiter Stelle stehen, nicht „nur“."
+    },
+    {
+        "text_incorrect": "Ich habe so viel gearbeitet, müsste ich auch früh aufstehen. ",
+        "text_correct": "Ich habe so viel gearbeitet, ich müsste auch früh aufstehen. ",
+        "annotation": " A 6 8|||R:WO|||ich müsste|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im ursprünglichen Satz:  \nIch habe so viel gearbeitet, müsste ich auch früh aufstehen.\n\nFehler:  \nHier fehlt das richtige Bindewort oder die richtige Satzstruktur. Im Deutschen kann man zwei Hauptsätze mit „und“ oder durch ein Komma verbinden, wenn sie eng zusammenhängen. Wenn man aber „müsste ich“ benutzt, klingt es wie ein Konditionalsatz (Bedingungssatz), der normalerweise mit „wenn“ eingeleitet wird:  \nWenn ich so viel gearbeitet habe, müsste ich auch früh aufstehen.\n\nIn deinem korrigierten Satz:  \nIch habe so viel gearbeitet, ich müsste auch früh aufstehen.\n\nDas ist korrekt, weil beide Sätze Hauptsätze sind und durch ein Komma verbunden werden können. So ist die Satzstruktur richtig.\n\nZusammengefasst:  \nIm ursprünglichen Satz war die Verbindung der beiden Teilsätze grammatikalisch nicht korrekt. Die Korrektur macht daraus zwei Hauptsätze, die richtig verbunden sind."
+    },
+    {
+        "text_incorrect": "Persönlich finde ich es oft sehr peinlich, eine Frau zu sein nur, weil wir meiner Meinung nach zu gut zurechtkommen. ",
+        "text_correct": "Persönlich finde ich es oft sehr peinlich, eine Frau zu sein, nur weil wir meiner Meinung nach zu gut zurechtkommen. ",
+        "annotation": " A 12 14|||R:WO|||, nur|||REQUIRED|||-NONE-|||0 ",
+        "response": "Im Originalsatz fehlt ein Komma nach „zu sein“. Das Komma ist nötig, weil „nur weil wir meiner Meinung nach zu gut zurechtkommen“ ein Nebensatz ist, der mit „weil“ eingeleitet wird. Nebensätze werden im Deutschen durch ein Komma vom Hauptsatz getrennt. \n\nRichtig ist also:  \nPersönlich finde ich es oft sehr peinlich, eine Frau zu sein, nur weil wir meiner Meinung nach zu gut zurechtkommen.\n\nZusammengefasst:  \nDas Komma trennt den Hauptsatz vom Nebensatz („nur weil ... zurechtkommen“)."
+    }
+]
