@@ -78,24 +78,16 @@ def main():
 
         system_prompt = "Du bist ein hilfreicher Assistent, der Sprachlernenden hilft, ihre Fehler zu verstehen. Du erklärst grammatikalische Fehler kurz und verständlich."
         if setting == 0:
-            prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n 
-            Gib mir eine Erklärung der/des grammatikalischen Fehler(s)."""
+            prompt = f"Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n Gib mir eine Erklärung der/des grammatikalischen Fehler(s)."
         elif setting == 1:
-            prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n
-            Hier ist der korrigierte Text: \n {text_correct[2:]}\n 
-            Bitte erkläre, warum die Korrektur(en) nötig ist/sind. """
+            prompt = f"Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n Hier ist der korrigierte Text: \n {text_correct[2:]}\n Bitte erkläre, warum die Korrektur(en) nötig ist/sind."
         elif setting == 2:
-            prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n
-        Hier ist der korrigierte Text: \n {text_correct[2:]}\n 
-        und dazu die Fehlerannotation im M2 Stil: \n {annotation}
-        Bitte erkläre, warum die Korrektur(en) nötig ist/sind. Nutze dafür auch die Annotation"""
+            prompt = f"Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n Hier ist der korrigierte Text: \n {text_correct[2:]}\n und dazu die Fehlerannotation im M2 Stil: \n {annotation} \n Bitte erkläre, warum die Korrektur(en) nötig ist/sind. Nutze dafür auch die Annotation"
         elif setting == 3:
             if language == 'ger':
                 with open('few_shot_prompts_de.txt', 'r', encoding='utf-8') as f:
                     examples = f.read()
-                    prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n 
-            Gib mir eine Erklärung der/des grammatikalischen Fehler(s).
-            Hier sind einige Beispiele, wie du das machen kannst: \n {examples}"""
+                    prompt = f"Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n Gib mir eine Erklärung der/des grammatikalischen Fehler(s) \n Hier sind einige Beispiele, wie du das machen kannst: \n {examples}"
             else:
                 with open('few_shot_prompts_est.txt', 'r', encoding='utf-8') as f:
                     examples = f.read()
