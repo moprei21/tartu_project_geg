@@ -2,6 +2,8 @@ from dotenv import load_dotenv
 import openai
 import os
 import argparse
+import json
+import detokenization
 
 GERMAN_SYSTEM_PROMPT = "Du bist ein hilfreicher Assistent, der sich auf die Korrektion von Grammatik spezialisiert hat. "
 GERMAN_PROMPT = "Hier ist ein Text mit Fehlern: #erroneous_text.  Bitte korrigiere die Grammatik des Textes"
@@ -50,37 +52,65 @@ class GPTConversationalClient:
 
 
 def main():
-    text_incorrect = "Sie sind überzeugt , dass die Theorie ist wichtiger . "
-    text_correct = "Sie sind überzeugt, dass die Theorie wichtiger ist."
-    annotation = " A 7 9|||R:WO|||wichtiger ist|||REQUIRED|||-NONE-|||0 "
-    # init client
+    language = 'est'
     setting = 0
-    client = GPTConversationalClient(model_name="gpt-4.1", temperature=0)
+    client = GPTConversationalClient(model_name="gpt-4.1-nano", temperature=0)
+    if language == 'ger':
+        with open('data/ger/gergec.wo.singleedit.50.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)  # parse JSON
+    else:
+        with open('data/est/estgec.wo.singleedit.50.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    new_data = []
+    for entry in data:
+        if language == 'est':
+            text_incorrect = detokenization.detokenize_est(entry[0])
+            text_correct = detokenization.detokenize_est(entry[2])
+            annotation = entry[1]
+        else:
+            # For German
+            text_incorrect = detokenization.detokenize_deu(entry[0])
+            text_correct = detokenization.detokenize_deu(entry[2])
+            annotation = entry[1]
+    # init client
 
-    system_prompt = "Du bist ein hilfreicher Assistent, der sich auf die Korrektur von Grammatik spezialisiert hat. Du bist speziell gut in der Eklärung vom grammatikalischen Fehlern."
-    if setting == 0:
-        prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect}\n 
-        Gib mir eine Erklärung der/des grammatikalischen Fehler(s)."""
-    elif setting == 1:
-        prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect}\n
-        Hier ist der korrigierte Text: \n {text_correct}\n 
-        Bitte erkläre, warum die Korrektur(en) nötig ist/sind."""
-    elif setting == 2:
-        prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect}\n
+
+        system_prompt = "Du bist ein hilfreicher Assistent, der Sprachlernenden hilft, ihre Fehler zu verstehen. Du erklärst grammatikalische Fehler kurz und verständlich."
+        if setting == 0:
+            prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n 
+            Gib mir eine Erklärung der/des grammatikalischen Fehler(s)."""
+        elif setting == 1:
+            prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n
+            Hier ist der korrigierte Text: \n {text_correct}\n 
+            Bitte korrigiere die Grammatik des Textes und erkläre die Abweichung(en) zwischen dem originalen und korrigierten Text."""
+        elif setting == 2:
+            prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect}\n
         Hier ist der korrigierte Text: \n {text_correct}\n 
         und dazu die Fehlerannotation im M2 Stil: \n {annotation}
         Bitte erkläre, warum die Korrektur(en) nötig ist/sind. Nutze dafür auch die Annotation"""
 
-    conversation = [
-        {"role": "system", "content": system_prompt},
-        {"role": "user", "content": prompt},
-    ]
-    print(prompt)
+    
+    
+        conversation = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": prompt },
+        ]
+        print(prompt)
 
-    client.set_conversation(conversation)
+        client.set_conversation(conversation)
 
-    response = client.query()
-    print(f"Response: {response}")
+        response = client.query()
+        print(response)
+        new_data.append({
+            "text_incorrect": text_incorrect[2:],
+            "text_correct": text_correct[2:],
+            "annotation": annotation,
+            "response": response
+        })
+        with open('results/ger/gergec.wo.singleedit.50.response.json', 'w', encoding='utf-8') as f:
+            f.write(json.dumps(new_data, ensure_ascii=False, indent=4))
+
+        
 
 
 if __name__ == "__main__":
