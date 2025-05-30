@@ -81,11 +81,11 @@ def main():
             Gib mir eine Erklärung der/des grammatikalischen Fehler(s)."""
         elif setting == 1:
             prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n
-            Hier ist der korrigierte Text: \n {text_correct}\n 
-            Bitte korrigiere die Grammatik des Textes und erkläre die Abweichung(en) zwischen dem originalen und korrigierten Text."""
+            Hier ist der korrigierte Text: \n {text_correct[2:]}\n 
+            Bitte erkläre, warum die Korrektur(en) nötig ist/sind. """
         elif setting == 2:
-            prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect}\n
-        Hier ist der korrigierte Text: \n {text_correct}\n 
+            prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n
+        Hier ist der korrigierte Text: \n {text_correct[2:]}\n 
         und dazu die Fehlerannotation im M2 Stil: \n {annotation}
         Bitte erkläre, warum die Korrektur(en) nötig ist/sind. Nutze dafür auch die Annotation"""
 

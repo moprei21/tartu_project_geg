@@ -1,11 +1,21 @@
+###
+Input:
 Die Unis sollten auch besser den Studenten erklären, wofür sie etwas lernen.
+
+Output:
 Der richtige Satz wäre: Die Unis sollten den Studenten auch besser erklären, wofür sie etwas lernen.
 Die Wortstellung im ersten Satz ist erstens unnatürlich, und zweitens ist der Sinn leicht anders. Der erste Satz bedeutet, dass es besser WÄRE, wenn die Unis den Studenten (überhaupt) erklären würden, wofür sie lernen (= momentan wird das nicht erklärt). Der zweite Satz besagt, dass Unis den Studenten BESSER erklären sollten, wofür sie lernen (= momentan wird es erklärt, aber nicht gut genug). 
 
+###
+Input:
 Wir müssen unbedingt einander helfen und schätzen alles, was uns gegeben wurde. 
+Output:
 Der richtige Satz wäre: Wir müssen unbedingt einander helfen und alles schätzen, was uns gegeben wurde. 
 Die Person ("wir") und das Modalverb ("müssen") sind implizit Teil des zweiten Teilsatzes (nach dem "und"). Deshalb müssen auch die Strukturen der beiden Teilsätze parallel sein, das heisst, dass das Verb im Infinitiv ans Ende gesetzt werden muss.
 
+###
+Input:
 Deswegen Kriminalität zahlt sich nicht aus.
-Deswegen zahlt Kriminalität sich nicht aus. 
+Output:
+Der richtige Satz wäre: Deswegen zahlt Kriminalität sich nicht aus. 
 Im Deutschen steht das Verb im Aussagesatz immer an zweiter Stelle. Ein Stelle ist eine Wortgruppe, die zusammengehört. Z.B. "Die Menschen wollen immer mehr.": "Die Menschen" ist die Wortgruppe an der ersten Stelle, und "wollen" somit an zweiter Stelle.
