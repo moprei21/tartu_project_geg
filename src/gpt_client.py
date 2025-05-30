@@ -52,9 +52,9 @@ class GPTConversationalClient:
 
 
 def main():
-    language = 'est'
-    setting = 0
-    client = GPTConversationalClient(model_name="gpt-4.1-nano", temperature=0)
+    language = 'ger'
+    setting = 3
+    client = GPTConversationalClient(model_name="gpt-4.1", temperature=0)
     if language == 'ger':
         with open('data/ger/gergec.wo.singleedit.50.json', 'r', encoding='utf-8') as f:
             data = json.load(f)  # parse JSON
@@ -94,8 +94,7 @@ def main():
                 # TODO Estonian examples
 
 
-    
-    
+
         conversation = [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": prompt },
@@ -112,7 +111,7 @@ def main():
             "annotation": annotation,
             "response": response
         })
-        with open('results/ger/gergec.wo.singleedit.50.response.json', 'w', encoding='utf-8') as f:
+        with open(f'results/{language}/{language}gec.wo.singleedit.50.response_{setting}.json', 'w', encoding='utf-8') as f:
             f.write(json.dumps(new_data, ensure_ascii=False, indent=4))
 
         
