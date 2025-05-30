@@ -3,8 +3,9 @@ import openai
 import os
 import argparse
 
-GERMAN_SYSTEM_PROMPT = "Du bist ein hilfreicher Assistent, der sich auf die Korrektion von Grammatik spezialisiert hat. " 
+GERMAN_SYSTEM_PROMPT = "Du bist ein hilfreicher Assistent, der sich auf die Korrektion von Grammatik spezialisiert hat. "
 GERMAN_PROMPT = "Hier ist ein Text mit Fehlern: #erroneous_text.  Bitte korrigiere die Grammatik des Textes"
+
 
 class GPTConversationalClient:
     def __init__(self, model_name="gpt-4.1", temperature=2.0):
@@ -30,7 +31,7 @@ class GPTConversationalClient:
                 top_p=self.top_p,
                 messages=self.conversation,
                 max_tokens=self.max_tokens,
-                **({"response_format": response_format} if response_format else {})
+                **({"response_format": response_format} if response_format else {}),
             )
             finish_reason = response.choices[0].finish_reason
             message_content = response.choices[0].message.content
@@ -46,7 +47,7 @@ class GPTConversationalClient:
                 raise ValueError(f"Unexpected finish reason: {finish_reason}")
         except Exception as e:
             raise RuntimeError(f"API query failed: {e}")
-            
+
 
 def main():
     text_incorrect = "Sie sind überzeugt , dass die Theorie ist wichtiger . "
@@ -56,33 +57,30 @@ def main():
     setting = 0
     client = GPTConversationalClient(model_name="gpt-4.1", temperature=0)
 
-    system_prompt = "Du bist ein hilfreicher Assistent, der sich auf die Korrektur von Grammatik spezialisiert hat. Du bist speziell gut in der Eklärung vom grammatikalischen Fehlern." 
+    system_prompt = "Du bist ein hilfreicher Assistent, der sich auf die Korrektur von Grammatik spezialisiert hat. Du bist speziell gut in der Eklärung vom grammatikalischen Fehlern."
     if setting == 0:
         prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect}\n 
         Gib mir eine Erklärung der/des grammatikalischen Fehler(s)."""
     elif setting == 1:
         prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect}\n
         Hier ist der korrigierte Text: \n {text_correct}\n 
-        Bitte korrigiere die Grammatik des Textes und erkläre die Abweichung(en) zwischen dem originalen und korrigierten Text."""
-    elif setting ==2:
+        Bitte erkläre, warum die Korrektur(en) nötig ist/sind."""
+    elif setting == 2:
         prompt = f"""Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect}\n
         Hier ist der korrigierte Text: \n {text_correct}\n 
         und dazu die Fehlerannotation im M2 Stil: \n {annotation}
-        Bitte korrigiere die Grammatik des Textes und erkläre die Abweichung(en) zwischen dem originalen und korrigierten Text. Nutze dafür auch die Annotation"""
+        Bitte erkläre, warum die Korrektur(en) nötig ist/sind. Nutze dafür auch die Annotation"""
 
-
-    
-    
     conversation = [
         {"role": "system", "content": system_prompt},
-        {"role": "user", "content": prompt },
+        {"role": "user", "content": prompt},
     ]
     print(prompt)
 
     client.set_conversation(conversation)
 
     response = client.query()
-    print(f'Response: {response}')
+    print(f"Response: {response}")
 
 
 if __name__ == "__main__":
