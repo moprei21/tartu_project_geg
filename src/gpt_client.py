@@ -62,7 +62,7 @@ class GPTConversationalClient:
 
 def main():
     language = 'est'
-    setting = 2
+    setting = 3
     client = GPTConversationalClient(model_name="gpt-4.1", temperature=0)
     if language == 'ger':
         with open('data/ger/gergec.wo.singleedit.50.json', 'r', encoding='utf-8') as f:
