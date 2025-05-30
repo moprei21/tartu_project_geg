@@ -10,10 +10,19 @@ GERMAN_PROMPT = "Hier ist ein Text mit Fehlern: #erroneous_text.  Bitte korrigie
 
 
 class GPTConversationalClient:
-    def __init__(self, model_name="gpt-4.1", temperature=2.0):
+    def __init__(self, model_name="gpt-4.1", temperature=2.0, azure_client=False):
         load_dotenv(override=True)
         self.api_key = os.environ["OPENAI_API_KEY"]
-        self.client = openai.OpenAI(api_key=self.api_key)
+        if azure_client:
+            self.api_key = os.environ["AZURE_OPENAI_API_KEY"]
+            self.client = openai.AzureOpenAI(
+                azure_endpoint="https://tu-openai-api-management.azure-api.net/ltat-tartunlp",
+                api_key=self.api_key,
+                api_version="2024-08-01-preview"
+            )
+        else:
+            self.api_key = os.environ["OPENAI_API_KEY"]
+            self.client = openai.OpenAI(api_key=self.api_key)
         self.model_name = model_name
         self.top_p = 0.9
         self.temperature = temperature
