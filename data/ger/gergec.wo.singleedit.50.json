@@ -1,0 +1,252 @@
+[
+    [
+        "S Wir können deshalb nicht leugnen , dass manchmal Kriminalität sich nicht auszahlt . ",
+        " A 7 10|||R:WO|||Kriminalität sich manchmal|||REQUIRED|||-NONE-|||0 ",
+        "C Wir können deshalb nicht leugnen , dass Kriminalität sich manchmal nicht auszahlt . "
+    ],
+    [
+        "S Ich habe gehört , dass ein Schluss dort war . ",
+        " A 5 8|||R:WO|||dort ein Schluss|||REQUIRED|||-NONE-|||0 ",
+        "C Ich habe gehört , dass dort ein Schluss war . "
+    ],
+    [
+        "S Man könnte zum Beispiel mit vielen Ideen des Feminismus einverstanden sein aber auch finden es nicht gut wenn Frauen illegale Dinge machen und ins Gefängnis gehen . ",
+        " A 12 17|||R:WO|||es auch nicht gut finden|||REQUIRED|||-NONE-|||0 ",
+        "C Man könnte zum Beispiel mit vielen Ideen des Feminismus einverstanden sein aber es auch nicht gut finden wenn Frauen illegale Dinge machen und ins Gefängnis gehen . "
+    ],
+    [
+        "S Es wird aber gefragt , ob diese Leistung wirklich lohnt sich . ",
+        " A 8 11|||R:WO|||sich wirklich lohnt|||REQUIRED|||-NONE-|||0 ",
+        "C Es wird aber gefragt , ob diese Leistung sich wirklich lohnt . "
+    ],
+    [
+        "S Ich personlich einfach liebe Tiere , wir haben immer noch unseren Hund und meine Mutter möchte noch einen haben ! ",
+        " A 2 5|||R:WO|||liebe Tiere einfach|||REQUIRED|||-NONE-|||0 ",
+        "C Ich personlich liebe Tiere einfach , wir haben immer noch unseren Hund und meine Mutter möchte noch einen haben ! "
+    ],
+    [
+        "S Ich möchte gern dich nach deiner Rückkehr mal besuchen . ",
+        " A 2 4|||R:WO|||dich gern|||REQUIRED|||-NONE-|||0 ",
+        "C Ich möchte dich gern nach deiner Rückkehr mal besuchen . "
+    ],
+    [
+        "S Könntest du bitte mich anrufen ? ",
+        " A 2 4|||R:WO|||mich bitte|||REQUIRED|||-NONE-|||0 ",
+        "C Könntest du mich bitte anrufen ? "
+    ],
+    [
+        "S Er hat auch viele andere Punkte des früheren und heutigen Alltagslebens einer Frau berührt , als die oben erwähnten - eine komplette Darlegung all dieser Punkte war aber hier leider nicht möglich . ",
+        " A 27 29|||R:WO|||hier aber|||REQUIRED|||-NONE-|||0 ",
+        "C Er hat auch viele andere Punkte des früheren und heutigen Alltagslebens einer Frau berührt , als die oben erwähnten - eine komplette Darlegung all dieser Punkte war hier aber leider nicht möglich . "
+    ],
+    [
+        "S Liebe Silke , ich würde gern dich mal besuchen . ",
+        " A 5 7|||R:WO|||dich gern|||REQUIRED|||-NONE-|||0 ",
+        "C Liebe Silke , ich würde dich gern mal besuchen . "
+    ],
+    [
+        "S Also obwohl sie viel Geld verdienen , verlieren sie ihre Leben . ",
+        " A 0 3|||R:WO|||Obwohl sie also|||REQUIRED|||-NONE-|||0 ",
+        "C Obwohl sie also viel Geld verdienen , verlieren sie ihre Leben . "
+    ],
+    [
+        "S Melde dich bitte bei mir bald . ",
+        " A 3 6|||R:WO|||bald bei mir|||REQUIRED|||-NONE-|||0 ",
+        "C Melde dich bitte bald bei mir . "
+    ],
+    [
+        "S Englisch , Geschichte und Mathe zum Beispiel , sind Kurse wo man nur Information lernt und es wenig Praxis gibt . ",
+        " A 7 10|||R:WO|||sind Kurse ,|||REQUIRED|||-NONE-|||0 ",
+        "C Englisch , Geschichte und Mathe zum Beispiel sind Kurse , wo man nur Information lernt und es wenig Praxis gibt . "
+    ],
+    [
+        "S Auf der anderen Seite kann Kriminalität manchmal sich auszahlen . ",
+        " A 6 8|||R:WO|||sich manchmal|||REQUIRED|||-NONE-|||0 ",
+        "C Auf der anderen Seite kann Kriminalität sich manchmal auszahlen . "
+    ],
+    [
+        "S Kannst du bitte mir helfen ? ",
+        " A 2 4|||R:WO|||mir bitte|||REQUIRED|||-NONE-|||0 ",
+        "C Kannst du mir bitte helfen ? "
+    ],
+    [
+        "S Aber glücklicherweise habe ich jetzt mehr Zeit , ein bisschen mich zu unterhalten . ",
+        " A 8 11|||R:WO|||mich ein bisschen|||REQUIRED|||-NONE-|||0 ",
+        "C Aber glücklicherweise habe ich jetzt mehr Zeit , mich ein bisschen zu unterhalten . "
+    ],
+    [
+        "S Aber müssen die Immigranten unbedingt sich an einer fremden Kultur orientieren ? ",
+        " A 4 6|||R:WO|||sich unbedingt|||REQUIRED|||-NONE-|||0 ",
+        "C Aber müssen die Immigranten sich unbedingt an einer fremden Kultur orientieren ? "
+    ],
+    [
+        "S Sie ist gesund ? ",
+        " A 0 2|||R:WO|||Ist sie|||REQUIRED|||-NONE-|||0 ",
+        "C Ist sie gesund ? "
+    ],
+    [
+        "S Meine Silvesternacht war sehr gut auch . ",
+        " A 3 6|||R:WO|||auch sehr gut|||REQUIRED|||-NONE-|||0 ",
+        "C Meine Silvesternacht war auch sehr gut . "
+    ],
+    [
+        "S Es ist wahr , dass die meisten Universitätsabschlüsse sind nicht praxisorientiert . ",
+        " A 8 11|||R:WO|||nicht praxisorientiert sind|||REQUIRED|||-NONE-|||0 ",
+        "C Es ist wahr , dass die meisten Universitätsabschlüsse nicht praxisorientiert sind . "
+    ],
+    [
+        "S Solche Probleme können , nach meiner Meinung , von sogenannten \" Fachidioten \" nicht gelöst werden . ",
+        " A 4 7|||R:WO|||meiner Meinung nach|||REQUIRED|||-NONE-|||0 ",
+        "C Solche Probleme können , meiner Meinung nach , von sogenannten \" Fachidioten \" nicht gelöst werden . "
+    ],
+    [
+        "S Ich nehme nicht meinen Hund nach Indien mit . ",
+        " A 2 5|||R:WO|||meinen Hund nicht|||REQUIRED|||-NONE-|||0 ",
+        "C Ich nehme meinen Hund nicht nach Indien mit . "
+    ],
+    [
+        "S Warum soll man das ihnen verbieten ? ",
+        " A 3 5|||R:WO|||ihnen das|||REQUIRED|||-NONE-|||0 ",
+        "C Warum soll man ihnen das verbieten ? "
+    ],
+    [
+        "S diese sind nur einige Teile der Vorbereitung die , die Universität geben sollte . ",
+        " A 7 9|||R:WO|||, die|||REQUIRED|||-NONE-|||0 ",
+        "C diese sind nur einige Teile der Vorbereitung , die die Universität geben sollte . "
+    ],
+    [
+        "S Man kann also sich fragen : ",
+        " A 2 4|||R:WO|||sich also|||REQUIRED|||-NONE-|||0 ",
+        "C Man kann sich also fragen : "
+    ],
+    [
+        "S Wir möchten ein paar Tage bleiben bei uns . ",
+        " A 5 8|||R:WO|||bei uns bleiben|||REQUIRED|||-NONE-|||0 ",
+        "C Wir möchten ein paar Tage bei uns bleiben . "
+    ],
+    [
+        "S Ich bin verheiratet und habe Ich drei Kinder . ",
+        " A 4 6|||R:WO|||ich habe|||REQUIRED|||-NONE-|||0 ",
+        "C Ich bin verheiratet und ich habe drei Kinder . "
+    ],
+    [
+        "S Am Samstag hast du Zeit ? ",
+        " A 0 4|||R:WO|||Hast du am Samstag|||REQUIRED|||-NONE-|||0 ",
+        "C Hast du am Samstag Zeit ? "
+    ],
+    [
+        "S Ich hoffe , dass ich nächste Woche es kennenlernen kann . ",
+        " A 5 8|||R:WO|||es nächste Woche|||REQUIRED|||-NONE-|||0 ",
+        "C Ich hoffe , dass ich es nächste Woche kennenlernen kann . "
+    ],
+    [
+        "S Leider sind sie ( Werkzeuge ) nicht genug vielmals . ",
+        " A 6 9|||R:WO|||vielmals nicht genug|||REQUIRED|||-NONE-|||0 ",
+        "C Leider sind sie ( Werkzeuge ) vielmals nicht genug . "
+    ],
+    [
+        "S In einer Wohngemeinschaft sollst du um 10 Uhr einschafen , aber kannst du viele lustige Sachen machen . ",
+        " A 11 13|||R:WO|||du kannst|||REQUIRED|||-NONE-|||0 ",
+        "C In einer Wohngemeinschaft sollst du um 10 Uhr einschafen , aber du kannst viele lustige Sachen machen . "
+    ],
+    [
+        "S Ich habe schon dich lange nicht gesehen . ",
+        " A 2 4|||R:WO|||dich schon|||REQUIRED|||-NONE-|||0 ",
+        "C Ich habe dich schon lange nicht gesehen . "
+    ],
+    [
+        "S Wenn dir passt Ostern ? ",
+        " A 2 4|||R:WO|||Ostern passt|||REQUIRED|||-NONE-|||0 ",
+        "C Wenn dir Ostern passt ? "
+    ],
+    [
+        "S Wenn man Sprache dort studiert hat , wird man oft Lehrer oder Lehrerin eines Gymnasiums . ",
+        " A 2 4|||R:WO|||dort Sprache|||REQUIRED|||-NONE-|||0 ",
+        "C Wenn man dort Sprache studiert hat , wird man oft Lehrer oder Lehrerin eines Gymnasiums . "
+    ],
+    [
+        "S Dann es kann auch sein , dass es keine gute Antwort gibt . ",
+        " A 1 3|||R:WO|||kann es|||REQUIRED|||-NONE-|||0 ",
+        "C Dann kann es auch sein , dass es keine gute Antwort gibt . "
+    ],
+    [
+        "S Natürlich du kannst uns besuchen . ",
+        " A 1 3|||R:WO|||kannst du|||REQUIRED|||-NONE-|||0 ",
+        "C Natürlich kannst du uns besuchen . "
+    ],
+    [
+        "S Im Laufe der Zeit aber viele Dinge haben sich geändert . ",
+        " A 5 9|||R:WO|||haben sich viele Dinge|||REQUIRED|||-NONE-|||0 ",
+        "C Im Laufe der Zeit aber haben sich viele Dinge geändert . "
+    ],
+    [
+        "S Mir geht es gut aber , ich habe ein Problem . ",
+        " A 4 6|||R:WO|||, aber|||REQUIRED|||-NONE-|||0 ",
+        "C Mir geht es gut , aber ich habe ein Problem . "
+    ],
+    [
+        "S Je die Arbeitslosigkeit größer wird , desto höher wird die Zahl der Kriminalität . ",
+        " A 1 4|||R:WO|||größer die Arbeitslosigkeit|||REQUIRED|||-NONE-|||0 ",
+        "C Je größer die Arbeitslosigkeit wird , desto höher wird die Zahl der Kriminalität . "
+    ],
+    [
+        "S Viele Studenten wohnen zum ersten Mal nicht bei den Eltern , also sie werden unabhängig . ",
+        " A 12 14|||R:WO|||werden sie|||REQUIRED|||-NONE-|||0 ",
+        "C Viele Studenten wohnen zum ersten Mal nicht bei den Eltern , also werden sie unabhängig . "
+    ],
+    [
+        "S Ich halte das für gerecht , weil jede Sprache ist wichtig . ",
+        " A 9 11|||R:WO|||wichtig ist|||REQUIRED|||-NONE-|||0 ",
+        "C Ich halte das für gerecht , weil jede Sprache wichtig ist . "
+    ],
+    [
+        "S Ich habe schon lange von dir nichts gehört . ",
+        " A 4 7|||R:WO|||nichts von dir|||REQUIRED|||-NONE-|||0 ",
+        "C Ich habe schon lange nichts von dir gehört . "
+    ],
+    [
+        "S ist es überall und scheint sich auszuzahlen . ",
+        " A 0 2|||R:WO|||es ist|||REQUIRED|||-NONE-|||0 ",
+        "C es ist überall und scheint sich auszuzahlen . "
+    ],
+    [
+        "S Deshalb lernt man schneller und ist man auch motivierter , weil man seinen Fortschritt sehen kann . ",
+        " A 5 7|||R:WO|||man ist|||REQUIRED|||-NONE-|||0 ",
+        "C Deshalb lernt man schneller und man ist auch motivierter , weil man seinen Fortschritt sehen kann . "
+    ],
+    [
+        "S Sehr geehrte Damen und Herren , ich suche eine Wohnung Große . ",
+        " A 9 11|||R:WO|||große Wohnung|||REQUIRED|||-NONE-|||0 ",
+        "C Sehr geehrte Damen und Herren , ich suche eine große Wohnung . "
+    ],
+    [
+        "S Mein Name ist Müller , ich bin verheiratet und habe ich selber drei Kinder . ",
+        " A 9 11|||R:WO|||ich habe|||REQUIRED|||-NONE-|||0 ",
+        "C Mein Name ist Müller , ich bin verheiratet und ich habe selber drei Kinder . "
+    ],
+    [
+        "S Muss ich allein essen oder wir essen gemeinsam ? ",
+        " A 5 7|||R:WO|||essen wir|||REQUIRED|||-NONE-|||0 ",
+        "C Muss ich allein essen oder essen wir gemeinsam ? "
+    ],
+    [
+        "S Deshalb ich muss eine Wohnung suchen . ",
+        " A 1 3|||R:WO|||muss ich|||REQUIRED|||-NONE-|||0 ",
+        "C Deshalb muss ich eine Wohnung suchen . "
+    ],
+    [
+        "S Sie nur spielen mit dem Geld und mit Finanzen . ",
+        " A 1 3|||R:WO|||spielen nur|||REQUIRED|||-NONE-|||0 ",
+        "C Sie spielen nur mit dem Geld und mit Finanzen . "
+    ],
+    [
+        "S Ich habe so viel gearbeitet , müsste ich auch früh aufstehen . ",
+        " A 6 8|||R:WO|||ich müsste|||REQUIRED|||-NONE-|||0 ",
+        "C Ich habe so viel gearbeitet , ich müsste auch früh aufstehen . "
+    ],
+    [
+        "S Persönlich finde ich es oft sehr peinlich , eine Frau zu sein nur , weil wir meiner Meinung nach zu gut zurechtkommen . ",
+        " A 12 14|||R:WO|||, nur|||REQUIRED|||-NONE-|||0 ",
+        "C Persönlich finde ich es oft sehr peinlich , eine Frau zu sein , nur weil wir meiner Meinung nach zu gut zurechtkommen . "
+    ]
+]

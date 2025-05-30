@@ -1,0 +1,252 @@
+[
+    [
+        "S Mulle väga meeldis osaleda tervisekonverentsil .",
+        "A 3 5|||R:WO|||tervisekonverentsil osaleda|||REQUIRED|||-NONE-|||0",
+        "C Mulle väga meeldis tervisekonverentsil osaleda ."
+    ],
+    [
+        "S Kooli ajal ta oli lõbus ja naljakas tüdruk .",
+        "A 2 4|||R:WO|||oli ta|||REQUIRED|||-NONE-|||0",
+        "C Kooli ajal oli ta lõbus ja naljakas tüdruk ."
+    ],
+    [
+        "S Vaatamata sellele , et teema on väga lai , Päästeameti esindaja esitatud seisukohad olid põhjendatud ning ei jäänud ilma statistiliste kinnitusteta .",
+        "A 9 14|||R:WO|||olid Päästeameti esindaja esitatud seisukohad|||REQUIRED|||-NONE-|||0",
+        "C Vaatamata sellele , et teema on väga lai , olid Päästeameti esindaja esitatud seisukohad põhjendatud ning ei jäänud ilma statistiliste kinnitusteta ."
+    ],
+    [
+        "S Veel ma loen uudiseid ja otsin infot internetist , seal on palju infot ja uudiseid .",
+        "A 1 3|||R:WO|||loen ma|||REQUIRED|||-NONE-|||0",
+        "C Veel loen ma uudiseid ja otsin infot internetist , seal on palju infot ja uudiseid ."
+    ],
+    [
+        "S Kokkuvõtteks saab öelda , et meedia roll ja võimalused kaasaegses maailmas tingimata on suured .",
+        "A 11 13|||R:WO|||on tingimata|||REQUIRED|||-NONE-|||0",
+        "C Kokkuvõtteks saab öelda , et meedia roll ja võimalused kaasaegses maailmas on tingimata suured ."
+    ],
+    [
+        "S Eelmisel nädalal ma osalesin linnastumisteemalisel seminaril .",
+        "A 2 4|||R:WO|||osalesin ma|||REQUIRED|||-NONE-|||0",
+        "C Eelmisel nädalal osalesin ma linnastumisteemalisel seminaril ."
+    ],
+    [
+        "S Ta oli väga vaikne ja kinnine poiss , tal üldse polnud sõpru .",
+        "A 9 11|||R:WO|||polnud üldse|||REQUIRED|||-NONE-|||0",
+        "C Ta oli väga vaikne ja kinnine poiss , tal polnud üldse sõpru ."
+    ],
+    [
+        "S Tahaks Hispaaniasse minna veel kord .",
+        "A 1 5|||R:WO|||veel kord Hispaaniasse minna|||REQUIRED|||-NONE-|||0",
+        "C Tahaks veel kord Hispaaniasse minna ."
+    ],
+    [
+        "S Nüüd ta on avameelne ja abivalmis , räägib väga palju .",
+        "A 1 3|||R:WO|||on ta|||REQUIRED|||-NONE-|||0",
+        "C Nüüd on ta avameelne ja abivalmis , räägib väga palju ."
+    ],
+    [
+        "S Tänapäeval noored otsivad infot internetist .",
+        "A 1 3|||R:WO|||otsivad noored|||REQUIRED|||-NONE-|||0",
+        "C Tänapäeval otsivad noored infot internetist ."
+    ],
+    [
+        "S Kaks aastat tagasi ma nägin reklaami , et meie asutus otsib uusi töötajaid tööle .",
+        "A 3 5|||R:WO|||nägin ma|||REQUIRED|||-NONE-|||0",
+        "C Kaks aastat tagasi nägin ma reklaami , et meie asutus otsib uusi töötajaid tööle ."
+    ],
+    [
+        "S Aga nüüd ta on ilus daam .",
+        "A 2 4|||R:WO|||on ta|||REQUIRED|||-NONE-|||0",
+        "C Aga nüüd on ta ilus daam ."
+    ],
+    [
+        "S Minu kodumasin läks katki üleeile .",
+        "A 3 5|||R:WO|||üleeile katki|||REQUIRED|||-NONE-|||0",
+        "C Minu kodumasin läks üleeile katki ."
+    ],
+    [
+        "S Seminaril me proovisime võrrelda elu kolme punkti järgi .",
+        "A 1 3|||R:WO|||proovisime me|||REQUIRED|||-NONE-|||0",
+        "C Seminaril proovisime me võrrelda elu kolme punkti järgi ."
+    ],
+    [
+        "S Sa tead , et ma väga armastan lugeda .",
+        "A 5 7|||R:WO|||armastan väga|||REQUIRED|||-NONE-|||0",
+        "C Sa tead , et ma armastan väga lugeda ."
+    ],
+    [
+        "S Ja see kvaliteetaeg peale kontserti , siis kui me lähme välja sööma kõik koos .",
+        "A 10 14|||R:WO|||kõik koos välja sööma|||REQUIRED|||-NONE-|||0",
+        "C Ja see kvaliteetaeg peale kontserti , siis kui me lähme kõik koos välja sööma ."
+    ],
+    [
+        "S Seminar oli väga põnev ja ma tahaksin selle kohta oma arvamust teiega jagada .",
+        "A 7 13|||R:WO|||teiega selle kohta oma arvamust jagada|||REQUIRED|||-NONE-|||0",
+        "C Seminar oli väga põnev ja ma tahaksin teiega selle kohta oma arvamust jagada ."
+    ],
+    [
+        "S Kes jälgib , kuidas firma teeb oma tööd ?",
+        "A 5 8|||R:WO|||oma tööd teeb|||REQUIRED|||-NONE-|||0",
+        "C Kes jälgib , kuidas firma oma tööd teeb ?"
+    ],
+    [
+        "S Sõidab auto kiiresti .",
+        "A 0 2|||R:WO|||Auto sõidab|||REQUIRED|||-NONE-|||0",
+        "C Auto sõidab kiiresti ."
+    ],
+    [
+        "S Aga pärast kontserti me käisime kohvikus .",
+        "A 3 5|||R:WO|||käisime me|||REQUIRED|||-NONE-|||0",
+        "C Aga pärast kontserti käisime me kohvikus ."
+    ],
+    [
+        "S Jään ootama sinu vastust .",
+        "A 1 4|||R:WO|||sinu vastust ootama|||REQUIRED|||-NONE-|||0",
+        "C Jään sinu vastust ootama ."
+    ],
+    [
+        "S Eelmisel aastal meie kohalik omavalitsus sõlmis tänavate ja parkide hooldamiseks lepingu uue teenusepakkujaga .",
+        "A 2 6|||R:WO|||sõlmis meie kohalik omavalitsus|||REQUIRED|||-NONE-|||0",
+        "C Eelmisel aastal sõlmis meie kohalik omavalitsus tänavate ja parkide hooldamiseks lepingu uue teenusepakkujaga ."
+    ],
+    [
+        "S Domineeriv arvamus oli , et suurte uudisteportaalide jaoks on ainult oluline see , et neid loeks kõige rohkem inimesi , mitte edastatava teabe õigsus .",
+        "A 9 11|||R:WO|||oluline ainult|||REQUIRED|||-NONE-|||0",
+        "C Domineeriv arvamus oli , et suurte uudisteportaalide jaoks on oluline ainult see , et neid loeks kõige rohkem inimesi , mitte edastatava teabe õigsus ."
+    ],
+    [
+        "S Minul tekkis probleem ülemusega , kes ei taha aru saada , et meil on vaja võtta kaks inimest juurde , kuna töökoormus on suurenenud .",
+        "A 15 19|||R:WO|||kaks inimest juurde võtta|||REQUIRED|||-NONE-|||0",
+        "C Minul tekkis probleem ülemusega , kes ei taha aru saada , et meil on vaja kaks inimest juurde võtta , kuna töökoormus on suurenenud ."
+    ],
+    [
+        "S Tänapäeva ühiskonnas digipädevus on üks toimetuleku eeldustest .",
+        "A 2 4|||R:WO|||on digipädevus|||REQUIRED|||-NONE-|||0",
+        "C Tänapäeva ühiskonnas on digipädevus üks toimetuleku eeldustest ."
+    ],
+    [
+        "S Meie sellest midagi ei tea !",
+        "A 1 5|||R:WO|||ei tea sellest midagi|||REQUIRED|||-NONE-|||0",
+        "C Meie ei tea sellest midagi !"
+    ],
+    [
+        "S Viimasel esmaspäeval mul oli suurepärane võimalus osaleda linnastumisteemalisel seminaril , kus esinesid selle teema spetsialistid .",
+        "A 2 4|||R:WO|||oli mul|||REQUIRED|||-NONE-|||0",
+        "C Viimasel esmaspäeval oli mul suurepärane võimalus osaleda linnastumisteemalisel seminaril , kus esinesid selle teema spetsialistid ."
+    ],
+    [
+        "S Minu vanaemal kodus on palju raamatuid .",
+        "A 2 4|||R:WO|||on kodus|||REQUIRED|||-NONE-|||0",
+        "C Minu vanaemal on kodus palju raamatuid ."
+    ],
+    [
+        "S Kas sa tuled minu juurde homme ?",
+        "A 3 6|||R:WO|||homme minu juurde|||REQUIRED|||-NONE-|||0",
+        "C Kas sa tuled homme minu juurde ?"
+    ],
+    [
+        "S Teine põhjus oli see , et noored tahavad proovida õppida välismaal .",
+        "A 9 11|||R:WO|||välismaal õppida|||REQUIRED|||-NONE-|||0",
+        "C Teine põhjus oli see , et noored tahavad proovida välismaal õppida ."
+    ],
+    [
+        "S Ma võtan kassi kindlasti .",
+        "A 2 4|||R:WO|||kindlasti kassi|||REQUIRED|||-NONE-|||0",
+        "C Ma võtan kindlasti kassi ."
+    ],
+    [
+        "S Kooli ajal ta oli väga rahulik ja positiivne poiss .",
+        "A 2 4|||R:WO|||oli ta|||REQUIRED|||-NONE-|||0",
+        "C Kooli ajal oli ta väga rahulik ja positiivne poiss ."
+    ],
+    [
+        "S On tihti kuulda , et linnades ja ääremaadel on ebavõrdsed tingimused .",
+        "A 0 2|||R:WO|||Tihti on|||REQUIRED|||-NONE-|||0",
+        "C Tihti on kuulda , et linnades ja ääremaadel on ebavõrdsed tingimused ."
+    ],
+    [
+        "S Maailmas üha rohkem räägitakse globaliseerumisest , mis tähendab rahvusvahelist , kõikehõlmavat ühinemist .",
+        "A 1 4|||R:WO|||räägitakse üha rohkem|||REQUIRED|||-NONE-|||0",
+        "C Maailmas räägitakse üha rohkem globaliseerumisest , mis tähendab rahvusvahelist , kõikehõlmavat ühinemist ."
+    ],
+    [
+        "S Kahjuks minu läks kodumasin katki .",
+        "A 1 3|||R:WO|||läks minu|||REQUIRED|||-NONE-|||0",
+        "C Kahjuks läks minu kodumasin katki ."
+    ],
+    [
+        "S Seal iga päev mängib muusika erinevas kohas .",
+        "A 1 5|||R:WO|||mängib muusika iga päev|||REQUIRED|||-NONE-|||0",
+        "C Seal mängib muusika iga päev erinevas kohas ."
+    ],
+    [
+        "S Ma kardan , et siis info võib lekkida ja jõuda minu ülemuseni .",
+        "A 5 7|||R:WO|||võib info|||REQUIRED|||-NONE-|||0",
+        "C Ma kardan , et siis võib info lekkida ja jõuda minu ülemuseni ."
+    ],
+    [
+        "S Mulle see atmosfäär kollektiivis väga meeldib ja ma tulen tööle iga päev hea meelega , eriti kui on vaja teha palju töid .",
+        "A 9 14|||R:WO|||iga päev hea meelega tööle|||REQUIRED|||-NONE-|||0",
+        "C Mulle see atmosfäär kollektiivis väga meeldib ja ma tulen iga päev hea meelega tööle , eriti kui on vaja teha palju töid ."
+    ],
+    [
+        "S Seal on kontsert Lady Gaga .",
+        "A 2 5|||R:WO|||Lady Gaga kontsert|||REQUIRED|||-NONE-|||0",
+        "C Seal on Lady Gaga kontsert ."
+    ],
+    [
+        "S Joobes autojuhid põhjustavad rohkem kui kolm neljandikku kõikidest liiklusõnnetustest aastas ning minu arvates see tegu on vastutustundetu nii iseenda kui ka teiste inimeste suhtes , kellele see võib kahju tuua .",
+        "A 13 16|||R:WO|||on see tegu|||REQUIRED|||-NONE-|||0",
+        "C Joobes autojuhid põhjustavad rohkem kui kolm neljandikku kõikidest liiklusõnnetustest aastas ning minu arvates on see tegu vastutustundetu nii iseenda kui ka teiste inimeste suhtes , kellele see võib kahju tuua ."
+    ],
+    [
+        "S See on pealinn Islandil .",
+        "A 2 4|||R:WO:NOM:FORM|||Islandi pealinn|||REQUIRED|||-NONE-|||0",
+        "C See on Islandi pealinn ."
+    ],
+    [
+        "S Sellepärast mul on ettepanek .",
+        "A 1 3|||R:WO|||on mul|||REQUIRED|||-NONE-|||0",
+        "C Sellepärast on mul ettepanek ."
+    ],
+    [
+        "S Teiselt poolt tehnoloogia kiire areng annab inimestele palju võimalusi .",
+        "A 2 6|||R:WO|||annab tehnoloogia kiire areng|||REQUIRED|||-NONE-|||0",
+        "C Teiselt poolt annab tehnoloogia kiire areng inimestele palju võimalusi ."
+    ],
+    [
+        "S Selle peale ta ei ole vist mõelnud .",
+        "A 2 5|||R:WO|||ei ole ta|||REQUIRED|||-NONE-|||0",
+        "C Selle peale ei ole ta vist mõelnud ."
+    ],
+    [
+        "S Saan ka öelda , et nad edukad on väga nii töökohal kui ka isiklikus elus .",
+        "A 6 9|||R:WO|||nad on väga edukad|||REQUIRED|||-NONE-|||0",
+        "C Saan ka öelda , et nad nad on väga edukad nii töökohal kui ka isiklikus elus ."
+    ],
+    [
+        "S Oleks tore , kui keegi tahaks neid lugeda ja võtta endale .",
+        "A 9 11|||R:WO|||endale võtta|||REQUIRED|||-NONE-|||0",
+        "C Oleks tore , kui keegi tahaks neid lugeda ja endale võtta ."
+    ],
+    [
+        "S Viimasel ajal minu tööviljakus on langenud .",
+        "A 2 5|||R:WO|||on minu tööviljakus|||REQUIRED|||-NONE-|||0",
+        "C Viimasel ajal on minu tööviljakus langenud ."
+    ],
+    [
+        "S Mäletan , et kooli ajal ta oli väga sõbralik ja abivalmis .",
+        "A 5 7|||R:WO|||oli ta|||REQUIRED|||-NONE-|||0",
+        "C Mäletan , et kooli ajal oli ta väga sõbralik ja abivalmis ."
+    ],
+    [
+        "S Meedia roll on tõesti suur tänapäeval .",
+        "A 3 6|||R:WO|||tänapäeval tõesti suur|||REQUIRED|||-NONE-|||0",
+        "C Meedia roll on tänapäeval tõesti suur ."
+    ],
+    [
+        "S Mul on probleem kodus .",
+        "A 2 4|||R:WO|||kodus probleem|||REQUIRED|||-NONE-|||0",
+        "C Mul on kodus probleem ."
+    ]
+]
