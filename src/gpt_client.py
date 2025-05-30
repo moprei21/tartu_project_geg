@@ -67,6 +67,7 @@ def main():
             text_incorrect = detokenization.detokenize_est(entry[0])
             text_correct = detokenization.detokenize_est(entry[2])
             annotation = entry[1]
+
         else:
             # For German
             text_incorrect = detokenization.detokenize_deu(entry[0])
@@ -75,14 +76,26 @@ def main():
 
     # init client
 
+        if language == 'est':
+            system_prompt = "Oled abivalmis keelespetsialist, kes on spetsialiseerunud keeleõppijate abistamisele. Oskad eriti hästi leida grammatilisi vigu ja selgitada, miks need on vead ja miks need vead on tekkinud."
+        else:
+            system_prompt = "Du bist ein hilfreicher Assistent, der Sprachlernenden hilft, ihre Fehler zu verstehen. Du erklärst grammatikalische Fehler kurz und verständlich."
 
-        system_prompt = "Du bist ein hilfreicher Assistent, der Sprachlernenden hilft, ihre Fehler zu verstehen. Du erklärst grammatikalische Fehler kurz und verständlich."
         if setting == 0:
-            prompt = f"Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n Gib mir eine Erklärung der/des grammatikalischen Fehler(s)."
+            if language == 'est':
+                prompt = f"Siin on vähemalt ühe veaga tekst:\n{text_incorrect[2:]}\nEsita grammatikavigade selgitus."
+            else:
+                prompt = f"Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n Gib mir eine Erklärung der/des grammatikalischen Fehler(s)."
         elif setting == 1:
-            prompt = f"Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n Hier ist der korrigierte Text: \n {text_correct[2:]}\n Bitte erkläre, warum die Korrektur(en) nötig ist/sind."
+            if language == 'est':
+                prompt = f"Siin on vähemalt ühe veaga tekst:\n{text_incorrect[2:]}\nSiin on parandatud tekst:\n{text_correct}\nSelgita, miks on parandus(ed) vajalik(ud)."
+            else:
+                prompt = f"Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n Hier ist der korrigierte Text: \n {text_correct[2:]}\n Bitte erkläre, warum die Korrektur(en) nötig ist/sind."
         elif setting == 2:
-            prompt = f"Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n Hier ist der korrigierte Text: \n {text_correct[2:]}\n und dazu die Fehlerannotation im M2 Stil: \n {annotation} \n Bitte erkläre, warum die Korrektur(en) nötig ist/sind. Nutze dafür auch die Annotation"
+            if language == 'est':
+                prompt = f"Siin on vähemalt ühe veaga tekst:\n{text_incorrect}\nSiin on parandatud tekst:\n{text_correct}\nSiin on M2-formaadis märgendus:\n{annotation}\nSelgita, miks on parandus(ed) vajalik(ud) kasutades märgendust."
+            else:
+                prompt = f"Hier ist ein Text mit mindestens einem Fehler: \n {text_incorrect[2:]}\n Hier ist der korrigierte Text: \n {text_correct[2:]}\n und dazu die Fehlerannotation im M2 Stil: \n {annotation} \n Bitte erkläre, warum die Korrektur(en) nötig ist/sind. Nutze dafür auch die Annotation"
         elif setting == 3:
             if language == 'ger':
                 with open('few_shot_prompts_de.txt', 'r', encoding='utf-8') as f:
