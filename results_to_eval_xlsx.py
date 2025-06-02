@@ -70,4 +70,3 @@ for i in range(len(data_0)):
 # Write the DataFrame to an Excel file
 output_file = f"{folder}{lang}gec.wo.singleedit.50.xlsx"
 print(f"Writing to {output_file}")
-df.to_excel(output_file, index=False, engine='openpyxl')
